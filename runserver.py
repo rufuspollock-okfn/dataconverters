@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-from raven import app, configure
+from manhunter import app, configure
 
 
 def main():
