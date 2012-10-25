@@ -11,7 +11,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('api/convert/<format>')
+@app.route('/api/convert/<format>')
 def convert(format=None):
     if (format is None or
             request.args.get('url') is None):
