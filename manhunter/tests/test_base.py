@@ -23,8 +23,6 @@ class TestCase(TestCase):
         """Test not enough parameters to convert endpoint"""
         res = self.app.get('/convert/foo')
         self.assertEqual(404, res.status_code)
-        res = self.app.get('/convert/foo?file=http://example.com/example.csv')
-        self.assertEqual(404, res.status_code)
 
     @patch('manhunter.views.requests.get')
     def test_2_convert_csv(self, Mock):
@@ -32,5 +30,5 @@ class TestCase(TestCase):
         csv_file = FakeRequest('Foo,Bar,priority_0\n1,2,3\n4,5,6', 200,
                                  {'content-type': 'text/plain'})
         Mock.return_value = csv_file
-        res = self.app.get('/convert/json?from=csv&file=http://example.csv')
+        res = self.app.get('/api/convert/json?url=http://example.csv')
         self.assertEqual('[{"Foo": "1", "Bar": "2", "priority_0": "3"}, {"Foo": "4", "Bar": "5", "priority_0": "6"}]', res.data)
