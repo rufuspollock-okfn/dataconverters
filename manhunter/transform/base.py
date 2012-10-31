@@ -1,9 +1,11 @@
 transformers = []
 
+
 def register_transformer(transformer):
     transformers.append(transformer)
 
-def find_transformer(extension = None, mime_type = None):
+
+def find_transformer(extension=None, mime_type=None):
     if not extension and not mime_type:
         raise ValueError("Either extension or mime type should be specified")
 
@@ -18,17 +20,20 @@ def find_transformer(extension = None, mime_type = None):
 
     return info["class"]
 
+
 def transformer(type_name, url, query):
     """Get transformation module for resource of given type"""
 
-    trans_class = find_transformer(extension = type_name)
+    trans_class = find_transformer(extension=type_name)
     if not trans_class:
         raise Exception("No transformer for type '%s'" % type_name)
 
     return trans_class(url, query)
 
+
 class Transformer(object):
     """Data resource transformer - abstract ckass"""
+
     def __init__(self, url, query):
         self.url = url
         self.query = query

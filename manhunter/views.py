@@ -1,8 +1,4 @@
-import json
-from StringIO import StringIO
-import requests
-from unicodecsv import DictReader
-from flask import abort, jsonify, request, render_template
+from flask import jsonify, request, render_template
 from manhunter import app
 from manhunter.transform import transformer
 
@@ -25,4 +21,3 @@ def convert(format=None):
         results['data'] = data.transform()
     results['error'] = error
     return jsonify(results)
-

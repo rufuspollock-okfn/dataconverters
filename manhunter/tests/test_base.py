@@ -12,12 +12,11 @@ class TestCase(TestCase):
 
     def setUp(self):
         self.app = app.test_client()
-        here = os.path.dirname(os.path.abspath( __file__ ))
+        here = os.path.dirname(os.path.abspath(__file__))
         config_path = os.path.dirname(os.path.dirname(here))
         app.config.from_pyfile(os.path.join(config_path, 'settings.py'))
         app.config.from_pyfile(os.path.join(config_path, 'test_settings.py'),
                                silent=True)
-
 
     def test_1_convert_params(self):
         """Test not enough parameters to convert endpoint"""
@@ -31,4 +30,6 @@ class TestCase(TestCase):
                                  {'content-type': 'text/plain'})
         Mock.return_value = csv_file
         res = self.app.get('/api/convert/json?url=http://example.csv')
-        self.assertEqual('[{"Foo": "1", "Bar": "2", "priority_0": "3"}, {"Foo": "4", "Bar": "5", "priority_0": "6"}]', res.data)
+        self.assertEqual('[{"Foo": "1", "Bar": "2", "priority_0": "3"}, '
+                         '{"Foo": "4", "Bar": "5", "priority_0": "6"}]',
+                         res.data)

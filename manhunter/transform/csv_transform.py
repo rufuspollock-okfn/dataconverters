@@ -3,14 +3,14 @@ from messytables import (
     CSVTableSet,
     headers_guess,
     headers_processor,
-    offset_processor
-)
+    offset_processor)
 import requests
 import base
 from StringIO import StringIO
-import json
+
 
 class CSVTransformer(base.Transformer):
+
     def __init__(self, url, query):
         super(CSVTransformer, self).__init__(url, query)
 
@@ -44,4 +44,3 @@ class CSVTransformer(base.Transformer):
         handle.close()
 
         return result
-
