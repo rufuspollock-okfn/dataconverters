@@ -12,5 +12,5 @@ def configure():
     app.config.from_pyfile(os.path.join(config_path, 'local_settings.py',),
                            silent=True)
 
-
-from views import *
+import util
+import views

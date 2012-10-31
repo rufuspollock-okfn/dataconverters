@@ -1,6 +1,10 @@
 from flask import jsonify, request, render_template
 from manhunter import app
 from manhunter.transform import transformer
+from manhunter.util import crossdomain, jsonpify
+
+
+cors_headers = ['Content-Type', 'Authorization']
 
 
 @app.route('/')
@@ -9,6 +13,8 @@ def index():
 
 
 @app.route('/api/convert/<format>')
+@crossdomain(origin='*', headers=cors_headers)
+@jsonpify
 def convert(format=None):
     results = {}
     error = None
