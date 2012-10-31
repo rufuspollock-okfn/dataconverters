@@ -26,7 +26,7 @@ class CSVTransformer(base.Transformer):
 
     def transform(self):
         csvdata = requests.get(self.url)
-        handle = StringIO(csvdata.text.encode('utf-8'))
+        handle = StringIO(csvdata.content)
 
         table_set = CSVTableSet.from_fileobj(handle)
         row_set = table_set.tables.pop()
