@@ -1,4 +1,6 @@
 """Data Proxy - CSV transformation adapter"""
+import json
+from StringIO import StringIO
 from messytables import (
     CSVTableSet,
     headers_guess,
@@ -6,7 +8,6 @@ from messytables import (
     offset_processor)
 import requests
 import base
-from StringIO import StringIO
 
 
 class CSVTransformer(base.Transformer):
@@ -40,4 +41,6 @@ class CSVTransformer(base.Transformer):
             for index, cell in enumerate(row):
                 info[cell.column] = cell.value
             result.append(info)
-        return headers, result
+        result_data = {'headers': headers, 'data': result}
+        result_json = json.dumps(result_data)
+        return result_json

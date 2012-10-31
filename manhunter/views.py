@@ -1,4 +1,4 @@
-from flask import jsonify, request, render_template
+from flask import request, render_template, Response
 from manhunter import app
 from manhunter.transform import transformer
 from manhunter.util import crossdomain, jsonpify
@@ -17,13 +17,11 @@ def index():
 @jsonpify
 def convert(format=None):
     results = {}
-    error = None
     if (format is None or
             request.args.get('url') is None):
-        error = 'No URL set'
+        results['error'] = error
     else:
         url = request.args.get('url')
         data = transformer('csv', url, {})
-        results['headers'], results['data'] = data.transform()
-    results['error'] = error
-    return jsonify(results)
+        results = data.transform()
+    return Response(results, mimetype='application/json')
