@@ -26,7 +26,7 @@ class CSVTransformer(base.Transformer):
 
     def transform(self):
         csvdata = requests.get(self.url)
-        handle = StringIO(csvdata.text)
+        handle = StringIO(csvdata.text.encode('utf-8'))
 
         table_set = CSVTableSet.from_fileobj(handle)
         row_set = table_set.tables.pop()
@@ -40,7 +40,4 @@ class CSVTransformer(base.Transformer):
             for index, cell in enumerate(row):
                 info[cell.column] = cell.value
             result.append(info)
-
-        handle.close()
-
         return result
