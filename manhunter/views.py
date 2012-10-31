@@ -24,6 +24,6 @@ def convert(format=None):
     else:
         url = request.args.get('url')
         data = transformer('csv', url, {})
-        results['data'] = data.transform()
+        results['headers'], results['data'] = data.transform()
     results['error'] = error
     return jsonify(results)

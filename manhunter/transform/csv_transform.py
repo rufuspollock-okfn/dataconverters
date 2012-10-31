@@ -40,4 +40,4 @@ class CSVTransformer(base.Transformer):
             for index, cell in enumerate(row):
                 info[cell.column] = cell.value
             result.append(info)
-        return result
+        return headers, result
