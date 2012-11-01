@@ -5,9 +5,6 @@ from unittest2 import TestCase
 from manhunter import app
 
 
-FakeRequest = namedtuple('FakeRequest', ['text', 'status_code', 'headers'])
-
-
 class TestCase(TestCase):
 
     def setUp(self):
@@ -23,13 +20,12 @@ class TestCase(TestCase):
         res = self.app.get('/convert/foo')
         self.assertEqual(404, res.status_code)
 
-    @patch('manhunter.views.requests.get')
-    def test_2_convert_csv(self, Mock):
+    def test_2_convert_csv(self):
         """Test converting a CSV to JSON"""
-        csv_file = FakeRequest('Foo,Bar,priority_0\n1,2,3\n4,5,6', 200,
-                                 {'content-type': 'text/plain'})
-        Mock.return_value = csv_file
-        res = self.app.get('/api/convert/json?url=http://example.csv')
-        self.assertEqual('[{"Foo": "1", "Bar": "2", "priority_0": "3"}, '
-                         '{"Foo": "4", "Bar": "5", "priority_0": "6"}]',
-                         res.data)
+        res = self.app.get('/api/convert/json?url='
+                           'http://resources.opendatalabs.org/u/nigelb/'
+                           'data-converters/csv/simple.csv')
+        #"headers": ["date", "temperature", "place"]
+        assert ('"headers": ["date", "temperature", "place"]' in res.data)
+        assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": '
+                '"5"}' in res.data)
