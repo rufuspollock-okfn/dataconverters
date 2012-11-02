@@ -22,6 +22,6 @@ def convert(format=None):
         results['error'] = error
     else:
         url = request.args.get('url')
-        data = transformer('csv', url, {})
+        data = transformer(url, request.args)
         results = data.transform()
     return Response(results, mimetype='application/json')
