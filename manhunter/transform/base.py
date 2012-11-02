@@ -8,7 +8,13 @@ def register_transformer(transformer):
     transformers.append(transformer)
 
 
-def find_transformer(mime_type=None):
+def find_transformer(mime_type=None, force_type=None):
+    if force_type:
+        for trans in transformers:
+            if force_type == trans["name"]:
+                info = trans
+        return info["class"]
+
     if not mime_type:
         raise ValueError("Mime type should be specified")
 
@@ -28,9 +34,9 @@ def transformer(url, query):
     r = requests.head(url)
     if not r.status_code == requests.codes.ok:
         raise Exception("Couldn't fetch the file from %s" % url)
-    trans_class = find_transformer(mime_type=r.headers['content-type'])
+    trans_class = find_transformer(mime_type=r.headers['content-type'], force_type=query.get('type'))
     if not trans_class:
-        raise Exception("No transformer for type '%s'" % type_name)
+        raise Exception("No transformer for type '%s'" % r.headers['content-type'])
 
     return trans_class(url, query)
 
