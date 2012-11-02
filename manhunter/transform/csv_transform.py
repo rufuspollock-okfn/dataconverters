@@ -12,19 +12,6 @@ import base
 
 class CSVTransformer(base.Transformer):
 
-    def __init__(self, url, query):
-        super(CSVTransformer, self).__init__(url, query)
-
-        if 'encoding' in self.query:
-            self.encoding = self.query["encoding"].value
-        else:
-            self.encoding = 'utf-8'
-
-        if 'dialect' in self.query:
-            self.dialect = self.query["dialect"].value
-        else:
-            self.dialect = None
-
     def transform(self):
         csvdata = requests.get(self.url)
         handle = StringIO(csvdata.content)
