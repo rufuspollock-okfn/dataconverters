@@ -25,7 +25,21 @@ class TestCase(TestCase):
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
                            'data-converters/csv/simple.csv')
-        #"headers": ["date", "temperature", "place"]
         assert ('"headers": ["date", "temperature", "place"]' in res.data)
         assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": '
                 '"5"}' in res.data)
+
+    def test_3_unicode_csv(self):
+        """Test converting a CSV with unicode chars to JSON"""
+        res = self.app.get('/api/convert/json?url='
+                           'http://resources.opendatalabs.org/u/nigelb/'
+                           'data-converters/csv/spanish_chars.csv')
+        assert ('"headers": ["GF_ID", "FN_ID", "SF_ID", "GF", "F", "SF", '
+                '"Gasto total 2011", "Descripci\u00f3n"]' in res.data)
+        assert ('{"Gasto total 2011": "", "F": "", "Descripci\u00f3n": "", '
+                '"SF_ID": "", "GF_ID": "Fuente: Presupuesto de Egresos de la '
+                'Federaci\u00f3n 2011 An\u00e1lisis de las Funciones y '
+                'Subfunciones del Gasto Programable por Destino del Gasto '
+                '(neto) y Manual de Programaci\u00f3n y Presupuesto 2011 '
+                'Anexo 11 Cat\u00e1logo Funcional ", "GF": "", "FN_ID": '
+                '"", "SF": ""}' in res.data)
