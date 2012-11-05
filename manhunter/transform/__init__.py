@@ -1,8 +1,8 @@
 from base import *
 
-import csv_transform
+import csv_json_transform
 
 register_transformer({
         "name": "csv",
-        "class": csv_transform.CSVTransformer,
+        "class": csv_json_transform.CSVTransformer,
         "mime_types": ["text/csv", "text/comma-separated-values"]})
