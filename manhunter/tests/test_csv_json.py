@@ -43,3 +43,13 @@ class TestCase(TestCase):
                 '(neto) y Manual de Programaci\u00f3n y Presupuesto 2011 '
                 'Anexo 11 Cat\u00e1logo Funcional ", "GF": "", "FN_ID": '
                 '"", "SF": ""}' in res.data)
+
+    def test_2_convert_csv(self):
+        """Test converting a CSV with empty header to JSON"""
+        res = self.app.get('/api/convert/json?url='
+                           'http://resources.opendatalabs.org/u/nigelb/'
+                           'data-converters/csv/simple_with_empty_title.csv')
+        assert ('"headers": ["date", "column_1", "temperature", "place"]' in
+                res.data)
+        assert ('{{"date": "2011-01-03", "place": "Berkeley", "temperature": '
+                '"5", "column_1": ""}' in res.data)
