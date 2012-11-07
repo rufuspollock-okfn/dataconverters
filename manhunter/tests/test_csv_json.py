@@ -1,6 +1,4 @@
 import os
-from collections import namedtuple
-from mock import patch
 from unittest2 import TestCase
 from manhunter import app
 
