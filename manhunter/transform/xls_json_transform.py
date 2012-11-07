@@ -5,6 +5,7 @@ from StringIO import StringIO
 from tempfile import TemporaryFile
 from messytables import (
     XLSTableSet,
+    XLSXTableSet,
     headers_guess,
     headers_processor,
     offset_processor)
@@ -14,13 +15,27 @@ import base
 
 class XLSTransformer(base.Transformer):
 
+    def __init__(self, url, query):
+        super(XLSTransformer, self).__init__(url, query)
+
+        self.excel_type = self.query.get('excel_type', 'xls')
+        self.sheet_number = int(self.query.get('worksheet', 1)) - 1
+
     def transform(self):
         xlsdata = requests.get(self.url)
+        mimetype = xlsdata.headers['content-type']
+        if 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' == mimetype or 'xlsx' == self.excel_type:
+            xlsclass = XLSXTableSet
+        else:
+            xlsclass = XLSTableSet
         handle = StringIO(xlsdata.content)
         with TemporaryFile() as xlsfile:
             xlsfile.write(handle.getvalue())
-            table_set = XLSTableSet.from_fileobj(handle)
-            row_set = table_set.tables.pop()
+            table_set = xlsclass.from_fileobj(handle)
+            try:
+                row_set = table_set.tables[self.sheet_number]
+            except IndexError:
+                raise Exception('This file does not have worksheet number %d' % (self.sheet_number + 1))
             offset, headers = headers_guess(row_set.sample)
 
             fields = []

@@ -11,6 +11,8 @@ register_transformer({
         "mime_types": ["text/csv", "text/comma-separated-values"]})
 
 register_transformer({
-        "name": "xlsv",
+        "name": "xls",
         "class": xls_json_transform.XLSTransformer,
-        "mime_types": ["application/excel", "application/vnd.ms-excel"]})
+        "mime_types": ["application/excel", "application/vnd.ms-excel",
+                       'application/vnd.openxmlformats-officedocument.'
+                       'spreadsheetml.sheet']})
