@@ -25,7 +25,8 @@ class TestCase(TestCase):
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
                            'data-converters/csv/simple.csv')
-        assert ('"headers": ["date", "temperature", "place"]' in res.data)
+        assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": '
+                '"place"}]' in res.data)
         assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": '
                 '"5"}' in res.data)
 
@@ -34,8 +35,10 @@ class TestCase(TestCase):
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
                            'data-converters/csv/spanish_chars.csv')
-        assert ('"headers": ["GF_ID", "FN_ID", "SF_ID", "GF", "F", "SF", '
-                '"Gasto total 2011", "Descripci\u00f3n"]' in res.data)
+        assert ('"headers": [{"id": "GF_ID"}, {"id": "FN_ID"}, {"id": '
+                '"SF_ID"}, {"id": "GF"}, {"id": "F"}, {"id": "SF"}, '
+                '{"id": "Gasto total 2011"}, {"id": "Descripci\u00f3n"}]'
+                in res.data)
         assert ('{"Gasto total 2011": "", "F": "", "Descripci\u00f3n": "", '
                 '"SF_ID": "", "GF_ID": "Fuente: Presupuesto de Egresos de la '
                 'Federaci\u00f3n 2011 An\u00e1lisis de las Funciones y '
@@ -44,12 +47,12 @@ class TestCase(TestCase):
                 'Anexo 11 Cat\u00e1logo Funcional ", "GF": "", "FN_ID": '
                 '"", "SF": ""}' in res.data)
 
-    def test_2_convert_csv(self):
+    def test_4_empty_title_convert_csv(self):
         """Test converting a CSV with empty header to JSON"""
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
-                           'data-converters/csv/simple_with_empty_title.csv')
-        assert ('"headers": ["date", "column_1", "temperature", "place"]' in
-                res.data)
-        assert ('{{"date": "2011-01-03", "place": "Berkeley", "temperature": '
+                           'data-converters/csv/simple_empty_title.csv')
+        assert ('"headers": [{"id": "date"}, {"id": "column_1"}, {"id": '
+                '"temperature"}, {"id": "place"}]' in res.data)
+        assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": '
                 '"5", "column_1": ""}' in res.data)

@@ -30,10 +30,8 @@ class CSVTransformer(base.Transformer):
                 headers[index] = field
                 noname_count += 1
             if headers.count(field) == 1:
-                print field, headers.count(field)
                 field_dict['id'] = field
             else:
-                print field
                 dup_columns[field] = dup_columns.get(field, 0) + 1
                 field_dict['id'] =  u'_'.join([field, str(dup_columns[field])])
             fields.append(field_dict)
