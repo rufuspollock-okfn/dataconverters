@@ -40,12 +40,12 @@ class CSVTransformer(base.Transformer):
         row_set.register_processor(headers_processor([x['id'] for x in fields]))
         row_set.register_processor(offset_processor(offset + 1))
 
-        info = {}
+        data_row = {}
         result = []
         for row in row_set:
             for index, cell in enumerate(row):
-                info[cell.column] = cell.value
-            result.append(info)
+                data_row[cell.column] = cell.value
+            result.append(data_row)
         result_data = {'headers': fields, 'data': result}
         result_json = json.dumps(result_data)
         return result_json
