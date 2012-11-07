@@ -9,16 +9,19 @@ def register_transformer(transformer):
 
 
 def find_transformer(mime_type=None, force_type=None):
+    info = None
     if force_type:
         for trans in transformers:
             if force_type == trans["name"]:
                 info = trans
-        return info["class"]
+        if info:
+            return info['class']
+        else:
+            raise Exception("No transformer for type %s" % force_type)
 
     if not mime_type:
         raise ValueError("Mime type should be specified")
 
-    info = None
     for trans in transformers:
         if mime_type and mime_type in trans["mime_types"]:
             info = trans
