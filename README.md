@@ -7,6 +7,8 @@ Web services for converting data from one format to another.  The converters acc
 * [Architecture (Simple) Drawing](https://docs.google.com/drawings/d/1fxamPv8ccJYI-NSQJ_7hcPoF5X8eBTQDatg-HCybsZk/edit)
 * [Architecture (Complex) Drawing](https://docs.google.com/drawings/d/1GbtXf5m9HLVXTNXhJiE0V1SQs0mP9os11y-48TDzKqA/edit)
 
+User stories are on [Google Docs](https://docs.google.com/document/d/1ivosmeaFS0NgQI-wlehCIdQGlnRm-Yk571tqA2FMBqg/edit), if you want to add more, please file an issue.
+
 Please bugs for any issues you see.
 
 CSV -> JSON
