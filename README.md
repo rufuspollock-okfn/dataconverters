@@ -3,6 +3,10 @@ Data Converters
 
 Web services for converting data from one format to another.  The converters accept data as a query parameter named url.  There's already [CORS](https://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing) support and JSOP (add callback parameter to the URL).  Empty column names will be auto-generated with column_1, column_2, etc. Duplicate column names will have _n added as well. For instance, two columns with name date will be date_1, date_2.
 
+* [Architecture slidedeck](https://docs.google.com/presentation/d/1LplNTIFwVIAfeP-C8RkPhlZJqaV95DasHlhloPrdvIc/edit)
+* [Architecture (Simple) Drawing](https://docs.google.com/drawings/d/1fxamPv8ccJYI-NSQJ_7hcPoF5X8eBTQDatg-HCybsZk/edit)
+* [Architecture (Complex) Drawing](https://docs.google.com/drawings/d/1GbtXf5m9HLVXTNXhJiE0V1SQs0mP9os11y-48TDzKqA/edit)
+
 Please bugs for any issues you see.
 
 CSV -> JSON
