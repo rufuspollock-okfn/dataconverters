@@ -8,11 +8,31 @@
 
     </head>
     <body>
-      <p>Web services for converting data from one format to another. Supports <a href="https://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing">CORS</a> and JSONP.</p>
-      <p>Conversions Possible</p>
-      <ul>
-        <li><p><a href="http://converter.dev.okfn.org/api/convert/json?url=http://data.london.gov.uk/datafiles/transport/tfl_passengers.csv">CSV - JSON converter</a></p>
-        <p>API Example - /api/convert/json?url=http://example.com/example.csv or /api/convert/json?url=http://example.com/example.csv&amp;callback=mycallback</p></li>
-      </ul>
+      <h1>Data Converters</h1>
+
+      <p>Web services for converting data from one format to another.  The converters accept data as a query parameter named url.  There's already <a href="https://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing">CORS</a> support and JSOP (add callback parameter to the URL).  Empty column names will be auto-generated with column_1, column_2, etc. Duplicate column names will have _n added as well. For instance, two columns with name date will be date_1, date_2.</p>
+
+      <p>Please bugs for any issues you see.</p>
+
+      <h2>CSV -> JSON</h2>
+
+      <p>Converter automatically detects mime-type, if your file's mime-type is not "text/csv" or "text/comma-separated-values", add <code>type=csv</code> to the url. </p>
+
+      <p>Example - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv</a></p>
+
+      <p>Example with type - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&amp;type=csv">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&amp;type=csv</a></p>
+
+      <p>Example with JSONP - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&amp;callback=callback">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&amp;callback=callback</a></p>
+
+      <h2>XLS(X) -> JSON</h2>
+
+      <p>If your file's mime-type is not "application/excel", "application/vnd.ms-excel", or 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', add <code>type=xls</code> to the url.  If your file is an xls file, add <code>type=xls&amp;excel_type=xlsx</code>.</p>
+
+      <p>Example - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xls">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xls</a></p>
+
+      <p>Example with type - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xls&amp;type=xls">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xls&amp;type=xls</a></p>
+
+      <p>Example of xlsx file with type - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xlsx&amp;type=xls&amp;excel_type=xlsx">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xlsx&amp;type=xls&amp;excel_type=xlsx</a></p>
+            <p>Web services for converting data from one format to another. Supports <a href="https://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing">CORS</a> and JSONP.</p>
     </body>
 </html>
