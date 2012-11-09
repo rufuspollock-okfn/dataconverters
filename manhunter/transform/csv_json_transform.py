@@ -5,7 +5,9 @@ from messytables import (
     CSVTableSet,
     headers_guess,
     headers_processor,
-    offset_processor)
+    offset_processor,
+    type_guess,
+    DateType)
 import requests
 import base
 
@@ -23,6 +25,7 @@ class CSVTransformer(base.Transformer):
         fields = []
         dup_columns = {}
         noname_count = 1
+        row_types = type_guess(row_set.sample)
         for index, field in enumerate(headers):
             field_dict = {}
             if "" == field:
@@ -34,6 +37,11 @@ class CSVTransformer(base.Transformer):
             else:
                 dup_columns[field] = dup_columns.get(field, 0) + 1
                 field_dict['id'] =  u'_'.join([field, str(dup_columns[field])])
+            if isinstance(row_types[index], DateType): # is row_types[index]:
+                field_dict['type'] = 'DateTime'
+                field_dict['format'] = row_types[index].format
+            else:
+                field_dict['type'] = str(row_types[index])
             fields.append(field_dict)
         row_set.register_processor(headers_processor([x['id'] for x in fields]))
         row_set.register_processor(offset_processor(offset + 1))
