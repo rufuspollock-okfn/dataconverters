@@ -13,7 +13,7 @@ import requests
 import base
 
 
-class XLSConverter(base.Transformer):
+class XLSConverter(base.Converter):
 
     def __init__(self, url, query):
         super(XLSConverter, self).__init__(url, query)

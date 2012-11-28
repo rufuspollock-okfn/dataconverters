@@ -1,18 +1,18 @@
 from base import *
 
 
-import csv_json_dataconverter
-import xls_json_dataconverter
+import csv_json_converter
+import xls_json_converter
 
 
-register_dataconverterer({
+register_dataconverter({
         "name": "csv",
-        "class": csv_json_dataconverter.CSVConverter,
+        "class": csv_json_converter.CSVConverter,
         "mime_types": ["text/csv", "text/comma-separated-values"]})
 
-register_dataconverterer({
+register_dataconverter({
         "name": "xls",
-        "class": xls_json_dataconverter.XLSConverter,
+        "class": xls_json_converter.XLSConverter,
         "mime_types": ["application/excel", "application/vnd.ms-excel",
                        'application/vnd.openxmlformats-officedocument.'
                        'spreadsheetml.sheet']})

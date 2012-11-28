@@ -10,7 +10,7 @@ import requests
 import base
 
 
-class CSVConverter(base.Transformer):
+class CSVConverter(base.Converter):
 
     def dataconverter(self):
         csvdata = requests.get(self.url)

@@ -1,7 +1,7 @@
 import json
 from flask import request, render_template, Response
 from convert import app
-from convert.dataconverter import transformer
+from convert.dataconverter import dataconverter
 from convert.util import crossdomain, jsonpify
 
 
@@ -25,7 +25,7 @@ def convert(format=None):
     else:
         url = request.args.get('url')
         try:
-            data = dataconverterer(url, request.args)
+            data = dataconverter(url, request.args)
             results = data.dataconverter()
         except Exception as e:
             results['error'] = str(e)
