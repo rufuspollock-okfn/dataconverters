@@ -1,4 +1,7 @@
 import json
+from StringIO import StringIO
+from tempfile import NamedTemporaryFile, TemporaryFile
+import requests
 from flask import request, render_template, Response
 from convert import app
 from convert.dataconverter import dataconverter
@@ -24,10 +27,17 @@ def convert(format=None):
         results = json.dumps(results)
     else:
         url = request.args.get('url')
-        try:
-            data = dataconverter(url, request.args)
-            results = data.dataconverter()
-        except Exception as e:
-            results['error'] = str(e)
-            results = json.dumps(results)
-    return Response(results, mimetype='application/json')
+        r = requests.get(url)
+        handle = StringIO(r.content)
+        with NamedTemporaryFile() as datafile:
+            datafile.write(handle.getvalue())
+            datafile.seek(0)
+            data = dataconverter(datafile, request.args)
+            try:
+                data = dataconverter(datafile, request.args)
+                header, results = data.convert()
+                results_json = json.dumps({'headers': header, 'data': results})
+            except Exception as e:
+                results['error'] = str(e)
+                results = json.dumps(results)
+    return Response(results_json, mimetype='application/json')
