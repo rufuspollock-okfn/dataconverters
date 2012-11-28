@@ -39,5 +39,5 @@ def convert(format=None):
                 results_json = json.dumps({'headers': header, 'data': results})
             except Exception as e:
                 results['error'] = str(e)
-                results = json.dumps(results)
+                results_json = json.dumps(results)
     return Response(results_json, mimetype='application/json')

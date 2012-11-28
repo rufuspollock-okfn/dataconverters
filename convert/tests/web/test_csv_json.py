@@ -23,7 +23,6 @@ class TestCase(TestCase):
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
                            'data-converters/csv/simple.csv&type=csv')
-        print res.data
         assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": '
                 '"place"}]' in res.data)
         assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": '
