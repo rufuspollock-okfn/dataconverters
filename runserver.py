@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-from manhunter import app, configure
+from convert import app, configure
 
 
 def main():

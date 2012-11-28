@@ -1,8 +1,8 @@
 import json
 from flask import request, render_template, Response
-from manhunter import app
-from manhunter.transform import transformer
-from manhunter.util import crossdomain, jsonpify
+from convert import app
+from convert.transform import transformer
+from convert.util import crossdomain, jsonpify
 
 
 cors_headers = ['Content-Type', 'Authorization']

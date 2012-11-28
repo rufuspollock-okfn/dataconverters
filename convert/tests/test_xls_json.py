@@ -1,6 +1,6 @@
 import os
 from unittest2 import TestCase
-from manhunter import app
+from convert import app
 
 
 class TestCase(TestCase):
