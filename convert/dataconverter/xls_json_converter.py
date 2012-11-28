@@ -21,7 +21,7 @@ class XLSConverter(base.Converter):
         self.excel_type = self.query.get('excel_type', 'xls')
         self.sheet_number = int(self.query.get('worksheet', 1)) - 1
 
-    def dataconverter(self):
+    def convert(self):
         xlsdata = requests.get(self.url)
         mimetype = xlsdata.headers['content-type']
         if 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' == mimetype or 'xlsx' == self.excel_type:
