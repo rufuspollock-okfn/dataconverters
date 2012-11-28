@@ -1,4 +1,4 @@
-"""Data Proxy - CSV transformation adapter"""
+"""Data Proxy - CSV dataconverteration adapter"""
 from datetime import datetime
 import json
 from StringIO import StringIO
@@ -13,15 +13,15 @@ import requests
 import base
 
 
-class XLSTransformer(base.Transformer):
+class XLSConverter(base.Transformer):
 
     def __init__(self, url, query):
-        super(XLSTransformer, self).__init__(url, query)
+        super(XLSConverter, self).__init__(url, query)
 
         self.excel_type = self.query.get('excel_type', 'xls')
         self.sheet_number = int(self.query.get('worksheet', 1)) - 1
 
-    def transform(self):
+    def dataconverter(self):
         xlsdata = requests.get(self.url)
         mimetype = xlsdata.headers['content-type']
         if 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' == mimetype or 'xlsx' == self.excel_type:

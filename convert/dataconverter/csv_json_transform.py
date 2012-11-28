@@ -1,4 +1,4 @@
-"""Data Proxy - CSV transformation adapter"""
+"""Data Proxy - CSV dataconverteration adapter"""
 import json
 from StringIO import StringIO
 from messytables import (
@@ -10,9 +10,9 @@ import requests
 import base
 
 
-class CSVTransformer(base.Transformer):
+class CSVConverter(base.Transformer):
 
-    def transform(self):
+    def dataconverter(self):
         csvdata = requests.get(self.url)
         handle = StringIO(csvdata.content)
 
