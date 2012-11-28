@@ -1,4 +1,4 @@
-"""Data Proxy - CSV transformation adapter"""
+"""Data Proxy - CSV dataconverteration adapter"""
 import json
 from StringIO import StringIO
 from messytables import (
@@ -10,13 +10,11 @@ import requests
 import base
 
 
-class CSVTransformer(base.Transformer):
+class CSVConverter(base.Converter):
 
-    def transform(self):
-        csvdata = requests.get(self.url)
-        handle = StringIO(csvdata.content)
+    def convert(self):
 
-        table_set = CSVTableSet.from_fileobj(handle)
+        table_set = CSVTableSet.from_fileobj(self.stream)
         row_set = table_set.tables.pop()
         offset, headers = headers_guess(row_set.sample)
 
@@ -44,6 +42,4 @@ class CSVTransformer(base.Transformer):
             for index, cell in enumerate(row):
                 data_row[cell.column] = cell.value
             result.append(data_row)
-        result_data = {'headers': fields, 'data': result}
-        result_json = json.dumps(result_data)
-        return result_json
+        return fields, result
