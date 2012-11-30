@@ -8,9 +8,9 @@ class TestCase(TestCase):
     def setUp(self):
         self.app = app.test_client()
         here = os.path.dirname(os.path.abspath(__file__))
-        config_path = os.path.dirname(os.path.dirname(os.path.dirname(here)))
-        app.config.from_pyfile(os.path.join(config_path, 'settings.py'))
-        app.config.from_pyfile(os.path.join(config_path, 'test_settings.py'),
+        self.config_path = os.path.dirname(os.path.dirname(os.path.dirname(here)))
+        app.config.from_pyfile(os.path.join(self.config_path, 'settings.py'))
+        app.config.from_pyfile(os.path.join(self.config_path, 'test_settings.py'),
                                silent=True)
 
     def test_1_convert_csv(self):
@@ -39,3 +39,11 @@ class TestCase(TestCase):
                 '(neto) y Manual de Programaci\u00f3n y Presupuesto 2011 '
                 'Anexo 11 Cat\u00e1logo Funcional ", "GF": "", "FN_ID": '
                 '"", "SF": ""}' in res.data)
+
+    def test_3_post_file(self):
+        """Test POSTing a file to the API"""
+        self.testdata_path = os.path.join(self.config_path, 'testdata', 'csv')
+        csv = open(os.path.join(self.testdata_path, 'simple.csv'))
+        res = self.app.post('/api/convert/json', data={'type': 'csv', 'file': csv})
+        assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": "place"}]' in res.data)
+        assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": "5"}' in res.data)

@@ -1,7 +1,9 @@
 import json
+import os
 from StringIO import StringIO
 from tempfile import NamedTemporaryFile, TemporaryFile
 import requests
+from werkzeug import secure_filename
 from flask import request, render_template, Response
 from convert import app
 from convert.dataconverter import dataconverter
@@ -16,10 +18,10 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/api/convert/<format>')
+@app.route('/api/convert/<format>', methods=['GET'])
 @crossdomain(origin='*', headers=cors_headers)
 @jsonpify
-def convert(format=None):
+def convert_get(format=None):
     results = {}
     if (format is None or
             request.args.get('url') is None):
@@ -36,7 +38,6 @@ def convert(format=None):
     with NamedTemporaryFile() as datafile:
         datafile.write(handle.getvalue())
         datafile.seek(0)
-        data = dataconverter(datafile, request.args)
         try:
             data = dataconverter(datafile, request.args)
             header, results = data.convert()
@@ -45,3 +46,23 @@ def convert(format=None):
             results['error'] = str(e)
             results_json = json.dumps(results)
     return Response(results_json, mimetype='application/json')
+
+
+@app.route('/api/convert/<format>', methods=['POST'])
+@crossdomain(origin='*', headers=cors_headers)
+@jsonpify
+def convert_post(format=None):
+    uploaded_file = request.files['file']
+    if not uploaded_file:
+        results['error'] = 'No file uploaded'
+        results_json = json.dumps(results)
+        return Response(results_json, mimetype='application/json')
+    try:
+        data = dataconverter(uploaded_file.stream, request.form)
+        header, results = data.convert()
+        results_json = json.dumps({'headers': header, 'data': results})
+    except Exception as e:
+        results['error'] = str(e)
+        results_json = json.dumps(results)
+    return Response(results_json, mimetype='application/json')
+
