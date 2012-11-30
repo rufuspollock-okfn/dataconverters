@@ -53,7 +53,6 @@ def convert(format=None):
         uploaded_file_path = os.path.join(app.config['TMP_FOLDER'], filename)
         uploaded_file.save(uploaded_file_path)
         with open(uploaded_file_path, 'r') as f:
-            data = dataconverter(f, request.form)
             try:
                 data = dataconverter(f, request.form)
                 header, results = data.convert()
