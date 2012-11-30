@@ -23,21 +23,25 @@ def convert(format=None):
     results = {}
     if (format is None or
             request.args.get('url') is None):
+        results['error'] = 'No format or URL specified'
+        results_json = json.dumps(results)
+        return Response(results_json, mimetype='application/json')
+    url = request.args.get('url')
+    r = requests.get(url)
+    if requests.codes.ok != r.status_code:
         results['error'] = error
-        results = json.dumps(results)
-    else:
-        url = request.args.get('url')
-        r = requests.get(url)
-        handle = StringIO(r.content)
-        with NamedTemporaryFile() as datafile:
-            datafile.write(handle.getvalue())
-            datafile.seek(0)
+        results_json = json.dumps(results)
+        return Response(results_json, mimetype='application/json')
+    handle = StringIO(r.content)
+    with NamedTemporaryFile() as datafile:
+        datafile.write(handle.getvalue())
+        datafile.seek(0)
+        data = dataconverter(datafile, request.args)
+        try:
             data = dataconverter(datafile, request.args)
-            try:
-                data = dataconverter(datafile, request.args)
-                header, results = data.convert()
-                results_json = json.dumps({'headers': header, 'data': results})
-            except Exception as e:
-                results['error'] = str(e)
-                results_json = json.dumps(results)
+            header, results = data.convert()
+            results_json = json.dumps({'headers': header, 'data': results})
+        except Exception as e:
+            results['error'] = str(e)
+            results_json = json.dumps(results)
     return Response(results_json, mimetype='application/json')

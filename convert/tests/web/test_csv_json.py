@@ -13,12 +13,7 @@ class TestCase(TestCase):
         app.config.from_pyfile(os.path.join(config_path, 'test_settings.py'),
                                silent=True)
 
-    def test_1_convert_params(self):
-        """Test not enough parameters to convert endpoint"""
-        res = self.app.get('/convert/foo')
-        self.assertEqual(404, res.status_code)
-
-    def test_2_convert_csv(self):
+    def test_1_convert_csv(self):
         """Test converting a CSV to JSON"""
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
@@ -28,7 +23,7 @@ class TestCase(TestCase):
         assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": '
                 '"5"}' in res.data)
 
-    def test_3_unicode_csv(self):
+    def test_2_unicode_csv(self):
         """Test converting a CSV with unicode chars to JSON"""
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
