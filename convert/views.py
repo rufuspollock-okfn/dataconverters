@@ -50,8 +50,9 @@ def convert(format=None):
     uploaded_file = request.files['file']
     if uploaded_file:
         filename = secure_filename(uploaded_file.filename)
-        uploaded_file.save(os.path.join(app.config['TMP_FOLDER'], filename))
-        with open(os.path.join(app.config['TMP_FOLDER'], filename), 'r') as f:
+        uploaded_file_path = os.path.join(app.config['TMP_FOLDER'], filename)
+        uploaded_file.save(uploaded_file_path)
+        with open(uploaded_file_path, 'r') as f:
             data = dataconverter(f, request.form)
             try:
                 data = dataconverter(f, request.form)
@@ -60,5 +61,6 @@ def convert(format=None):
             except Exception as e:
                 results['error'] = str(e)
                 results_json = json.dumps(results)
+        os.remove(uploaded_file_path)
         return Response(results_json, mimetype='application/json')
 
