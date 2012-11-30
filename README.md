@@ -14,7 +14,7 @@ Please bugs for any issues you see.
 CSV -> JSON
 -----------
 
-Converter automatically detects mime-type, if your file's mime-type is not "text/csv" or "text/comma-separated-values", add `type=csv` to the url.
+For CSV input files, add `type=csv` to the url.
 
 Example - http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv
 
@@ -24,7 +24,8 @@ Example with JSONP - http://converter.dev.okfn.org/api/convert/json?url=http://r
 
 XLS(X) -> JSON
 --------------
-If your file's mime-type is not "application/excel", "application/vnd.ms-excel", or 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', add `type=xls` to the url.  If your file is an xls file, add `type=xls&excel_type=xlsx`.
+
+For XLS input files add `type=xls` to the URL, and for XLSX files, add `type=xls&excel_type=xlsx`.
 
 Example - http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xls
 
