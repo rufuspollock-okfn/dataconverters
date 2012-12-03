@@ -15,3 +15,9 @@ register_dataconverter({
         "name": "xls",
         "class": xls_json_converter.XLSConverter,
 })
+
+
+register_dataconverter({
+        "name": "xlsx",
+        "class": xls_json_converter.XLSXConverter,
+})

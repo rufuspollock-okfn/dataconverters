@@ -20,9 +20,10 @@ class XLSConverter(base.Converter):
 
         self.excel_type = self.metadata.get('excel_type', 'xls')
         self.sheet_number = int(self.metadata.get('worksheet', 1)) - 1
+        self.xlsclass = XLSTableSet
 
     def convert(self):
-        xlsclass = XLSTableSet
+        xlsclass = self.xlsclass
         if 'xlsx' == self.excel_type:
             xlsclass = XLSXTableSet
         table_set = xlsclass.from_fileobj(self.stream)
@@ -60,3 +61,11 @@ class XLSConverter(base.Converter):
                     info[cell.column] = cell.value
             result.append(info)
         return fields, result
+
+
+class XLSXConverter(XLSConverter):
+
+    def __init__(self, stream, metadata):
+        super(XLSXConverter, self).__init__(stream, metadata)
+
+        self.xlsclass = XLSXTableSet
