@@ -21,20 +21,40 @@
     <div class="container">
       <h1>Data Converters</h1>
       <form action="/api/convert/json">
-        <label for="url">URL</label>
-        <input type="text" name="url" placeholder="http://example.com/example.csv">
-        <label for="type">Type</label>
-        <select name="type">
-          <option value="csv">CSV</option>
-          <option value="xls">XLS</option>
-          <option value="xlsx">XLSX</option>
-        </select>
-        <label for="callback">Callback</label>
-        <input type="text" name="callback" placeholder="myfunction">
-        <br />
-        <input type="submit" value="submit" />
+        <fieldset>
+          <legend>Use a link to a file</legend>
+          <label for="url">URL</label>
+          <input type="text" name="url" placeholder="http://example.com/example.csv">
+          <label for="type">Type</label>
+          <select name="type">
+            <option value="csv">CSV</option>
+            <option value="xls">XLS</option>
+            <option value="xlsx">XLSX</option>
+          </select>
+          <label for="callback">Callback Function</label>
+          <input type="text" name="callback" placeholder="myfunction">
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
       </form>
 
+      <form enctype="multipart/form-data" action="/api/convert/json" method="POST">
+        <fieldset>
+          <legend>Upload a file</legend>
+          <label for="file">File</label>
+          <input type="file" name="file" />
+          <label for="type">Type</label>
+          <select name="type">
+            <option value="csv">CSV</option>
+            <option value="xls">XLS</option>
+            <option value="xlsx">XLSX</option>
+          </select>
+          <label for="callback">Callback Function</label>
+          <input type="text" name="callback" placeholder="myfunction">
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
     </div> <!-- /container -->
 
   </body>
