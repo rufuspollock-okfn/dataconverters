@@ -1,24 +1,38 @@
 dataconverters = {}
+mime_types = {}
+extensions = {}
 
 
 def register_dataconverter(converter):
     dataconverters[converter.get('name')] = converter
+    for mime_type in converter.get('mime_types'):
+        mime_types[mime_type] = converter
+    for extension in converter.get('extensions'):
+        extensions[extension] = converter
 
 
-def find_dataconverter(converter_type=None):
-    if converter_type:
-        info = dataconverters.get(converter_type, None)
+def find_dataconverter(converter_type=None, mime_type=None, extension=None):
+
+    def return_converter(info, error):
         if info:
             return info['class']
         else:
-            raise Exception("No converter for type %s" % force_type)
+            raise Exception(error)
+
+    if converter_type:
+        info = dataconverters.get(converter_type, None)
+        return return_converter(info, "No converter for type %s" % converter_type)
+    if mime_type:
+        info = mime_types.get(mime_type, None)
+        return return_converter(info, "No converter for mime_type %s" % mime_type)
     raise Exception("No type specified")
 
 
 def dataconverter(stream, metadata):
     """Get dataconverteration module for resource of given type"""
 
-    trans_class = find_dataconverter(converter_type=metadata.get('type'))
+    trans_class = find_dataconverter(converter_type=metadata.get('type'),
+                                     mime_type=metadata.get('mime_type'))
     return trans_class(stream, metadata)
 
 
