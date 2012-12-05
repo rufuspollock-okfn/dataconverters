@@ -20,35 +20,41 @@
 
     <div class="container">
       <h1>Data Converters</h1>
+      <form action="/api/convert/json">
+        <fieldset>
+          <legend>Use a link to a file</legend>
+          <label for="url">URL</label>
+          <input type="text" name="url" placeholder="http://example.com/example.csv">
+          <label for="type">Type</label>
+          <select name="type">
+            <option value="csv">CSV</option>
+            <option value="xls">XLS</option>
+            <option value="xlsx">XLSX</option>
+          </select>
+          <label for="callback">Callback Function</label>
+          <input type="text" name="callback" placeholder="myfunction">
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
 
-      <p>Web services for converting data from one format to another.  The converters accept data as a query parameter named url.  There's already <a href="https://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing">CORS</a> support and JSOP (add callback parameter to the URL).  Empty column names will be auto-generated with column_1, column_2, etc. Duplicate column names will have _n added as well. For instance, two columns with name date will be date_1, date_2.</p>
-
-      <ul>
-        <li><a href="https://docs.google.com/presentation/d/1LplNTIFwVIAfeP-C8RkPhlZJqaV95DasHlhloPrdvIc/edit">Architecture slidedeck</a></li>
-        <li><a href="https://docs.google.com/drawings/d/1fxamPv8ccJYI-NSQJ_7hcPoF5X8eBTQDatg-HCybsZk/edit">Architecture (Simple) Drawing</a></li>
-        <li><a href="https://docs.google.com/drawings/d/1GbtXf5m9HLVXTNXhJiE0V1SQs0mP9os11y-48TDzKqA/edit">Architecture (Complex) Drawing</a></li>
-      </ul>
-
-      <p>User stories are on <a href="https://docs.google.com/document/d/1ivosmeaFS0NgQI-wlehCIdQGlnRm-Yk571tqA2FMBqg/edit">Google Docs</a>, if you want to add more, please file an issue.</p>
-
-      <p>Please bugs for any issues you see.</p>
-
-      <h2>CSV -> JSON</h2>
-
-      <p>For CSV input files, add <code>type=csv</code> to the url. </p>
-
-      <p>Example - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&type=csv">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&amp;type=csv</a></p>
-
-      <p>Example with JSONP - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&type=csv&callback=callback">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/csv/simple.csv&amp;type=csv&amp;callback=callback</a></p>
-
-      <h2>XLS(X) -> JSON</h2>
-
-      <p>For XLS input files, add <code>type=xls</code> to the url and for XLSX input files, add <code>type=xls&amp;excel_type=xlsx</code>.</p>
-
-      <p>Example - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xls&type=xls">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xls&amp;type=xls</a></p>
-
-      <p>Example of xlsx file with type - <a href="http://converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xlsx&type=xls&excel_type=xlsx">converter.dev.okfn.org/api/convert/json?url=http://resources.opendatalabs.org/u/nigelb/data-converters/xls/simple.xlsx&amp;type=xls&amp;excel_type=xlsx</a></p>
-
+      <form enctype="multipart/form-data" action="/api/convert/json" method="POST">
+        <fieldset>
+          <legend>Upload a file</legend>
+          <label for="file">File</label>
+          <input type="file" name="file" />
+          <label for="type">Type</label>
+          <select name="type">
+            <option value="csv">CSV</option>
+            <option value="xls">XLS</option>
+            <option value="xlsx">XLSX</option>
+          </select>
+          <label for="callback">Callback Function</label>
+          <input type="text" name="callback" placeholder="myfunction">
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
     </div> <!-- /container -->
 
   </body>
