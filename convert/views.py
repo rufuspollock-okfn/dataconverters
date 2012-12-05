@@ -23,6 +23,7 @@ def index():
 @jsonpify
 def convert_get(format=None):
     results = {}
+    metadata = request.args.to_dict()
     if (format is None or
             request.args.get('url') is None):
         results['error'] = 'No format or URL specified'
@@ -30,16 +31,18 @@ def convert_get(format=None):
         return Response(results_json, mimetype='application/json')
     url = request.args.get('url')
     r = requests.get(url)
+    metadata['mime_type'] = r.headers['content-length']
     if requests.codes.ok != r.status_code:
         results['error'] = error
         results_json = json.dumps(results)
         return Response(results_json, mimetype='application/json')
+    metadata['mime_type'] = r.headers['content-type']
     handle = StringIO(r.content)
     with NamedTemporaryFile() as datafile:
         datafile.write(handle.getvalue())
         datafile.seek(0)
         try:
-            data = dataconverter(datafile, request.args)
+            data = dataconverter(datafile, metadata)
             header, results = data.convert()
             results_json = json.dumps({'headers': header, 'data': results})
         except Exception as e:

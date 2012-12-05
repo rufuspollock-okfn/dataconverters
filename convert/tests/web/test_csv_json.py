@@ -17,7 +17,7 @@ class TestCase(TestCase):
         """Test converting a CSV to JSON"""
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
-                           'data-converters/csv/simple.csv&type=csv')
+                           'data-converters/csv/simple.csv')
         assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": '
                 '"place"}]' in res.data)
         assert ('{"date": "2011-01-03", "place": "Berkeley", "temperature": '
@@ -27,7 +27,7 @@ class TestCase(TestCase):
         """Test converting a CSV with unicode chars to JSON"""
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
-                           'data-converters/csv/spanish_chars.csv&type=csv')
+                           'data-converters/csv/spanish_chars.csv')
         assert ('"headers": [{"id": "GF_ID"}, {"id": "FN_ID"}, {"id": '
                 '"SF_ID"}, {"id": "GF"}, {"id": "F"}, {"id": "SF"}, '
                 '{"id": "Gasto total 2011"}, {"id": "Descripci\u00f3n"}]'
