@@ -33,12 +33,22 @@ class TestCase(TestCase):
         assert ('{"date": "2011-01-03T00:00:00", "place": "Berkeley", '
                 '"temperature": 5}' in res.data)
 
-    def test_3_post_file(self):
-        """Test POSTing a file to the API"""
+    def test_3_post_xls_file(self):
+        """Test POSTing an xls file to the API"""
         self.testdata_path = os.path.join(self.config_path, 'testdata', 'xls')
         xls = open(os.path.join(self.testdata_path, 'simple.xls'))
-        res = self.app.post('/api/convert/json', data={'type': 'xls', 'file': xls})
+        res = self.app.post('/api/convert/json', data={'file': xls})
         assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": '
                 '"place"}]' in res.data)
         assert ('{"date": "2011-01-03T00:00:00", "place": "Berkeley", '
                 '"temperature": 5.0}' in res.data)
+
+    def test_3_post_xlsx_file(self):
+        """Test POSTing an XLSX file to the API"""
+        self.testdata_path = os.path.join(self.config_path, 'testdata', 'xls')
+        xls = open(os.path.join(self.testdata_path, 'simple.xlsx'))
+        res = self.app.post('/api/convert/json', data={'file': xls})
+        assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": '
+                '"place"}]' in res.data)
+        assert ('{"date": "2011-01-03T00:00:00", "place": "Berkeley", '
+                '"temperature": 5}' in res.data)

@@ -1,17 +1,14 @@
 dataconverters = {}
 mime_types = {}
-extensions = {}
 
 
 def register_dataconverter(converter):
     dataconverters[converter.get('name')] = converter
     for mime_type in converter.get('mime_types'):
         mime_types[mime_type] = converter
-    for extension in converter.get('extensions'):
-        extensions[extension] = converter
 
 
-def find_dataconverter(converter_type=None, mime_type=None, extension=None):
+def find_dataconverter(converter_type=None, mime_type=None):
 
     def return_converter(info, error):
         if info:
