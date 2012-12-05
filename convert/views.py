@@ -56,12 +56,14 @@ def convert_get(format=None):
 @jsonpify
 def convert_post(format=None):
     uploaded_file = request.files['file']
+    metadata = request.form.to_dict()
     if not uploaded_file:
         results['error'] = 'No file uploaded'
         results_json = json.dumps(results)
         return Response(results_json, mimetype='application/json')
+    metadata['mime_type'] = uploaded_file.content_type
     try:
-        data = dataconverter(uploaded_file.stream, request.form)
+        data = dataconverter(uploaded_file.stream, metadata)
         header, results = data.convert()
         results_json = json.dumps({'headers': header, 'data': results})
     except Exception as e:
