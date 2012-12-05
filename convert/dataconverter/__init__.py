@@ -17,7 +17,7 @@ register_dataconverter({
         "name": "xls",
         "class": xls_json_converter.XLSConverter,
         "extensions": ['xls'],
-        "mime_types": ["application/excel"],
+        "mime_types": ["application/vnd.ms-excel", "application/excel"],
 })
 
 
@@ -25,7 +25,6 @@ register_dataconverter({
         "name": "xlsx",
         "class": xls_json_converter.XLSXConverter,
         "extensions": ['xlsx'],
-        "mime_types": ["application/vnd.ms-excel",
-                      'application/vnd.openxmlformats-officedocument.'
+        "mime_types": ['application/vnd.openxmlformats-officedocument.'
                       'spreadsheetml.sheet'],
 })

@@ -17,7 +17,7 @@ class TestCase(TestCase):
         """Test converting a XLS to JSON"""
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
-                           'data-converters/xls/simple.xls&type=xls')
+                           'data-converters/xls/simple.xls')
         assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": '
                 '"place"}]' in res.data)
         assert ('{"date": "2011-01-03T00:00:00", "place": "Berkeley", '
@@ -27,7 +27,7 @@ class TestCase(TestCase):
         """Test converting a XLSX to JSON"""
         res = self.app.get('/api/convert/json?url='
                            'http://resources.opendatalabs.org/u/nigelb/'
-                           'data-converters/xls/simple.xlsx&type=xls&excel_type=xlsx')
+                           'data-converters/xls/simple.xlsx')
         assert ('"headers": [{"id": "date"}, {"id": "temperature"}, {"id": '
                 '"place"}]' in res.data)
         assert ('{"date": "2011-01-03T00:00:00", "place": "Berkeley", '
