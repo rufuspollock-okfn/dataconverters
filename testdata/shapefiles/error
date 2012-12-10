@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "./foo", line 14, in <module>
+    sink.write(f)
+  File "/home/nigel/.virtualenvs/dataconverters/local/lib/python2.7/site-packages/fiona/collection.py", line 150, in __exit__
+    self.close()
+  File "/home/nigel/.virtualenvs/dataconverters/local/lib/python2.7/site-packages/fiona/collection.py", line 136, in close
+    self._flushbuffer()
+  File "/home/nigel/.virtualenvs/dataconverters/local/lib/python2.7/site-packages/fiona/collection.py", line 105, in _flushbuffer
+    self.session.writerecs(self._buffer, self)
+  File "ogrext.pyx", line 696, in fiona.ogrext.WritingSession.writerecs (src/fiona/ogrext.c:10938)
+  File "ogrext.pyx", line 460, in fiona.ogrext.OGRFeatureBuilder.build (src/fiona/ogrext.c:7405)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe9' in position 13: ordinal not in range(128)
+Exception UnicodeEncodeError: UnicodeEncodeError('ascii', u'Cafe:Baba Caf\xe9', 13, 14, 'ordinal not in range(128)') in <bound method Collection.__del__ of <fiona.collection.Collection object at 0x7f47a4bcec50>> ignored
+

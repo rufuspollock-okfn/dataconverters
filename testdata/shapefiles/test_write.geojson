@@ -1,0 +1,2265 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP" }, "geometry": { "type": "Point", "coordinates": [ 74.271331, 16.652601 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.314417, 14.543749 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 74.421566, 14.451822 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.459137, 16.694018 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.499448, 15.827855 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Third Railway Gate" }, "geometry": { "type": "Point", "coordinates": [ 74.499790, 15.827804 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.500413, 15.828165 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Second Railway Gate" }, "geometry": { "type": "Point", "coordinates": [ 74.500476, 15.832564 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:1st railway gate" }, "geometry": { "type": "Point", "coordinates": [ 74.501648, 15.837491 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.506991, 15.851707 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing" }, "geometry": { "type": "Point", "coordinates": [ 74.516792, 15.846239 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.517470, 16.194217 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.517870, 16.193102 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.726619, 16.350997 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.735861, 13.344794 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IndianOil" }, "geometry": { "type": "Point", "coordinates": [ 74.740913, 13.377877 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.747545, 13.342073 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.748013, 13.340841 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Car Parking near Udupi Bus stand" }, "geometry": { "type": "Point", "coordinates": [ 74.748050, 13.340714 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.750149, 13.344061 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.806916, 14.226093 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 74.811737, 16.485744 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.835565, 12.888059 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.835761, 12.887698 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.838819, 12.866051 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.841760, 12.885717 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.842432, 12.869064 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.842678, 12.868767 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.843135, 12.863399 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.131051, 15.361750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.131587, 15.361827 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.132703, 15.362981 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.132776, 15.362557 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.146312, 15.351820 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.208710, 12.767426 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.306115, 14.000382 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.319664, 13.998696 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.546179, 15.422342 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.555437, 13.955800 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.574659, 13.947798 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585804, 13.941770 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585810, 13.941785 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585828, 13.941830 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585878, 13.941956 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.590887, 13.930225 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Parvati Petroleums" }, "geometry": { "type": "Point", "coordinates": [ 75.618105, 15.411464 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bangarshettar Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 75.622449, 15.421999 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.622514, 15.422346 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.625684, 15.422242 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.626103, 15.422221 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 75.635740, 15.432199 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Society Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 75.636407, 15.424341 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:S J FUELS" }, "geometry": { "type": "Point", "coordinates": [ 75.667498, 12.038867 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.679825, 11.982893 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Abbi Falls" }, "geometry": { "type": "Point", "coordinates": [ 75.719589, 12.458950 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Kamadenu" }, "geometry": { "type": "Point", "coordinates": [ 75.748673, 12.415349 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.970312, 12.428953 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.003513, 11.802524 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.006067, 11.803282 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.052922, 11.794722 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.102992, 12.998131 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.361317, 15.242879 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.391512, 15.273920 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.404846, 15.277646 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.453139, 13.263187 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.462474, 15.334114 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.471180, 15.316504 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.472061, 15.313565 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.475641, 15.341628 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.577120, 12.421996 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.635205, 12.352897 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP" }, "geometry": { "type": "Point", "coordinates": [ 76.637160, 12.268522 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.642784, 12.299164 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.644730, 12.311120 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.645736, 12.316397 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.647261, 12.312468 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Ganesh Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 76.647475, 12.312850 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Mysore Palace Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.656141, 12.302957 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.656520, 12.423664 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.658965, 12.293347 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 76.661358, 12.363263 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Mysore Zoo Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.663496, 12.302273 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Sri Prabhudeva Service Station" }, "geometry": { "type": "Point", "coordinates": [ 76.666964, 12.392865 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.670654, 12.274982 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.673179, 12.137317 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.675751, 12.120491 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.677400, 12.141959 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 76.684553, 11.817875 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.685308, 12.159401 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.803189, 12.031052 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.912561, 13.317225 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.939077, 13.321420 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Gubbi Railway Gate" }, "geometry": { "type": "Point", "coordinates": [ 76.940193, 13.321698 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.011446, 12.571720 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:K.R Extention LPG" }, "geometry": { "type": "Point", "coordinates": [ 77.105972, 13.338404 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:K.R Extention Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.105987, 13.338651 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.282308, 12.718080 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.411996, 13.150797 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.485692, 12.913052 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.493904, 12.923556 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.499201, 12.924712 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.501152, 12.926524 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.501716, 13.046609 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.503121, 12.932772 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.507137, 13.045705 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.507182, 13.055357 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.516398, 12.932743 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IOC Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.516404, 12.932779 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.518666, 13.039460 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.518931, 12.936915 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.520932, 13.038251 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IOC Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.522487, 12.994613 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian oil Petrol pump" }, "geometry": { "type": "Point", "coordinates": [ 77.523877, 12.939717 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.526334, 12.943231 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.528634, 12.858727 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.529311, 12.944088 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.530736, 13.033860 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.530963, 12.947361 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol pump" }, "geometry": { "type": "Point", "coordinates": [ 77.532540, 12.946963 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.532545, 12.947014 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.532857, 12.959903 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.532951, 13.022396 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP" }, "geometry": { "type": "Point", "coordinates": [ 77.533068, 13.022325 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.534876, 13.027025 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Reliance" }, "geometry": { "type": "Point", "coordinates": [ 77.535978, 13.028837 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.539194, 12.934056 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.540046, 12.996663 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Total gas" }, "geometry": { "type": "Point", "coordinates": [ 77.540359, 12.986579 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.540407, 12.996780 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.540574, 12.933000 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.541529, 12.932315 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.542185, 12.905993 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.542940, 13.039316 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:24\/7 HP Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.543519, 13.027204 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian oil" }, "geometry": { "type": "Point", "coordinates": [ 77.544152, 13.026102 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.545790, 12.991694 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.546930, 12.997250 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.547397, 13.025024 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.547403, 13.025104 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump\/Auto Gas Station" }, "geometry": { "type": "Point", "coordinates": [ 77.548037, 12.975195 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.548111, 13.045310 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.548209, 12.975629 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.548236, 13.081127 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.548746, 13.040183 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.548776, 13.040226 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol pump" }, "geometry": { "type": "Point", "coordinates": [ 77.549474, 13.023802 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IBP Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.549608, 12.938009 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.550797, 12.883815 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.551565, 13.009735 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.551779, 13.009984 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.553342, 13.038649 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.553345, 13.038707 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.553679, 13.012356 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.553688, 13.043625 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Varadaraja Gas Station" }, "geometry": { "type": "Point", "coordinates": [ 77.554274, 13.005885 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.554796, 13.014708 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.558688, 13.018508 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Kadirenahalli Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.559056, 12.913473 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Kala Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.559362, 13.063786 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.559580, 13.182130 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Deve Gowda" }, "geometry": { "type": "Point", "coordinates": [ 77.560011, 12.922176 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.561766, 12.903742 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.562499, 13.009689 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.562606, 13.015579 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.562661, 13.069526 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:NIAS" }, "geometry": { "type": "Point", "coordinates": [ 77.563413, 13.029550 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.564207, 12.955970 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.564645, 13.038312 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.564669, 12.891004 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.564790, 13.029511 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Sagar Hospital Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.565090, 12.908518 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.565115, 13.046028 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.565745, 14.082515 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.566608, 12.981714 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.567299, 12.953572 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.567986, 12.946201 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568453, 13.017886 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568554, 13.014027 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568631, 13.018820 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568770, 13.017366 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking- Canteeen" }, "geometry": { "type": "Point", "coordinates": [ 77.569056, 13.014971 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking- Mathematics Department" }, "geometry": { "type": "Point", "coordinates": [ 77.569071, 13.018752 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.569106, 13.015731 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.569170, 12.980842 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.569226, 13.013357 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.569863, 13.032206 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking- Chemical Engineering" }, "geometry": { "type": "Point", "coordinates": [ 77.569895, 13.016766 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570063, 13.014830 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570236, 12.977766 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570251, 13.018704 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Bike Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570333, 12.978759 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking Near Material REsearch Centre" }, "geometry": { "type": "Point", "coordinates": [ 77.570377, 13.016924 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570378, 13.016931 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570385, 13.014133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570477, 13.016975 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570607, 13.016276 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570611, 13.019037 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.570633, 13.030216 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:MS Ramaiah Hospital" }, "geometry": { "type": "Point", "coordinates": [ 77.570752, 13.027934 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571047, 13.015471 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571135, 13.017719 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571370, 13.014398 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.571714, 12.991226 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571768, 13.016843 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.571798, 12.983759 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.572079, 12.977024 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.572630, 13.046890 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.573382, 12.989611 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.574264, 12.917203 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.575576, 13.014791 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Chowdiah Hall Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.575673, 13.007459 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.575768, 13.047124 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.577122, 12.943375 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.577947, 12.973521 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.578027, 12.800146 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.578749, 13.006094 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.578744, 13.029287 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.580128, 12.986420 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.580247, 12.942137 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.580383, 12.936646 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.581394, 13.071660 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Hindustan Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.581845, 12.895836 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.581905, 12.956661 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.583693, 13.003076 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.584040, 13.020627 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Two-Wheeler Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.584288, 12.965585 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.584346, 12.928561 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Mahashakthi Enterprice Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.584843, 12.936903 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.585816, 12.954643 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.586233, 12.957186 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.586533, 12.972028 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.586889, 12.967793 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.588261, 12.967512 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.588366, 12.989164 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.588424, 12.990222 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.588533, 12.979807 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.589146, 12.927695 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.589376, 12.967903 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.590274, 12.984746 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.590891, 12.981269 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.590968, 12.974426 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.591370, 13.097386 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.591601, 12.975328 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.592855, 13.081300 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.592906, 12.949624 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP petrol bank" }, "geometry": { "type": "Point", "coordinates": [ 77.593012, 13.057115 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.593254, 12.977724 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.593581, 13.084425 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.593597, 13.005180 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.593822, 13.058205 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Club HP" }, "geometry": { "type": "Point", "coordinates": [ 77.594097, 12.982255 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.594277, 12.962055 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.595237, 12.945766 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.595298, 12.966389 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.595659, 12.974457 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:petrol bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.596272, 12.883914 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.596492, 12.995021 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.596929, 12.971298 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.597696, 12.978574 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.597714, 12.993226 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.597905, 12.975915 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking - Wockhardt Hospital" }, "geometry": { "type": "Point", "coordinates": [ 77.598522, 12.894788 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.598568, 12.975840 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.599275, 12.895321 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.599816, 13.162788 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Sagar Hospital Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.599895, 12.927558 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.600160, 12.926066 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "\"Stop\" sign:Road Bump" }, "geometry": { "type": "Point", "coordinates": [ 77.600268, 12.895786 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.600424, 12.930944 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.600771, 12.928509 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.600957, 12.972895 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.600984, 12.893525 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.601354, 12.975246 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.601358, 12.975269 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.601524, 12.892907 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.601539, 12.973641 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.602299, 13.108095 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.603858, 12.991874 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.605247, 12.984925 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.605361, 12.916437 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BTM" }, "geometry": { "type": "Point", "coordinates": [ 77.605361, 12.916437 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroluem" }, "geometry": { "type": "Point", "coordinates": [ 77.606990, 12.965260 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.607200, 12.971827 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Brigade Road" }, "geometry": { "type": "Point", "coordinates": [ 77.607436, 12.971920 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.607880, 13.030173 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Garuda Mall Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.609419, 12.970381 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Advait" }, "geometry": { "type": "Point", "coordinates": [ 77.609775, 12.916868 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.609966, 12.916780 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Sunshine Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.610911, 12.936581 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Forum Auto Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.611483, 12.934389 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.611500, 12.933708 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.611768, 12.996529 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Bosch (DH) Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.612143, 12.936810 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.613720, 13.041812 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.613827, 12.973532 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.614370, 12.934182 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.614458, 12.935667 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.615075, 12.930032 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Nokia Siemens Networks" }, "geometry": { "type": "Point", "coordinates": [ 77.618867, 13.046895 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Traffic lights" }, "geometry": { "type": "Point", "coordinates": [ 77.619440, 12.971555 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.619962, 12.916569 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Jay Hanuman Service Station" }, "geometry": { "type": "Point", "coordinates": [ 77.620544, 13.041438 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.620753, 12.920780 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:NXP and Philips Private Car Park" }, "geometry": { "type": "Point", "coordinates": [ 77.620915, 13.044617 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.623183, 13.303955 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.624854, 12.913044 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.625006, 12.974219 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.625344, 12.939491 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.626779, 12.911039 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.628520, 12.938349 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.629148, 13.165366 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.630394, 12.933506 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.633362, 14.314705 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.634691, 12.961367 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.635130, 13.026360 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Cauvery Service Station" }, "geometry": { "type": "Point", "coordinates": [ 77.636786, 13.032614 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.636988, 12.981934 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.637747, 12.982755 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.638391, 12.915367 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Golden Palms Visitors Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.638470, 13.064600 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.642369, 12.953146 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.642462, 12.885589 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.643269, 12.991765 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.644389, 12.978523 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.644608, 12.907315 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Sowbhagya IOC, HSR Layout" }, "geometry": { "type": "Point", "coordinates": [ 77.644828, 12.921461 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.645437, 12.960064 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.645746, 12.959964 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.647565, 12.960390 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.647694, 12.957756 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.648130, 12.958192 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.648455, 12.875249 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.649267, 12.959372 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.649533, 12.959931 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.650430, 12.924728 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:In n Out" }, "geometry": { "type": "Point", "coordinates": [ 77.651356, 12.919866 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.652879, 12.959133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Wipro EC5 parking" }, "geometry": { "type": "Point", "coordinates": [ 77.653286, 12.838213 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.653295, 12.838213 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Agara level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.653612, 13.032105 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Byappanahalli Metro Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.653896, 12.990148 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:jeevan bhima nagar" }, "geometry": { "type": "Point", "coordinates": [ 77.654224, 12.967543 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:indian oil petrolpump" }, "geometry": { "type": "Point", "coordinates": [ 77.654426, 12.971750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Wipro EC4 multilevel parking" }, "geometry": { "type": "Point", "coordinates": [ 77.654801, 12.838795 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.654925, 12.838784 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.655923, 12.967733 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP Auto Care" }, "geometry": { "type": "Point", "coordinates": [ 77.657088, 12.981214 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.657178, 12.836043 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.657183, 12.836038 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.657286, 13.003863 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.658093, 13.071801 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.659559, 12.992008 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.659565, 13.024956 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.659790, 12.838821 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:HAL Cricket Ground Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.660248, 12.967683 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing:Haralur Junction" }, "geometry": { "type": "Point", "coordinates": [ 77.660461, 12.901673 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Car\/Bike Parking Lot" }, "geometry": { "type": "Point", "coordinates": [ 77.663145, 12.845334 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.663349, 12.850237 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Infosys Multilevel Parking Lot" }, "geometry": { "type": "Point", "coordinates": [ 77.663387, 12.850427 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.666232, 12.960727 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.669832, 12.996822 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.669992, 12.923277 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.670665, 12.997838 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.672133, 12.844430 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.672389, 12.844556 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.672577, 12.969670 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing:Belandur Junction" }, "geometry": { "type": "Point", "coordinates": [ 77.676177, 12.925796 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.677336, 13.000439 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.678239, 12.838750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.679547, 13.371538 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:mkretail parking" }, "geometry": { "type": "Point", "coordinates": [ 77.682516, 12.911845 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.684154, 12.928035 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Passport Seva Kendra Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.684539, 12.930879 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.685003, 12.926158 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.688053, 12.998788 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.689127, 12.998218 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.691059, 12.955353 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Skandagiri Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.691676, 13.424076 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.691960, 13.009049 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.692333, 13.005297 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:hp fule center" }, "geometry": { "type": "Point", "coordinates": [ 77.697329, 12.956531 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.699122, 12.951934 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.701412, 12.957731 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.701429, 12.957832 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.703393, 12.966180 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitor Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.705412, 12.994127 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.705691, 12.908767 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.705746, 12.992984 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.705823, 12.948319 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitors 2-Wheeler Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.706022, 12.993448 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitors Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.706043, 12.993659 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.706420, 12.902178 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.707434, 13.198488 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.708077, 12.982726 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.708323, 13.199408 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Vagdevi School Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.710547, 12.945303 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.710555, 12.718501 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.710722, 13.199376 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.711082, 13.198464 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.711276, 12.978305 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:RMZ NXT Visitor's Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.711921, 12.978286 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.712355, 12.839306 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.712929, 13.277199 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:HDFC Bank Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.716392, 12.959257 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:SKRCC Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.716852, 12.954741 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.717486, 12.966678 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.719356, 12.996025 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.721378, 13.026392 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.721622, 12.991215 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.725988, 12.976926 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Shantiniketan Visitors Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.726903, 12.989652 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Vydhehi Hospital Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.727827, 12.976116 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.730446, 13.032330 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.730906, 13.434347 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Prestige Shantiniketan Multilevel Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.730913, 12.991720 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.730990, 13.434712 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.731479, 12.956529 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Two wheeler Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.731860, 12.987699 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.732533, 13.428947 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Nandini Restaurant Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.733686, 12.989331 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.737874, 12.985561 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.746616, 12.884923 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitors'Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.746873, 12.959229 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.748784, 12.959499 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.759208, 13.009553 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Whitefield Station Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.761560, 12.996870 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.761939, 13.017535 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.783608, 12.995768 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Check Post" }, "geometry": { "type": "Point", "coordinates": [ 77.787320, 12.770250 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.789833, 12.767213 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.791265, 12.765056 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.793553, 12.762142 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.797235, 13.417724 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.808049, 12.748304 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.823481, 12.720850 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.824088, 12.736866 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.836387, 12.732440 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.884177, 12.714991 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.888622, 13.391908 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.897808, 12.710368 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.897922, 12.710223 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.926859, 12.687698 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Hp" }, "geometry": { "type": "Point", "coordinates": [ 77.927717, 12.686919 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Reliance Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.927788, 12.687106 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.956951, 12.679548 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.957071, 12.679548 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Reliance Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.981489, 12.671133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.004614, 12.664732 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.009840, 15.843999 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.036186, 12.649578 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.064171, 12.640160 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 78.067857, 12.985014 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 78.073216, 12.288056 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.126016, 12.601216 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 78.128699, 13.130679 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 78.140916, 12.590958 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.203122, 12.538068 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.222957, 12.501487 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing:Kupam X cut road, Short way to triupati" }, "geometry": { "type": "Point", "coordinates": [ 78.245774, 12.533380 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.369756, 13.123259 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.488339, 13.615021 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Nostalgia" }, "geometry": { "type": "Point", "coordinates": [ 73.983923, 15.319251 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Greek Place" }, "geometry": { "type": "Point", "coordinates": [ 73.988708, 15.041538 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Goyam" }, "geometry": { "type": "Point", "coordinates": [ 73.989421, 15.036875 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sunset Bar & Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 73.991958, 15.034976 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:cheeky chappatti" }, "geometry": { "type": "Point", "coordinates": [ 74.023580, 15.012672 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Cafe Green" }, "geometry": { "type": "Point", "coordinates": [ 74.459177, 16.693822 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chowdary tea stall" }, "geometry": { "type": "Point", "coordinates": [ 74.460579, 16.693628 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Tara" }, "geometry": { "type": "Point", "coordinates": [ 74.464643, 16.685314 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Arpan" }, "geometry": { "type": "Point", "coordinates": [ 74.502234, 15.837256 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Panchamruth" }, "geometry": { "type": "Point", "coordinates": [ 74.503048, 15.842475 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.506627, 15.851834 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.508372, 15.863939 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.517880, 16.193760 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Karavali" }, "geometry": { "type": "Point", "coordinates": [ 74.735345, 13.347110 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Krishna Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 74.747662, 13.333019 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Gadi Bidi" }, "geometry": { "type": "Point", "coordinates": [ 74.748104, 13.340262 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.748453, 13.344395 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.748525, 13.337724 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Parivaar Sweets" }, "geometry": { "type": "Point", "coordinates": [ 74.749195, 13.341714 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.807934, 14.224864 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.808772, 14.224086 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Nessnas" }, "geometry": { "type": "Point", "coordinates": [ 74.835286, 12.900743 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Pabbas Ice Cream Parlour" }, "geometry": { "type": "Point", "coordinates": [ 74.838543, 12.886383 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Taj Mahal Cafe" }, "geometry": { "type": "Point", "coordinates": [ 74.840919, 12.875456 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Sri Rama Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 74.841305, 12.875686 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Anupama" }, "geometry": { "type": "Point", "coordinates": [ 74.848569, 12.876627 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Pub:Froth On Top" }, "geometry": { "type": "Point", "coordinates": [ 74.851839, 12.873599 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hao Ming" }, "geometry": { "type": "Point", "coordinates": [ 74.852743, 12.873484 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Domino's Pizza" }, "geometry": { "type": "Point", "coordinates": [ 74.856932, 12.871382 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Canteen" }, "geometry": { "type": "Point", "coordinates": [ 74.934039, 13.182248 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Maggi Center" }, "geometry": { "type": "Point", "coordinates": [ 74.934618, 13.182473 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Naveen" }, "geometry": { "type": "Point", "coordinates": [ 75.109412, 15.382356 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:New Karnataka Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 75.125096, 15.364072 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Gurudatt Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 75.125251, 15.363166 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Foo Foo's" }, "geometry": { "type": "Point", "coordinates": [ 75.127215, 15.360802 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Niyaz - Best Kitchen" }, "geometry": { "type": "Point", "coordinates": [ 75.128283, 15.357989 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Seven Beans Cafe" }, "geometry": { "type": "Point", "coordinates": [ 75.128680, 15.363995 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:KIMS Canteen" }, "geometry": { "type": "Point", "coordinates": [ 75.133325, 15.361853 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Cafe Coffee day" }, "geometry": { "type": "Point", "coordinates": [ 75.138904, 15.353752 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Olive Garden Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.141209, 15.349783 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Smokin'Joe's Pizza" }, "geometry": { "type": "Point", "coordinates": [ 75.146474, 15.358697 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Radhika Hotel" }, "geometry": { "type": "Point", "coordinates": [ 75.613494, 15.422738 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Kutir Fast food" }, "geometry": { "type": "Point", "coordinates": [ 75.621007, 15.417892 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:SFB Cooldrink House" }, "geometry": { "type": "Point", "coordinates": [ 75.627648, 15.426533 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Kamath Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.631693, 15.431058 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Gadag Mirchi Bhaggi Stall" }, "geometry": { "type": "Point", "coordinates": [ 75.633480, 15.431646 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.634614, 15.438375 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Ruchi Gardens" }, "geometry": { "type": "Point", "coordinates": [ 75.635508, 15.424865 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Vishwa" }, "geometry": { "type": "Point", "coordinates": [ 75.636323, 15.425538 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.636369, 15.417639 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:My Food" }, "geometry": { "type": "Point", "coordinates": [ 75.636802, 15.433943 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Radhi Ice Cream Parlor" }, "geometry": { "type": "Point", "coordinates": [ 75.637001, 15.434265 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.637411, 15.435745 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Geetanjali residency" }, "geometry": { "type": "Point", "coordinates": [ 75.637465, 15.435750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chetna Canteen" }, "geometry": { "type": "Point", "coordinates": [ 75.643978, 15.432173 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:outdoor" }, "geometry": { "type": "Point", "coordinates": [ 75.659652, 16.174276 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:yellow building" }, "geometry": { "type": "Point", "coordinates": [ 75.661618, 16.173702 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Maharaja" }, "geometry": { "type": "Point", "coordinates": [ 75.665846, 16.174266 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.679609, 15.921747 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Durga Vihar Boarding and lodging" }, "geometry": { "type": "Point", "coordinates": [ 75.697989, 16.181890 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Bean scene Cafe" }, "geometry": { "type": "Point", "coordinates": [ 75.744540, 12.417337 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:BIET Canteen" }, "geometry": { "type": "Point", "coordinates": [ 75.903708, 14.444119 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Swathi Restorant" }, "geometry": { "type": "Point", "coordinates": [ 75.917679, 14.463779 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Apoorva" }, "geometry": { "type": "Point", "coordinates": [ 75.917827, 14.467471 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chetana Hotel" }, "geometry": { "type": "Point", "coordinates": [ 75.918277, 14.460821 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Ice Land" }, "geometry": { "type": "Point", "coordinates": [ 75.918658, 14.460982 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Panchami" }, "geometry": { "type": "Point", "coordinates": [ 75.918709, 14.460831 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Ahaar 2000" }, "geometry": { "type": "Point", "coordinates": [ 75.923831, 14.466116 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Grace" }, "geometry": { "type": "Point", "coordinates": [ 76.003861, 11.803076 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:century" }, "geometry": { "type": "Point", "coordinates": [ 76.003937, 11.801044 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Indian Coffee house" }, "geometry": { "type": "Point", "coordinates": [ 76.005403, 11.803712 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:GRR Hotel" }, "geometry": { "type": "Point", "coordinates": [ 76.099703, 13.006600 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Drinking water source" }, "geometry": { "type": "Point", "coordinates": [ 76.161201, 15.341005 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel" }, "geometry": { "type": "Point", "coordinates": [ 76.171747, 15.349334 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Adyar's Athithi Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.330723, 12.961332 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Iceland" }, "geometry": { "type": "Point", "coordinates": [ 76.388588, 15.276066 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Krishna Bhavan Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.389787, 15.275545 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.444077, 15.333133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:City Garden Daba" }, "geometry": { "type": "Point", "coordinates": [ 76.450317, 13.264477 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.453000, 15.341754 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.453338, 15.341265 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.453709, 15.340737 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:The Mango Tree" }, "geometry": { "type": "Point", "coordinates": [ 76.453834, 15.335742 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Laughing Buddha" }, "geometry": { "type": "Point", "coordinates": [ 76.454105, 15.340590 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Rolling Stone Cafe" }, "geometry": { "type": "Point", "coordinates": [ 76.454609, 15.339182 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:French Bakery" }, "geometry": { "type": "Point", "coordinates": [ 76.454713, 15.340387 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Nargila restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.454837, 15.340328 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.455846, 15.339940 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Anu Indian Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.456102, 15.340054 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.456378, 15.339777 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sania Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457079, 15.339511 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457514, 15.339362 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sania Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457549, 15.339626 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457808, 15.339253 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Evergreen Cafe" }, "geometry": { "type": "Point", "coordinates": [ 76.457937, 15.339207 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Drinking water source:Pump" }, "geometry": { "type": "Point", "coordinates": [ 76.458472, 15.339470 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sesh Besh" }, "geometry": { "type": "Point", "coordinates": [ 76.458569, 15.339483 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Reggae River" }, "geometry": { "type": "Point", "coordinates": [ 76.459421, 15.336454 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Keerthana Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.459502, 15.336238 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Durga Hut's Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.459758, 15.335433 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Moonlight Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.459823, 15.335390 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chill Out" }, "geometry": { "type": "Point", "coordinates": [ 76.460888, 15.336118 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Vikky Roof" }, "geometry": { "type": "Point", "coordinates": [ 76.461238, 15.336014 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.461274, 15.339983 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP" }, "geometry": { "type": "Point", "coordinates": [ 74.271331, 16.652601 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.314417, 14.543749 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 74.421566, 14.451822 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.459137, 16.694018 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.499448, 15.827855 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Third Railway Gate" }, "geometry": { "type": "Point", "coordinates": [ 74.499790, 15.827804 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.500413, 15.828165 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Second Railway Gate" }, "geometry": { "type": "Point", "coordinates": [ 74.500476, 15.832564 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:1st railway gate" }, "geometry": { "type": "Point", "coordinates": [ 74.501648, 15.837491 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.506991, 15.851707 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing" }, "geometry": { "type": "Point", "coordinates": [ 74.516792, 15.846239 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.517470, 16.194217 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.517870, 16.193102 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.726619, 16.350997 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.735861, 13.344794 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IndianOil" }, "geometry": { "type": "Point", "coordinates": [ 74.740913, 13.377877 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.747545, 13.342073 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.748013, 13.340841 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Car Parking near Udupi Bus stand" }, "geometry": { "type": "Point", "coordinates": [ 74.748050, 13.340714 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.750149, 13.344061 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.806916, 14.226093 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 74.811737, 16.485744 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.835565, 12.888059 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 74.835761, 12.887698 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.838819, 12.866051 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.841760, 12.885717 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.842432, 12.869064 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.842678, 12.868767 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 74.843135, 12.863399 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.131051, 15.361750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.131587, 15.361827 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.132703, 15.362981 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.132776, 15.362557 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.146312, 15.351820 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.208710, 12.767426 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.306115, 14.000382 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.319664, 13.998696 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.546179, 15.422342 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.555437, 13.955800 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.574659, 13.947798 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585804, 13.941770 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585810, 13.941785 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585828, 13.941830 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.585878, 13.941956 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 75.590887, 13.930225 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Parvati Petroleums" }, "geometry": { "type": "Point", "coordinates": [ 75.618105, 15.411464 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bangarshettar Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 75.622449, 15.421999 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.622514, 15.422346 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.625684, 15.422242 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.626103, 15.422221 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 75.635740, 15.432199 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Society Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 75.636407, 15.424341 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:S J FUELS" }, "geometry": { "type": "Point", "coordinates": [ 75.667498, 12.038867 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 75.679825, 11.982893 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Abbi Falls" }, "geometry": { "type": "Point", "coordinates": [ 75.719589, 12.458950 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Kamadenu" }, "geometry": { "type": "Point", "coordinates": [ 75.748673, 12.415349 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 75.970312, 12.428953 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.003513, 11.802524 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.006067, 11.803282 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.052922, 11.794722 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.102992, 12.998131 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.361317, 15.242879 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.391512, 15.273920 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.404846, 15.277646 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.453139, 13.263187 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.462474, 15.334114 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.471180, 15.316504 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.472061, 15.313565 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.475641, 15.341628 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.577120, 12.421996 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.635205, 12.352897 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP" }, "geometry": { "type": "Point", "coordinates": [ 76.637160, 12.268522 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.642784, 12.299164 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.644730, 12.311120 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.645736, 12.316397 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.647261, 12.312468 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Ganesh Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 76.647475, 12.312850 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Mysore Palace Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.656141, 12.302957 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.656520, 12.423664 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.658965, 12.293347 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 76.661358, 12.363263 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Mysore Zoo Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.663496, 12.302273 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Sri Prabhudeva Service Station" }, "geometry": { "type": "Point", "coordinates": [ 76.666964, 12.392865 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.670654, 12.274982 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.673179, 12.137317 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 76.675751, 12.120491 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.677400, 12.141959 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 76.684553, 11.817875 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.685308, 12.159401 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.803189, 12.031052 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 76.912561, 13.317225 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 76.939077, 13.321420 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Gubbi Railway Gate" }, "geometry": { "type": "Point", "coordinates": [ 76.940193, 13.321698 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.011446, 12.571720 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:K.R Extention LPG" }, "geometry": { "type": "Point", "coordinates": [ 77.105972, 13.338404 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:K.R Extention Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.105987, 13.338651 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.282308, 12.718080 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.411996, 13.150797 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.485692, 12.913052 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.493904, 12.923556 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.499201, 12.924712 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.501152, 12.926524 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.501716, 13.046609 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.503121, 12.932772 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.507137, 13.045705 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.507182, 13.055357 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.516398, 12.932743 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IOC Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.516404, 12.932779 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.518666, 13.039460 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.518931, 12.936915 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.520932, 13.038251 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IOC Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.522487, 12.994613 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian oil Petrol pump" }, "geometry": { "type": "Point", "coordinates": [ 77.523877, 12.939717 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.526334, 12.943231 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.528634, 12.858727 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.529311, 12.944088 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.530736, 13.033860 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.530963, 12.947361 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol pump" }, "geometry": { "type": "Point", "coordinates": [ 77.532540, 12.946963 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.532545, 12.947014 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.532857, 12.959903 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.532951, 13.022396 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BP" }, "geometry": { "type": "Point", "coordinates": [ 77.533068, 13.022325 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.534876, 13.027025 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Reliance" }, "geometry": { "type": "Point", "coordinates": [ 77.535978, 13.028837 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.539194, 12.934056 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.540046, 12.996663 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Total gas" }, "geometry": { "type": "Point", "coordinates": [ 77.540359, 12.986579 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.540407, 12.996780 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.540574, 12.933000 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.541529, 12.932315 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.542185, 12.905993 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.542940, 13.039316 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:24\/7 HP Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.543519, 13.027204 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian oil" }, "geometry": { "type": "Point", "coordinates": [ 77.544152, 13.026102 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.545790, 12.991694 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.546930, 12.997250 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.547397, 13.025024 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.547403, 13.025104 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump\/Auto Gas Station" }, "geometry": { "type": "Point", "coordinates": [ 77.548037, 12.975195 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.548111, 13.045310 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.548209, 12.975629 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.548236, 13.081127 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.548746, 13.040183 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.548776, 13.040226 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol pump" }, "geometry": { "type": "Point", "coordinates": [ 77.549474, 13.023802 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:IBP Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.549608, 12.938009 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.550797, 12.883815 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.551565, 13.009735 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.551779, 13.009984 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.553342, 13.038649 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.553345, 13.038707 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.553679, 13.012356 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.553688, 13.043625 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Varadaraja Gas Station" }, "geometry": { "type": "Point", "coordinates": [ 77.554274, 13.005885 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.554796, 13.014708 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.558688, 13.018508 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Kadirenahalli Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.559056, 12.913473 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Kala Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.559362, 13.063786 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.559580, 13.182130 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Deve Gowda" }, "geometry": { "type": "Point", "coordinates": [ 77.560011, 12.922176 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.561766, 12.903742 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.562499, 13.009689 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.562606, 13.015579 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.562661, 13.069526 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:NIAS" }, "geometry": { "type": "Point", "coordinates": [ 77.563413, 13.029550 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.564207, 12.955970 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.564645, 13.038312 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.564669, 12.891004 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.564790, 13.029511 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Sagar Hospital Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.565090, 12.908518 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.565115, 13.046028 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.565745, 14.082515 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.566608, 12.981714 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.567299, 12.953572 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.567986, 12.946201 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568453, 13.017886 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568554, 13.014027 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568631, 13.018820 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.568770, 13.017366 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking- Canteeen" }, "geometry": { "type": "Point", "coordinates": [ 77.569056, 13.014971 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking- Mathematics Department" }, "geometry": { "type": "Point", "coordinates": [ 77.569071, 13.018752 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.569106, 13.015731 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.569170, 12.980842 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.569226, 13.013357 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.569863, 13.032206 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking- Chemical Engineering" }, "geometry": { "type": "Point", "coordinates": [ 77.569895, 13.016766 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570063, 13.014830 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570236, 12.977766 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570251, 13.018704 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Bike Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570333, 12.978759 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking Near Material REsearch Centre" }, "geometry": { "type": "Point", "coordinates": [ 77.570377, 13.016924 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570378, 13.016931 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570385, 13.014133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570477, 13.016975 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570607, 13.016276 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.570611, 13.019037 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.570633, 13.030216 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:MS Ramaiah Hospital" }, "geometry": { "type": "Point", "coordinates": [ 77.570752, 13.027934 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571047, 13.015471 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571135, 13.017719 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571370, 13.014398 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.571714, 12.991226 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.571768, 13.016843 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.571798, 12.983759 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.572079, 12.977024 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.572630, 13.046890 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.573382, 12.989611 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.574264, 12.917203 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.575576, 13.014791 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Chowdiah Hall Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.575673, 13.007459 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.575768, 13.047124 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.577122, 12.943375 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.577947, 12.973521 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.578027, 12.800146 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.578749, 13.006094 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.578744, 13.029287 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.580128, 12.986420 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.580247, 12.942137 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.580383, 12.936646 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.581394, 13.071660 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Hindustan Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.581845, 12.895836 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.581905, 12.956661 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.583693, 13.003076 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.584040, 13.020627 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Two-Wheeler Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.584288, 12.965585 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.584346, 12.928561 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Mahashakthi Enterprice Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.584843, 12.936903 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.585816, 12.954643 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.586233, 12.957186 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.586533, 12.972028 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.586889, 12.967793 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.588261, 12.967512 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.588366, 12.989164 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.588424, 12.990222 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.588533, 12.979807 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.589146, 12.927695 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.589376, 12.967903 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.590274, 12.984746 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.590891, 12.981269 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.590968, 12.974426 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.591370, 13.097386 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.591601, 12.975328 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.592855, 13.081300 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.592906, 12.949624 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP petrol bank" }, "geometry": { "type": "Point", "coordinates": [ 77.593012, 13.057115 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.593254, 12.977724 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.593581, 13.084425 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.593597, 13.005180 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.593822, 13.058205 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Club HP" }, "geometry": { "type": "Point", "coordinates": [ 77.594097, 12.982255 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.594277, 12.962055 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.595237, 12.945766 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.595298, 12.966389 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.595659, 12.974457 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:petrol bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.596272, 12.883914 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.596492, 12.995021 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.596929, 12.971298 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.597696, 12.978574 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.597714, 12.993226 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.597905, 12.975915 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Parking - Wockhardt Hospital" }, "geometry": { "type": "Point", "coordinates": [ 77.598522, 12.894788 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.598568, 12.975840 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.599275, 12.895321 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.599816, 13.162788 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Sagar Hospital Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.599895, 12.927558 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.600160, 12.926066 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "\"Stop\" sign:Road Bump" }, "geometry": { "type": "Point", "coordinates": [ 77.600268, 12.895786 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.600424, 12.930944 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.600771, 12.928509 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.600957, 12.972895 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.600984, 12.893525 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil Petrol Bunk" }, "geometry": { "type": "Point", "coordinates": [ 77.601354, 12.975246 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.601358, 12.975269 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.601524, 12.892907 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.601539, 12.973641 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.602299, 13.108095 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.603858, 12.991874 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.605247, 12.984925 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.605361, 12.916437 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:BTM" }, "geometry": { "type": "Point", "coordinates": [ 77.605361, 12.916437 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharath Petroluem" }, "geometry": { "type": "Point", "coordinates": [ 77.606990, 12.965260 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.607200, 12.971827 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Brigade Road" }, "geometry": { "type": "Point", "coordinates": [ 77.607436, 12.971920 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.607880, 13.030173 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Garuda Mall Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.609419, 12.970381 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Advait" }, "geometry": { "type": "Point", "coordinates": [ 77.609775, 12.916868 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.609966, 12.916780 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Sunshine Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.610911, 12.936581 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Forum Auto Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.611483, 12.934389 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.611500, 12.933708 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.611768, 12.996529 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Bosch (DH) Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.612143, 12.936810 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.613720, 13.041812 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.613827, 12.973532 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.614370, 12.934182 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.614458, 12.935667 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.615075, 12.930032 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Nokia Siemens Networks" }, "geometry": { "type": "Point", "coordinates": [ 77.618867, 13.046895 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Traffic lights" }, "geometry": { "type": "Point", "coordinates": [ 77.619440, 12.971555 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.619962, 12.916569 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Jay Hanuman Service Station" }, "geometry": { "type": "Point", "coordinates": [ 77.620544, 13.041438 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.620753, 12.920780 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:NXP and Philips Private Car Park" }, "geometry": { "type": "Point", "coordinates": [ 77.620915, 13.044617 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.623183, 13.303955 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.624854, 12.913044 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.625006, 12.974219 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.625344, 12.939491 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.626779, 12.911039 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.628520, 12.938349 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.629148, 13.165366 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.630394, 12.933506 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.633362, 14.314705 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.634691, 12.961367 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.635130, 13.026360 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Cauvery Service Station" }, "geometry": { "type": "Point", "coordinates": [ 77.636786, 13.032614 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.636988, 12.981934 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.637747, 12.982755 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.638391, 12.915367 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Golden Palms Visitors Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.638470, 13.064600 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.642369, 12.953146 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.642462, 12.885589 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.643269, 12.991765 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.644389, 12.978523 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.644608, 12.907315 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Sowbhagya IOC, HSR Layout" }, "geometry": { "type": "Point", "coordinates": [ 77.644828, 12.921461 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.645437, 12.960064 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.645746, 12.959964 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.647565, 12.960390 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.647694, 12.957756 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.648130, 12.958192 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.648455, 12.875249 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.649267, 12.959372 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.649533, 12.959931 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.650430, 12.924728 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:In n Out" }, "geometry": { "type": "Point", "coordinates": [ 77.651356, 12.919866 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.652879, 12.959133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Wipro EC5 parking" }, "geometry": { "type": "Point", "coordinates": [ 77.653286, 12.838213 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.653295, 12.838213 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing:Agara level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.653612, 13.032105 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Byappanahalli Metro Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.653896, 12.990148 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:jeevan bhima nagar" }, "geometry": { "type": "Point", "coordinates": [ 77.654224, 12.967543 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:indian oil petrolpump" }, "geometry": { "type": "Point", "coordinates": [ 77.654426, 12.971750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Wipro EC4 multilevel parking" }, "geometry": { "type": "Point", "coordinates": [ 77.654801, 12.838795 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.654925, 12.838784 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.655923, 12.967733 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP Auto Care" }, "geometry": { "type": "Point", "coordinates": [ 77.657088, 12.981214 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.657178, 12.836043 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.657183, 12.836038 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum Petrol Pump" }, "geometry": { "type": "Point", "coordinates": [ 77.657286, 13.003863 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.658093, 13.071801 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.659559, 12.992008 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.659565, 13.024956 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.659790, 12.838821 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:HAL Cricket Ground Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.660248, 12.967683 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing:Haralur Junction" }, "geometry": { "type": "Point", "coordinates": [ 77.660461, 12.901673 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Car\/Bike Parking Lot" }, "geometry": { "type": "Point", "coordinates": [ 77.663145, 12.845334 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.663349, 12.850237 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Infosys Multilevel Parking Lot" }, "geometry": { "type": "Point", "coordinates": [ 77.663387, 12.850427 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.666232, 12.960727 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.669832, 12.996822 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.669992, 12.923277 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.670665, 12.997838 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Bharat Petroleum" }, "geometry": { "type": "Point", "coordinates": [ 77.672133, 12.844430 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.672389, 12.844556 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.672577, 12.969670 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing:Belandur Junction" }, "geometry": { "type": "Point", "coordinates": [ 77.676177, 12.925796 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.677336, 13.000439 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.678239, 12.838750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.679547, 13.371538 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:mkretail parking" }, "geometry": { "type": "Point", "coordinates": [ 77.682516, 12.911845 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.684154, 12.928035 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Passport Seva Kendra Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.684539, 12.930879 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.685003, 12.926158 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.688053, 12.998788 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.689127, 12.998218 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.691059, 12.955353 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Skandagiri Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.691676, 13.424076 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.691960, 13.009049 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.692333, 13.005297 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:hp fule center" }, "geometry": { "type": "Point", "coordinates": [ 77.697329, 12.956531 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.699122, 12.951934 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.701412, 12.957731 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.701429, 12.957832 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.703393, 12.966180 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitor Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.705412, 12.994127 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.705691, 12.908767 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.705746, 12.992984 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.705823, 12.948319 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitors 2-Wheeler Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.706022, 12.993448 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitors Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.706043, 12.993659 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.706420, 12.902178 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.707434, 13.198488 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.708077, 12.982726 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.708323, 13.199408 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Vagdevi School Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.710547, 12.945303 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.710555, 12.718501 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.710722, 13.199376 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.711082, 13.198464 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.711276, 12.978305 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:RMZ NXT Visitor's Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.711921, 12.978286 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.712355, 12.839306 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.712929, 13.277199 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:HDFC Bank Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.716392, 12.959257 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:SKRCC Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.716852, 12.954741 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.717486, 12.966678 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.719356, 12.996025 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.721378, 13.026392 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.721622, 12.991215 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.725988, 12.976926 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Shantiniketan Visitors Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.726903, 12.989652 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Vydhehi Hospital Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.727827, 12.976116 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.730446, 13.032330 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.730906, 13.434347 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Prestige Shantiniketan Multilevel Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.730913, 12.991720 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.730990, 13.434712 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Shell" }, "geometry": { "type": "Point", "coordinates": [ 77.731479, 12.956529 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Two wheeler Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.731860, 12.987699 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.732533, 13.428947 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Nandini Restaurant Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.733686, 12.989331 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.737874, 12.985561 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.746616, 12.884923 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Visitors'Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.746873, 12.959229 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.748784, 12.959499 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.759208, 13.009553 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Whitefield Station Car Parking" }, "geometry": { "type": "Point", "coordinates": [ 77.761560, 12.996870 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.761939, 13.017535 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.783608, 12.995768 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Parking:Check Post" }, "geometry": { "type": "Point", "coordinates": [ 77.787320, 12.770250 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.789833, 12.767213 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.791265, 12.765056 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.793553, 12.762142 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.797235, 13.417724 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.808049, 12.748304 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.823481, 12.720850 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.824088, 12.736866 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.836387, 12.732440 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.884177, 12.714991 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 77.888622, 13.391908 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 77.897808, 12.710368 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.897922, 12.710223 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 77.926859, 12.687698 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Hp" }, "geometry": { "type": "Point", "coordinates": [ 77.927717, 12.686919 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Reliance Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.927788, 12.687106 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.956951, 12.679548 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 77.957071, 12.679548 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Reliance Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 77.981489, 12.671133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.004614, 12.664732 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.009840, 15.843999 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.036186, 12.649578 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.064171, 12.640160 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 78.067857, 12.985014 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Level crossing" }, "geometry": { "type": "Point", "coordinates": [ 78.073216, 12.288056 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.126016, 12.601216 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Petrol Station" }, "geometry": { "type": "Point", "coordinates": [ 78.128699, 13.130679 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:HP" }, "geometry": { "type": "Point", "coordinates": [ 78.140916, 12.590958 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel:Indian Oil" }, "geometry": { "type": "Point", "coordinates": [ 78.203122, 12.538068 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.222957, 12.501487 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Pedestrian Crossing:Kupam X cut road, Short way to triupati" }, "geometry": { "type": "Point", "coordinates": [ 78.245774, 12.533380 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.369756, 13.123259 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Automotive", "NAME": "Fuel" }, "geometry": { "type": "Point", "coordinates": [ 78.488339, 13.615021 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Nostalgia" }, "geometry": { "type": "Point", "coordinates": [ 73.983923, 15.319251 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Greek Place" }, "geometry": { "type": "Point", "coordinates": [ 73.988708, 15.041538 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Goyam" }, "geometry": { "type": "Point", "coordinates": [ 73.989421, 15.036875 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sunset Bar & Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 73.991958, 15.034976 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:cheeky chappatti" }, "geometry": { "type": "Point", "coordinates": [ 74.023580, 15.012672 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Cafe Green" }, "geometry": { "type": "Point", "coordinates": [ 74.459177, 16.693822 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chowdary tea stall" }, "geometry": { "type": "Point", "coordinates": [ 74.460579, 16.693628 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Tara" }, "geometry": { "type": "Point", "coordinates": [ 74.464643, 16.685314 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Arpan" }, "geometry": { "type": "Point", "coordinates": [ 74.502234, 15.837256 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Panchamruth" }, "geometry": { "type": "Point", "coordinates": [ 74.503048, 15.842475 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.506627, 15.851834 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.508372, 15.863939 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.517880, 16.193760 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Karavali" }, "geometry": { "type": "Point", "coordinates": [ 74.735345, 13.347110 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Krishna Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 74.747662, 13.333019 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Gadi Bidi" }, "geometry": { "type": "Point", "coordinates": [ 74.748104, 13.340262 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.748453, 13.344395 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.748525, 13.337724 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Parivaar Sweets" }, "geometry": { "type": "Point", "coordinates": [ 74.749195, 13.341714 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.807934, 14.224864 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 74.808772, 14.224086 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Nessnas" }, "geometry": { "type": "Point", "coordinates": [ 74.835286, 12.900743 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Pabbas Ice Cream Parlour" }, "geometry": { "type": "Point", "coordinates": [ 74.838543, 12.886383 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Taj Mahal Cafe" }, "geometry": { "type": "Point", "coordinates": [ 74.840919, 12.875456 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Sri Rama Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 74.841305, 12.875686 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Anupama" }, "geometry": { "type": "Point", "coordinates": [ 74.848569, 12.876627 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Pub:Froth On Top" }, "geometry": { "type": "Point", "coordinates": [ 74.851839, 12.873599 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hao Ming" }, "geometry": { "type": "Point", "coordinates": [ 74.852743, 12.873484 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Domino's Pizza" }, "geometry": { "type": "Point", "coordinates": [ 74.856932, 12.871382 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Canteen" }, "geometry": { "type": "Point", "coordinates": [ 74.934039, 13.182248 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Maggi Center" }, "geometry": { "type": "Point", "coordinates": [ 74.934618, 13.182473 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Naveen" }, "geometry": { "type": "Point", "coordinates": [ 75.109412, 15.382356 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:New Karnataka Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 75.125096, 15.364072 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Gurudatt Bhavan" }, "geometry": { "type": "Point", "coordinates": [ 75.125251, 15.363166 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Foo Foo's" }, "geometry": { "type": "Point", "coordinates": [ 75.127215, 15.360802 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Niyaz - Best Kitchen" }, "geometry": { "type": "Point", "coordinates": [ 75.128283, 15.357989 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Seven Beans Cafe" }, "geometry": { "type": "Point", "coordinates": [ 75.128680, 15.363995 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:KIMS Canteen" }, "geometry": { "type": "Point", "coordinates": [ 75.133325, 15.361853 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Cafe Coffee day" }, "geometry": { "type": "Point", "coordinates": [ 75.138904, 15.353752 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Olive Garden Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.141209, 15.349783 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Smokin'Joe's Pizza" }, "geometry": { "type": "Point", "coordinates": [ 75.146474, 15.358697 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Radhika Hotel" }, "geometry": { "type": "Point", "coordinates": [ 75.613494, 15.422738 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Kutir Fast food" }, "geometry": { "type": "Point", "coordinates": [ 75.621007, 15.417892 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:SFB Cooldrink House" }, "geometry": { "type": "Point", "coordinates": [ 75.627648, 15.426533 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Kamath Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.631693, 15.431058 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant:Gadag Mirchi Bhaggi Stall" }, "geometry": { "type": "Point", "coordinates": [ 75.633480, 15.431646 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.634614, 15.438375 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Ruchi Gardens" }, "geometry": { "type": "Point", "coordinates": [ 75.635508, 15.424865 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Vishwa" }, "geometry": { "type": "Point", "coordinates": [ 75.636323, 15.425538 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Fast Food Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.636369, 15.417639 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:My Food" }, "geometry": { "type": "Point", "coordinates": [ 75.636802, 15.433943 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Radhi Ice Cream Parlor" }, "geometry": { "type": "Point", "coordinates": [ 75.637001, 15.434265 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.637411, 15.435745 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Geetanjali residency" }, "geometry": { "type": "Point", "coordinates": [ 75.637465, 15.435750 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chetna Canteen" }, "geometry": { "type": "Point", "coordinates": [ 75.643978, 15.432173 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:outdoor" }, "geometry": { "type": "Point", "coordinates": [ 75.659652, 16.174276 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:yellow building" }, "geometry": { "type": "Point", "coordinates": [ 75.661618, 16.173702 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Maharaja" }, "geometry": { "type": "Point", "coordinates": [ 75.665846, 16.174266 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 75.679609, 15.921747 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Durga Vihar Boarding and lodging" }, "geometry": { "type": "Point", "coordinates": [ 75.697989, 16.181890 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Cafe:Bean scene Cafe" }, "geometry": { "type": "Point", "coordinates": [ 75.744540, 12.417337 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:BIET Canteen" }, "geometry": { "type": "Point", "coordinates": [ 75.903708, 14.444119 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Swathi Restorant" }, "geometry": { "type": "Point", "coordinates": [ 75.917679, 14.463779 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Apoorva" }, "geometry": { "type": "Point", "coordinates": [ 75.917827, 14.467471 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chetana Hotel" }, "geometry": { "type": "Point", "coordinates": [ 75.918277, 14.460821 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Ice Land" }, "geometry": { "type": "Point", "coordinates": [ 75.918658, 14.460982 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel Panchami" }, "geometry": { "type": "Point", "coordinates": [ 75.918709, 14.460831 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Ahaar 2000" }, "geometry": { "type": "Point", "coordinates": [ 75.923831, 14.466116 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Grace" }, "geometry": { "type": "Point", "coordinates": [ 76.003861, 11.803076 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:century" }, "geometry": { "type": "Point", "coordinates": [ 76.003937, 11.801044 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Indian Coffee house" }, "geometry": { "type": "Point", "coordinates": [ 76.005403, 11.803712 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:GRR Hotel" }, "geometry": { "type": "Point", "coordinates": [ 76.099703, 13.006600 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Drinking water source" }, "geometry": { "type": "Point", "coordinates": [ 76.161201, 15.341005 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Hotel" }, "geometry": { "type": "Point", "coordinates": [ 76.171747, 15.349334 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Adyar's Athithi Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.330723, 12.961332 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Iceland" }, "geometry": { "type": "Point", "coordinates": [ 76.388588, 15.276066 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Krishna Bhavan Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.389787, 15.275545 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.444077, 15.333133 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:City Garden Daba" }, "geometry": { "type": "Point", "coordinates": [ 76.450317, 13.264477 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.453000, 15.341754 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.453338, 15.341265 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.453709, 15.340737 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:The Mango Tree" }, "geometry": { "type": "Point", "coordinates": [ 76.453834, 15.335742 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Laughing Buddha" }, "geometry": { "type": "Point", "coordinates": [ 76.454105, 15.340590 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Rolling Stone Cafe" }, "geometry": { "type": "Point", "coordinates": [ 76.454609, 15.339182 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:French Bakery" }, "geometry": { "type": "Point", "coordinates": [ 76.454713, 15.340387 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Nargila restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.454837, 15.340328 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.455846, 15.339940 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Anu Indian Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.456102, 15.340054 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.456378, 15.339777 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sania Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457079, 15.339511 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457514, 15.339362 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sania Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457549, 15.339626 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.457808, 15.339253 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Evergreen Cafe" }, "geometry": { "type": "Point", "coordinates": [ 76.457937, 15.339207 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Drinking water source:Pump" }, "geometry": { "type": "Point", "coordinates": [ 76.458472, 15.339470 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Sesh Besh" }, "geometry": { "type": "Point", "coordinates": [ 76.458569, 15.339483 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Reggae River" }, "geometry": { "type": "Point", "coordinates": [ 76.459421, 15.336454 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Keerthana Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.459502, 15.336238 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Durga Hut's Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.459758, 15.335433 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Moonlight Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.459823, 15.335390 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Chill Out" }, "geometry": { "type": "Point", "coordinates": [ 76.460888, 15.336118 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant:Vikky Roof" }, "geometry": { "type": "Point", "coordinates": [ 76.461238, 15.336014 ] } }
+,
+{ "type": "Feature", "properties": { "CATEGORY": "Eating&Drinking", "NAME": "Restaurant" }, "geometry": { "type": "Point", "coordinates": [ 76.461274, 15.339983 ] } }
+
+]
+}
