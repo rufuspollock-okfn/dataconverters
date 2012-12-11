@@ -20,6 +20,14 @@ class TestCase(TestCase):
         assert ({u"date": u"2011-01-03T00:00:00", u"place": u"Berkeley",
                 "temperature": 5.0} in content)
 
+    def test_3_header_type(self):
+        """Test guessing header type"""
+        xls = open(os.path.join(self.testdata_path, 'simple.xls'))
+        data = dataconverter(xls, {'type': 'xls', 'header_type': '1'})
+        headers, content = data.convert()
+        self.assertEqual([{'type': 'String', 'id': u'date'}, {'id':
+                         u'temperature', 'type': 'Integer'}, {'id': u'place',
+                         'type': 'String'}], headers)
 """
     def test_2_convert_xlsx(self):
         ""Test converting a XLSX to JSON""
