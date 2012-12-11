@@ -31,7 +31,6 @@ def convert_get(format=None):
         return Response(results_json, mimetype='application/json')
     url = request.args.get('url')
     r = requests.get(url)
-    metadata['mime_type'] = r.headers['content-length']
     if requests.codes.ok != r.status_code:
         results['error'] = error
         results_json = json.dumps(results)
