@@ -45,6 +45,7 @@ def convert_get(format=None):
             header, results = data.convert()
             results_json = json.dumps({'headers': header, 'data': results})
         except Exception as e:
+            results = {}
             results['error'] = str(e)
             results_json = json.dumps(results)
     return Response(results_json, mimetype='application/json')

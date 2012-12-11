@@ -8,7 +8,13 @@ from messytables import (
     XLSXTableSet,
     headers_guess,
     headers_processor,
-    offset_processor)
+    offset_processor,
+    type_guess,
+    StringType,
+    IntegerType,
+    FloatType,
+    DecimalType)
+from messytables.types import DateUtilType
 import requests
 import base
 
@@ -36,6 +42,10 @@ class XLSConverter(base.Converter):
         fields = []
         dup_columns = {}
         noname_count = 1
+        header_type = int(self.metadata.get('header_type', 0))
+        if header_type:
+            guess_types = [StringType, IntegerType, FloatType, DecimalType, DateUtilType]
+            row_types = type_guess(row_set.sample, guess_types)
         for index, field in enumerate(headers):
             field_dict = {}
             if "" == field:
@@ -47,6 +57,11 @@ class XLSConverter(base.Converter):
             else:
                 dup_columns[field] = dup_columns.get(field, 0) + 1
                 field_dict['id'] =  u'_'.join([field, str(dup_columns[field])])
+            if header_type:
+                if isinstance(row_types[index], DateUtilType):
+                    field_dict['type'] = 'DateTime'
+                else:
+                    field_dict['type'] = str(row_types[index])
             fields.append(field_dict)
         row_set.register_processor(headers_processor([x['id'] for x in fields]))
         row_set.register_processor(offset_processor(offset + 1))
