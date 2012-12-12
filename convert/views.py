@@ -21,20 +21,25 @@ def index():
 @app.route('/api/convert/<format>', methods=['GET'])
 @crossdomain(origin='*', headers=cors_headers)
 @jsonpify
-def convert_get(format=None):
+def convert_get(targetformat=None):
     results = {}
     metadata = request.args.to_dict()
-    if (format is None or
-            request.args.get('url') is None):
+    metadata['api'] = True
+    metadata['format'] = targetformat
+    url = request.args.get('url', None)
+
+    if targetformat is None or url is None:
         results['error'] = 'No format or URL specified'
         results_json = json.dumps(results)
         return Response(results_json, mimetype='application/json')
+
     url = request.args.get('url')
     r = requests.get(url)
     if requests.codes.ok != r.status_code:
-        results['error'] = error
+        results['error'] = "Could't access the file at %s" % url
         results_json = json.dumps(results)
         return Response(results_json, mimetype='application/json')
+
     metadata['mime_type'] = r.headers['content-type']
     handle = StringIO(r.content)
     with NamedTemporaryFile() as datafile:
@@ -42,12 +47,12 @@ def convert_get(format=None):
         datafile.seek(0)
         try:
             data = dataconverter(datafile, metadata)
-            header, results = data.convert()
-            results_json = json.dumps({'headers': header, 'data': results})
+            results_json, mimetype = data.convert()
         except Exception as e:
             results['error'] = str(e)
             results_json = json.dumps(results)
-    return Response(results_json, mimetype='application/json')
+            mimetype='application/json'
+    return Response(results_json, mimetype=mimetype)
 
 
 @app.route('/api/convert/<format>', methods=['POST'])
