@@ -18,14 +18,14 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/api/convert/<format>', methods=['GET'])
+@app.route('/api/convert/<targetformat>', methods=['GET'])
 @crossdomain(origin='*', headers=cors_headers)
 @jsonpify
 def convert_get(targetformat=None):
     results = {}
     metadata = request.args.to_dict()
     metadata['api'] = True
-    metadata['format'] = targetformat
+    metadata['target'] = targetformat
     url = request.args.get('url', None)
 
     if targetformat is None or url is None:
