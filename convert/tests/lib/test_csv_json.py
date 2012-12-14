@@ -43,3 +43,14 @@ class TestCase(TestCase):
         headers, content = data.convert()
         self.assertEqual([{"id": u"date"}, {"id": u"column_1"}, {"id": u"temperature"}, {"id": u"place"}], headers)
         assert ({u"date": u"2011-01-03", u"place": u"Berkeley", u"temperature": u"5", u"column_1": u""} in content)
+
+
+    def test_5_header_type(self):
+        """Test guessing header type"""
+        csv = open(os.path.join(self.testdata_path, 'simple.csv'))
+        data = dataconverter(csv, {'type': 'csv', 'header_type': '1'})
+        headers, content = data.convert()
+        print headers
+        self.assertEqual([{'type': 'DateTime', 'id': u'date'}, {'id':
+                         u'temperature', 'type': 'Integer'}, {'id': u'place',
+                         'type': 'String'}], headers)
