@@ -1,4 +1,4 @@
-"""Data Proxy - CSV dataconverteration adapter"""
+"""Data Proxy - CSV dataconversion adapter"""
 import json
 from StringIO import StringIO
 from messytables import (
