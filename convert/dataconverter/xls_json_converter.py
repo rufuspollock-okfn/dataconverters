@@ -1,4 +1,4 @@
-"""Data Proxy - CSV dataconverteration adapter"""
+"""Data Proxy - CSV dataconversion adapter"""
 from datetime import datetime
 import json
 from StringIO import StringIO

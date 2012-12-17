@@ -6,22 +6,25 @@ import xls_json_converter
 
 
 register_dataconverter({
-        "name": "csv",
-        "class": csv_json_converter.CSVConverter,
-        "mime_types": ["text/csv", "text/comma-separated-values"],
+        'name': 'csv',
+        'class': csv_json_converter.CSVConverter,
+        'mime_types': ['text/csv', 'text/comma-separated-values'],
+        'target': 'json',
 })
 
 
 register_dataconverter({
-        "name": "xls",
-        "class": xls_json_converter.XLSConverter,
-        "mime_types": ["application/vnd.ms-excel", "application/excel"],
+        'name': 'xls',
+        'class': xls_json_converter.XLSConverter,
+        'mime_types': ['application/vnd.ms-excel', 'application/excel'],
+        'target': 'json',
 })
 
 
 register_dataconverter({
-        "name": "xlsx",
-        "class": xls_json_converter.XLSXConverter,
-        "mime_types": ['application/vnd.openxmlformats-officedocument.'
+        'name': 'xlsx',
+        'class': xls_json_converter.XLSXConverter,
+        'mime_types': ['application/vnd.openxmlformats-officedocument.'
                       'spreadsheetml.sheet'],
+        'target': 'json',
 })
