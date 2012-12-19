@@ -84,3 +84,20 @@ class XLSXConverter(XLSConverter):
         super(XLSXConverter, self).__init__(stream, metadata)
 
         self.xlsclass = XLSXTableSet
+
+
+base.register_dataconverter({
+        'name': 'xls',
+        'class': XLSConverter,
+        'mime_types': ['application/vnd.ms-excel', 'application/excel'],
+        'target': 'json',
+})
+
+
+base.register_dataconverter({
+        'name': 'xlsx',
+        'class': XLSXConverter,
+        'mime_types': ['application/vnd.openxmlformats-officedocument.'
+                      'spreadsheetml.sheet'],
+        'target': 'json',
+})

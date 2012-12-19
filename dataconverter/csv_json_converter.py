@@ -63,3 +63,11 @@ class CSVConverter(base.Converter):
             mimetype = 'application/json'
             return results_json, mimetype
         return fields, result
+
+
+base.register_dataconverter({
+        'name': 'csv',
+        'class': CSVConverter,
+        'mime_types': ['text/csv', 'text/comma-separated-values'],
+        'target': 'json',
+})
