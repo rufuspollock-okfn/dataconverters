@@ -50,7 +50,6 @@ class TestCase(TestCase):
         csv = open(os.path.join(self.testdata_path, 'simple.csv'))
         data = dataconverter(csv, {'type': 'csv', 'target': 'json', 'header_type': '1'})
         headers, content = data.convert()
-        print headers
         self.assertEqual([{'type': 'DateTime', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], headers)
