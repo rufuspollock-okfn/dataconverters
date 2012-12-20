@@ -1,18 +1,21 @@
 """Data Proxy - CSV dataconversion adapter"""
 import json
 from StringIO import StringIO
-from messytables import (
-    CSVTableSet,
-    headers_guess,
-    headers_processor,
-    offset_processor,
-    type_guess,
-    StringType,
-    IntegerType,
-    FloatType,
-    DecimalType)
-from messytables.types import DateUtilType
-import requests
+try:
+    from messytables import (
+        CSVTableSet,
+        headers_guess,
+        headers_processor,
+        offset_processor,
+        type_guess,
+        StringType,
+        IntegerType,
+        FloatType,
+        DecimalType)
+    from messytables.types import DateUtilType
+    import_error = False
+except ImportError:
+    import_error = True
 import base
 
 
@@ -63,3 +66,12 @@ class CSVConverter(base.Converter):
             mimetype = 'application/json'
             return results_json, mimetype
         return fields, result
+
+
+if not import_error:
+    base.register_dataconverter({
+        'name': 'csv',
+        'class': CSVConverter,
+        'mime_types': ['text/csv', 'text/comma-separated-values'],
+        'target': 'json',
+    })

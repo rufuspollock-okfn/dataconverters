@@ -3,19 +3,22 @@ from datetime import datetime
 import json
 from StringIO import StringIO
 from tempfile import TemporaryFile
-from messytables import (
-    XLSTableSet,
-    XLSXTableSet,
-    headers_guess,
-    headers_processor,
-    offset_processor,
-    type_guess,
-    StringType,
-    IntegerType,
-    FloatType,
-    DecimalType)
-from messytables.types import DateUtilType
-import requests
+try:
+    from messytables import (
+        XLSTableSet,
+        XLSXTableSet,
+        headers_guess,
+        headers_processor,
+        offset_processor,
+        type_guess,
+        StringType,
+        IntegerType,
+        FloatType,
+        DecimalType)
+    from messytables.types import DateUtilType
+    import_error = False
+except ImportError:
+    import_error = True
 import base
 
 
@@ -83,4 +86,22 @@ class XLSXConverter(XLSConverter):
     def __init__(self, stream, metadata):
         super(XLSXConverter, self).__init__(stream, metadata)
 
-        self.xlsclass = XLSXTableSet
+        if XLSTableSet:
+            self.xlsclass = XLSXTableSet
+
+
+if not import_error:
+    base.register_dataconverter({
+        'name': 'xls',
+        'class': XLSConverter,
+        'mime_types': ['application/vnd.ms-excel', 'application/excel'],
+        'target': 'json',
+    })
+
+    base.register_dataconverter({
+        'name': 'xlsx',
+        'class': XLSXConverter,
+        'mime_types': ['application/vnd.openxmlformats-officedocument.'
+                      'spreadsheetml.sheet'],
+        'target': 'json',
+    })

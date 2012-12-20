@@ -3,6 +3,7 @@ mime_types = {}
 
 
 def register_dataconverter(converter):
+    print 'Registering a converter'
     dataconverters[(converter.get('name'), converter.get('target'))] = converter
     for mime_type in converter.get('mime_types'):
         mime_types[(mime_type, converter.get('target'))] = converter
