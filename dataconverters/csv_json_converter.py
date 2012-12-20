@@ -13,6 +13,7 @@ try:
         FloatType,
         DecimalType)
     from messytables.types import DateUtilType
+    import_error = False
 except ImportError:
     import_error = True
 import base
