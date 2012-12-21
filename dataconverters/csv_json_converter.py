@@ -1,6 +1,5 @@
 """Data Proxy - CSV dataconversion adapter"""
 import json
-from StringIO import StringIO
 try:
     from messytables import (
         CSVTableSet,
@@ -45,7 +44,7 @@ class CSVConverter(base.Converter):
                 field_dict['id'] = field
             else:
                 dup_columns[field] = dup_columns.get(field, 0) + 1
-                field_dict['id'] =  u'_'.join([field, unicode(dup_columns[field])])
+                field_dict['id'] = u'_'.join([field, unicode(dup_columns[field])])
             if header_type:
                 if isinstance(row_types[index], DateUtilType):
                     field_dict['type'] = 'DateTime'
