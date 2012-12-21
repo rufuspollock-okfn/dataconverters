@@ -32,6 +32,7 @@ class XLSConverter(base.Converter):
         self.xlsclass = XLSTableSet
 
     def convert(self):
+        self.api = self.metadata.get('api', False)
         xlsclass = self.xlsclass
         if 'xlsx' == self.excel_type:
             xlsclass = XLSXTableSet
@@ -78,6 +79,10 @@ class XLSConverter(base.Converter):
                 else:
                     info[cell.column] = cell.value
             result.append(info)
+        if self.api:
+            results_json = json.dumps({'headers': fields, 'data': result})
+            mimetype = 'application/json'
+            return results_json, mimetype
         return fields, result
 
 
