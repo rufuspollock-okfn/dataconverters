@@ -12,8 +12,8 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def csv_to_json(stream, **kwargs):
-    '''Convert CSV file to JSON as per the standard Data Convert API.
+def csv_parse(stream, **kwargs):
+    '''Parse CSV file and return row iterator plus metadata (fields etc).
 
     Special arguments supported:
 
@@ -53,11 +53,24 @@ def csv_to_json(stream, **kwargs):
     row_set.register_processor(headers_processor([x['id'] for x in fields]))
     row_set.register_processor(offset_processor(offset + 1))
 
-    data_row = {}
-    result = []
-    for row in row_set:
-        for index, cell in enumerate(row):
-            data_row[cell.column] = cell.value
-        result.append(data_row)
-    return fields, result
+    def row_iterator():
+        for row in row_set:
+            data_row = {}
+            for index, cell in enumerate(row):
+                data_row[cell.column] = cell.value
+            yield data_row
+    return row_iterator(), {'fields': fields}
+
+# TODO
+# should we pass the stream in ...
+import json
+def csv_to_json(stream, **kwargs):
+    iterator, metadata = csv_parse(stream, **kwargs)
+    out = json.dumps(
+        {
+            'metadata': metadata,
+            'records': [row for row in iterator]
+        }
+    )
+    return out, metadata
 
