@@ -34,10 +34,3 @@ def dataconverter(stream, metadata):
                                      target=metadata.get('target'))
     return trans_class(stream, metadata)
 
-
-class Converter(object):
-    """Data resource dataconverter - abstract ckass"""
-
-    def __init__(self, stream, metadata):
-        self.stream = stream
-        self.metadata = metadata

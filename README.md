@@ -43,6 +43,11 @@ A convert function takes a given input stream of a given format and produces an 
 
 A parse function takes a given input stream and returns python objects in a given structure. For example, CSV is converted to an iterator of rows. Parsing isn't always possible since there may not be a well-defined intermediate, iterable python structure one can hold the data in.
 
+Metadata
+========
+
+metadata is a dictionary for holding information extracted during the processing. For example, for tabular data it would include a `fields` key which contained information on the fields (columns) in the table as per the [JSON Table Schema](http://www.dataprotocols.org/en/latest/json-table-schema.html).
+
 Source Types Supported
 ----------------------
 

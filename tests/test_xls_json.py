@@ -1,6 +1,6 @@
 import os
 from unittest import TestCase
-from dataconverters import dataconverter
+import dataconverters.xls as xls
 
 
 class TestCase(TestCase):
@@ -12,9 +12,8 @@ class TestCase(TestCase):
 
     def test_1_convert_xls(self):
         """Test converting a XLS to JSON"""
-        xls = open(os.path.join(self.testdata_path, 'simple.xls'))
-        data = dataconverter(xls, {'type': 'xls', 'target': 'json'})
-        headers, content = data.convert()
+        xlsfo = open(os.path.join(self.testdata_path, 'simple.xls'))
+        headers, content = xls.xls_to_json(xlsfo)
         self.assertEqual([{"id": u"date"}, {"id": u"temperature"}, {"id":
                          u"place"}], headers)
         assert ({u"date": u"2011-01-03T00:00:00", u"place": u"Berkeley",
@@ -22,9 +21,8 @@ class TestCase(TestCase):
 
     def test_3_header_type(self):
         """Test guessing header type"""
-        xls = open(os.path.join(self.testdata_path, 'simple.xls'))
-        data = dataconverter(xls, {'type': 'xls', 'target': 'json', 'header_type': '1'})
-        headers, content = data.convert()
+        xlsfo = open(os.path.join(self.testdata_path, 'simple.xls'))
+        headers, content = xls.xls_to_json(xlsfo, header_type=1)
         self.assertEqual([{'type': 'String', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], headers)
