@@ -2,7 +2,7 @@ Data Converters
 ===============
 
 [![Build
-Status](https://travis-ci.org/okfn/data-converters.png)](https://travis-ci.org/okfn/data-converters)
+Status](https://travis-ci.org/okfn/data-converters.png?branch=master)](https://travis-ci.org/okfn/data-converters)
 Unified python library to convert data from one format to another.  Please file bugs for any unexpected behavior.
 
 Installation
