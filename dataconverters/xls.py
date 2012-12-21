@@ -17,8 +17,8 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def xls_to_json(stream, excel_type='xls', worksheet=1, header_type=0):
-    '''Convert from Excel (xls or xlsx) to JSON.
+def xls_parse(stream, excel_type='xls', worksheet=1, header_type=0):
+    '''Parse Excel (xls or xlsx) to structured objects.
 
     :param excel_type: xls | xlsx
     :param worksheet: index of worksheet to convert (starting from index = 1)
@@ -64,6 +64,13 @@ def xls_to_json(stream, excel_type='xls', worksheet=1, header_type=0):
 
     info = {}
     result = []
+    def row_iterator():
+        for row in row_set:
+            data_row = {}
+            for index, cell in enumerate(row):
+                data_row[cell.column] = cell.value
+            yield data_row
+
     for row in row_set:
         for index, cell in enumerate(row):
             if isinstance(cell.value, datetime):
@@ -71,10 +78,10 @@ def xls_to_json(stream, excel_type='xls', worksheet=1, header_type=0):
             else:
                 info[cell.column] = cell.value
         result.append(info)
-    return fields, result
+    return result, {'fields': fields}
 
 
-def xlsx_to_json(stream, worksheet=1):
+def xlsx_parse(stream, worksheet=1):
     '''Convert from xlsx to JSON'''
-    return xls_to_json(stream, excel_type='xlsx', worksheet=worksheet)
+    return xls_parse(stream, excel_type='xlsx', worksheet=worksheet)
 
