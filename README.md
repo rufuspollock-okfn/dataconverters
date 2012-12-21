@@ -10,26 +10,29 @@ Status](https://travis-ci.org/okfn/data-converters.png?branch=master)](https://t
 Installation
 ------------
 
-Clone the repository and run `python setup.py install`. The CSV and XLS converters use messytables, please manually install messytables with `pip install messytables`.
+Clone the repository and run:
+
+    python setup.py install
+
+The CSV and XLS converters use messytables, please manually install messytables with:
+
+    pip install messytables
+
+For Geo functionality we require [Fiona](http://toblerity.github.com/fiona/). This in turn requires the libgdal bindings (see Fiona install instructions for more detail. On Ubuntu I did:
+
+    apt-get install libgdal1-dev
+    pip install fiona
 
 Usage
 -----
 
-    import dataconverters.csv as csv
+Here's an example parsing CSV to JSON. Note that this isn't just any old csv parsing! Headers (and column names) are extracted, types detected etc etc.
 
+    import dataconverters.csv as csv
     with open('simple.csv') as f:
         # records is an iterator over the records
         # metadata is a dict containing a fields key which is a list of the fields
-        records, metadata = csv.parse(f)
-
-Use generic source type guessing:
-
-    with open('simple.csv') as f:
-        jsonstream, metadata = dataconverters.convert(f, type='csv', target='json')
-        # or ...
-        jsonstream, metadata = dataconverters.convert(f, type='csv', target='json', delimiter=';')
-
-Adding the type is optional if the file can be identified from mime-type correctly.
+        records, metadata = csv.csv_parse(f)
 
 API
 ---
@@ -61,4 +64,5 @@ XLS(X)
 ======
 
 For XLS input files type should be `xls`, and for XLSX files, type must be `xlsx`. Empty column names will be auto-generated with column_1, column_2, etc. Duplicate column names will have _n added as well. For instance, two columns with name date will be date_1, date_2.
+
 
