@@ -71,14 +71,7 @@ def xls_parse(stream, excel_type='xls', worksheet=1, header_type=0):
                 data_row[cell.column] = cell.value
             yield data_row
 
-    for row in row_set:
-        for index, cell in enumerate(row):
-            if isinstance(cell.value, datetime):
-                info[cell.column] = cell.value.isoformat()
-            else:
-                info[cell.column] = cell.value
-        result.append(info)
-    return result, {'fields': fields}
+    return row_iterator(), {'fields': fields}
 
 
 def xlsx_parse(stream, worksheet=1):
