@@ -1,3 +1,4 @@
+import datetime
 import os
 from nose.tools import assert_equal
 import dataconverters.xls as xls
@@ -16,8 +17,8 @@ class TestParse:
         assert_equal([{"id": u"date"}, {"id": u"temperature"}, {"id":
                          u"place"}], metadata['fields'])
         content = [row for row in iterator]
-        assert ({u"date": u"2011-01-03T00:00:00", u"place": u"Berkeley",
-                "temperature": 5.0} in content)
+        assert ({u'date': datetime.datetime(2011, 1, 1, 0, 0), u'place': u'Galway',
+                u'temperature': 1.0} in content)
 
     def test_3_header_type(self):
         """Test guessing header type"""
