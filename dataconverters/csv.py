@@ -4,6 +4,7 @@ from messytables import (
     headers_guess,
     headers_processor,
     offset_processor,
+    types_processor,
     type_guess,
     StringType,
     IntegerType,
@@ -52,6 +53,8 @@ def csv_parse(stream, **kwargs):
         fields.append(field_dict)
     row_set.register_processor(headers_processor([x['id'] for x in fields]))
     row_set.register_processor(offset_processor(offset + 1))
+    if header_type:
+        row_set.register_processor(types_processor(row_types))
 
     def row_iterator():
         for row in row_set:

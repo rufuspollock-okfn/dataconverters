@@ -1,4 +1,5 @@
 import os
+import datetime
 from nose.tools import assert_equal
 import dataconverters.csv as csvconvert
 
@@ -58,6 +59,10 @@ class TestParse:
         assert_equal([{'type': 'DateTime', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], metadata['fields'])
+        rows = [ row for row in iterator ]
+        assert_equal(len(rows), 6)
+        assert_equal({u'date': datetime.datetime(2011, 1, 3), u'place': u'Berkeley', u'temperature':
+            5}, rows[5])
 
 
 import json
