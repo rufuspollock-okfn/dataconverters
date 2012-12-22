@@ -74,7 +74,7 @@ class TestCSVToJSON:
     def test_1_convert_csv(self):
         """Test converting a CSV to JSON"""
         csv = open(os.path.join(self.testdata_path, 'simple.csv'))
-        thejson, metadata = csvconvert.csv_to_json(csv, guess_types=True)
+        thejson, metadata = csvconvert.csv_to_json(csv, guess_types=False)
         assert_equal(
             [{'id': u'date'}, {'id': u'temperature'}, {'id': u'place'}],
             metadata['fields'])
