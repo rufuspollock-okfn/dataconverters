@@ -1,3 +1,5 @@
+import json
+
 from messytables import (
     CSVTableSet,
     headers_guess,
@@ -12,7 +14,7 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def parse(stream, **kwargs):
+def parse(stream, guess_types=True, **kwargs):
     '''Parse CSV file and return row iterator plus metadata (fields etc).
 
     Special arguments supported:
@@ -29,10 +31,9 @@ def parse(stream, **kwargs):
     fields = []
     dup_columns = {}
     noname_count = 1
-    header_type = int(metadata.get('header_type', 0))
-    if header_type:
-        guess_types = [StringType, IntegerType, FloatType, DecimalType, DateUtilType]
-        row_types = type_guess(row_set.sample, guess_types)
+    if guess_types:
+        guessable_types = [StringType, IntegerType, FloatType, DecimalType, DateUtilType]
+        row_types = type_guess(row_set.sample, guessable_types)
     for index, field in enumerate(headers):
         field_dict = {}
         if "" == field:
@@ -44,7 +45,7 @@ def parse(stream, **kwargs):
         else:
             dup_columns[field] = dup_columns.get(field, 0) + 1
             field_dict['id'] = u'_'.join([field, unicode(dup_columns[field])])
-        if header_type:
+        if guess_types:
             if isinstance(row_types[index], DateUtilType):
                 field_dict['type'] = 'DateTime'
             else:
@@ -52,7 +53,7 @@ def parse(stream, **kwargs):
         fields.append(field_dict)
     row_set.register_processor(headers_processor([x['id'] for x in fields]))
     row_set.register_processor(offset_processor(offset + 1))
-    if header_type:
+    if guess_types:
         row_set.register_processor(types_processor(row_types))
 
     def row_iterator():
@@ -64,7 +65,6 @@ def parse(stream, **kwargs):
     return row_iterator(), {'fields': fields}
 
 
-import json
 def csv_to_json(stream, **kwargs):
     '''TODO: document output format'''
     iterator, metadata = parse(stream, **kwargs)
