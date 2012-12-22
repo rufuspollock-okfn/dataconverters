@@ -1,4 +1,3 @@
-import json
 from messytables import (
     CSVTableSet,
     headers_guess,
@@ -13,7 +12,7 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def csv_parse(stream, **kwargs):
+def parse(stream, **kwargs):
     '''Parse CSV file and return row iterator plus metadata (fields etc).
 
     Special arguments supported:
@@ -65,10 +64,12 @@ def csv_parse(stream, **kwargs):
     return row_iterator(), {'fields': fields}
 
 
-# TODO
-# should we pass the stream in ...
+import json
 def csv_to_json(stream, **kwargs):
-    iterator, metadata = csv_parse(stream, **kwargs)
+    '''TODO: document output format'''
+    iterator, metadata = parse(stream, **kwargs)
+    # TODO: convert python types to json serializable stuff!
+    # e.g. datetimes to isoformat strings etc
     out = json.dumps(
         {
             'metadata': metadata,
