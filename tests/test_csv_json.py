@@ -13,7 +13,7 @@ class TestParse:
     def test_1_convert_csv(self):
         """Test converting a CSV to JSON"""
         csv = open(os.path.join(self.testdata_path, 'simple.csv'))
-        iterator, metadata = csvconvert.csv_parse(csv)
+        iterator, metadata = csvconvert.parse(csv)
         assert_equal(
             [{'id': u'date'}, {'id': u'temperature'}, {'id': u'place'}],
             metadata['fields'])
@@ -25,7 +25,7 @@ class TestParse:
     def test_2_unicode_csv(self):
         """Test converting a CSV with unicode chars to JSON"""
         csv = open(os.path.join(self.testdata_path, 'spanish_chars.csv'))
-        iterator, metadata = csvconvert.csv_parse(csv)
+        iterator, metadata = csvconvert.parse(csv)
         assert_equal(
             [{"id": u"GF_ID"}, {"id": u"FN_ID"}, {"id": u"SF_ID"},
                 {"id": u"GF"}, {"id": u"F"}, {"id": u"SF"},
@@ -44,7 +44,7 @@ class TestParse:
     def test_4_empty_title_convert_csv(self):
         """Test converting a CSV with empty header to JSON"""
         csv = open(os.path.join(self.testdata_path, 'simple_empty_title.csv'))
-        iterator, metadata = csvconvert.csv_parse(csv)
+        iterator, metadata = csvconvert.parse(csv)
         assert_equal([{"id": u"date"}, {"id": u"column_1"}, {"id":
             u"temperature"}, {"id": u"place"}],
             metadata['fields'])
@@ -55,7 +55,7 @@ class TestParse:
     def test_5_header_type(self):
         """Test guessing header type"""
         csv = open(os.path.join(self.testdata_path, 'simple.csv'))
-        iterator, metadata = csvconvert.csv_parse(csv, header_type=1)
+        iterator, metadata = csvconvert.parse(csv, header_type=1)
         assert_equal([{'type': 'DateTime', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], metadata['fields'])
