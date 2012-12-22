@@ -61,9 +61,9 @@ def csv_parse(stream, **kwargs):
             yield data_row
     return row_iterator(), {'fields': fields}
 
+
 # TODO
 # should we pass the stream in ...
-import json
 def csv_to_json(stream, **kwargs):
     iterator, metadata = csv_parse(stream, **kwargs)
     out = json.dumps(
@@ -73,4 +73,3 @@ def csv_to_json(stream, **kwargs):
         }
     )
     return out, metadata
-
