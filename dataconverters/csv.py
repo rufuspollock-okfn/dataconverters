@@ -1,4 +1,5 @@
 import json
+import datetime
 
 from messytables import (
     CSVTableSet,
@@ -65,6 +66,14 @@ def parse(stream, guess_types=True, **kwargs):
     return row_iterator(), {'fields': fields}
 
 
+class DateEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime.datetime):
+            return obj.isoformat()
+
+        return json.JSONEncoder.default(self, obj)
+
+
 def csv_to_json(stream, **kwargs):
     '''TODO: document output format'''
     iterator, metadata = parse(stream, **kwargs)
@@ -74,6 +83,6 @@ def csv_to_json(stream, **kwargs):
         {
             'metadata': metadata,
             'records': [row for row in iterator]
-        }
-    )
+        },
+        cls=DateEncoder)
     return out, metadata
