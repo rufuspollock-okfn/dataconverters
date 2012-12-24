@@ -25,7 +25,8 @@ def parse(stream, guess_types=True, **kwargs):
     TODO: all CSV args
     '''
     metadata = dict(**kwargs)
-    table_set = CSVTableSet.from_fileobj(stream)
+    delimiter = metadata.get('delimiter', ',')
+    table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter)
     row_set = table_set.tables.pop()
     offset, headers = headers_guess(row_set.sample)
 
