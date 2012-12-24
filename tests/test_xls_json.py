@@ -28,13 +28,13 @@ class TestParse:
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], metadata['fields'])
 
-"""
     def test_2_convert_xlsx(self):
-        ""Test converting a XLSX to JSON""
-        res = self.app.get('/api/convert/json?url='
-                           'http://resources.opendatalabs.org/u/nigelb/'
-                           'data-converters/xls/simple.xlsx&type=xls&excel_type=xlsx')
-        assert ('"metadata['fields']": [{"id": "date"}, {"id": "temperature"}, {"id": '
-                '"place"}]' in res.data)
-        assert ('{"date": "2011-01-03T00:00:00", "place": "Berkeley", '
-                '"temperature": 5}' in res.data) """
+        """Test converting a XLSX to JSON"""
+        xlsfo = open(os.path.join(self.testdata_path, 'simple.xlsx'))
+        iterator, metadata = xls.xlsx_parse(xlsfo, header_type=1)
+        assert_equal([{'type': 'String', 'id': u'date'}, {'id':
+                         u'temperature', 'type': 'Integer'}, {'id': u'place',
+                         'type': 'String'}], metadata['fields'])
+        content = [row for row in iterator]
+        assert ({u'date': datetime.datetime(2011, 1, 1, 0, 0), u'place': u'Galway',
+                u'temperature': 1} in content)
