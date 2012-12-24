@@ -17,7 +17,7 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def xls_parse(stream, excel_type='xls', worksheet=1, header_type=0):
+def xls_parse(stream, excel_type='xls', worksheet=1, guess_types=True):
     '''Parse Excel (xls or xlsx) to structured objects.
 
     :param excel_type: xls | xlsx
@@ -38,8 +38,7 @@ def xls_parse(stream, excel_type='xls', worksheet=1, header_type=0):
     fields = []
     dup_columns = {}
     noname_count = 1
-    header_type = int(header_type)
-    if header_type:
+    if guess_types:
         guess_types = [StringType, IntegerType, FloatType, DecimalType, DateUtilType]
         row_types = type_guess(row_set.sample, guess_types)
     for index, field in enumerate(headers):
@@ -53,7 +52,7 @@ def xls_parse(stream, excel_type='xls', worksheet=1, header_type=0):
         else:
             dup_columns[field] = dup_columns.get(field, 0) + 1
             field_dict['id'] =  u'_'.join([field, str(dup_columns[field])])
-        if header_type:
+        if guess_types:
             if isinstance(row_types[index], DateUtilType):
                 field_dict['type'] = 'DateTime'
             else:

@@ -13,25 +13,25 @@ class TestParse:
     def test_1_convert_xls(self):
         """Test converting a XLS to JSON"""
         xlsfo = open(os.path.join(self.testdata_path, 'simple.xls'))
-        iterator, metadata = xls.xls_parse(xlsfo)
+        iterator, metadata = xls.xls_parse(xlsfo, guess_types=False)
         assert_equal([{"id": u"date"}, {"id": u"temperature"}, {"id":
                          u"place"}], metadata['fields'])
         content = [row for row in iterator]
         assert ({u'date': datetime.datetime(2011, 1, 1, 0, 0), u'place': u'Galway',
                 u'temperature': 1.0} in content)
 
-    def test_3_header_type(self):
+    def test_2_header_type(self):
         """Test guessing header type"""
         xlsfo = open(os.path.join(self.testdata_path, 'simple.xls'))
-        iterator, metadata = xls.xls_parse(xlsfo, header_type=1)
+        iterator, metadata = xls.xls_parse(xlsfo)
         assert_equal([{'type': 'String', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], metadata['fields'])
 
-    def test_2_convert_xlsx(self):
+    def test_3_convert_xlsx(self):
         """Test converting a XLSX to JSON"""
         xlsfo = open(os.path.join(self.testdata_path, 'simple.xlsx'))
-        iterator, metadata = xls.xlsx_parse(xlsfo, header_type=1)
+        iterator, metadata = xls.xlsx_parse(xlsfo)
         assert_equal([{'type': 'String', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], metadata['fields'])
