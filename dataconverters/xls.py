@@ -74,7 +74,7 @@ def xls_parse(stream, excel_type='xls', worksheet=1, header_type=0):
     return row_iterator(), {'fields': fields}
 
 
-def xlsx_parse(stream, worksheet=1):
+def xlsx_parse(stream, worksheet=1, **kwargs):
     '''Convert from xlsx to JSON'''
-    return xls_parse(stream, excel_type='xlsx', worksheet=worksheet)
+    return xls_parse(stream, excel_type='xlsx', worksheet=worksheet, **kwargs)
 
