@@ -17,7 +17,7 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def xls_parse(stream, excel_type='xls', worksheet=1, guess_types=True):
+def parse(stream, excel_type='xls', worksheet=1, guess_types=True):
     '''Parse Excel (xls or xlsx) to structured objects.
 
     :param excel_type: xls | xlsx
@@ -71,9 +71,3 @@ def xls_parse(stream, excel_type='xls', worksheet=1, guess_types=True):
             yield data_row
 
     return row_iterator(), {'fields': fields}
-
-
-def xlsx_parse(stream, worksheet=1, **kwargs):
-    '''Convert from xlsx to JSON'''
-    return xls_parse(stream, excel_type='xlsx', worksheet=worksheet, **kwargs)
-
