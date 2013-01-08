@@ -17,7 +17,7 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def parse(stream, excel_type='xls', worksheet=1, guess_types=True):
+def parse(stream, excel_type='xls', worksheet=1, guess_types=True, **kwargs):
     '''Parse Excel (xls or xlsx) to structured objects.
 
     :param excel_type: xls | xlsx
