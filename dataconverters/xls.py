@@ -1,8 +1,4 @@
 """Data Proxy - CSV dataconversion adapter"""
-from datetime import datetime
-import json
-from StringIO import StringIO
-from tempfile import TemporaryFile
 from messytables import (
     XLSTableSet,
     XLSXTableSet,
@@ -32,14 +28,16 @@ def parse(stream, excel_type='xls', worksheet=1, guess_types=True, **kwargs):
     try:
         row_set = table_set.tables[sheet_number]
     except IndexError:
-        raise Exception('This file does not have worksheet number %d' % (self.sheet_number + 1))
+        raise Exception('This file does not have worksheet number %d' %
+                        (worksheet + 1))
     offset, headers = headers_guess(row_set.sample)
 
     fields = []
     dup_columns = {}
     noname_count = 1
     if guess_types:
-        guess_types = [StringType, IntegerType, FloatType, DecimalType, DateUtilType]
+        guess_types = [StringType, IntegerType, FloatType, DecimalType,
+                       DateUtilType]
         row_types = type_guess(row_set.sample, guess_types)
     for index, field in enumerate(headers):
         field_dict = {}
@@ -51,7 +49,7 @@ def parse(stream, excel_type='xls', worksheet=1, guess_types=True, **kwargs):
             field_dict['id'] = field
         else:
             dup_columns[field] = dup_columns.get(field, 0) + 1
-            field_dict['id'] =  u'_'.join([field, str(dup_columns[field])])
+            field_dict['id'] = u'_'.join([field, str(dup_columns[field])])
         if guess_types:
             if isinstance(row_types[index], DateUtilType):
                 field_dict['type'] = 'DateTime'
@@ -61,8 +59,6 @@ def parse(stream, excel_type='xls', worksheet=1, guess_types=True, **kwargs):
     row_set.register_processor(headers_processor([x['id'] for x in fields]))
     row_set.register_processor(offset_processor(offset + 1))
 
-    info = {}
-    result = []
     def row_iterator():
         for row in row_set:
             data_row = {}
