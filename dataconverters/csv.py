@@ -34,7 +34,8 @@ def parse(stream, guess_types=True, **kwargs):
     dup_columns = {}
     noname_count = 1
     if guess_types:
-        guessable_types = [StringType, IntegerType, FloatType, DecimalType, DateUtilType]
+        guessable_types = [StringType, IntegerType, FloatType, DecimalType,
+                           DateUtilType]
         row_types = type_guess(row_set.sample, guessable_types)
     for index, field in enumerate(headers):
         field_dict = {}
