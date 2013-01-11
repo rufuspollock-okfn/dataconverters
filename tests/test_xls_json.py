@@ -24,6 +24,13 @@ class TestParse:
         """Test guessing header type"""
         xlsfo = open(os.path.join(self.testdata_path, 'simple.xls'))
         iterator, metadata = xls.parse(xlsfo)
+        """
+        Commented out due to messytables issue #30
+        assert_equal(
+            [{'id': u'date', 'type': 'DateTime'}, {'id': u'temperature',
+            'type': 'Integer'}, {'id': u'place', 'type': 'String'}],
+            metadata['fields'])
+        """
         assert_equal([{'type': 'String', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], metadata['fields'])

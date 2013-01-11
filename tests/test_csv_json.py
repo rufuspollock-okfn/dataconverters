@@ -14,14 +14,16 @@ class TestParse:
     def test_1_convert_csv(self):
         """Test converting a CSV to JSON"""
         csv = open(os.path.join(self.testdata_path, 'simple.csv'))
-        iterator, metadata = csvconvert.parse(csv, guess_types=False)
+        iterator, metadata = csvconvert.parse(csv)
         assert_equal(
-            [{'id': u'date'}, {'id': u'temperature'}, {'id': u'place'}],
+            [{'id': u'date', 'type': 'DateTime'}, {'id': u'temperature',
+            'type': 'Integer'}, {'id': u'place', 'type': 'String'}],
             metadata['fields'])
         rows = [ row for row in iterator ]
         assert_equal(len(rows), 6)
-        assert ({u'date': u'2011-01-03', u'place': u'Berkeley', u'temperature':
-            u'5'} in rows)
+        print rows
+        assert ({u'date': datetime.datetime(2011, 1, 3, 0, 0),
+                u'place': u'Berkeley', u'temperature': 5} in rows)
 
     def test_2_unicode_csv(self):
         """Test converting a CSV with unicode chars to JSON"""
