@@ -18,15 +18,28 @@ from messytables.types import DateUtilType
 def parse(stream, guess_types=True, **kwargs):
     '''Parse CSV file and return row iterator plus metadata (fields etc).
 
-    Special arguments supported:
+    Additional CSV arguments as per
+    http://docs.python.org/2/library/csv.html#csv-fmt-params
 
-    None at present
+    :param delimiter:
+    :param quotechar: 
 
-    TODO: all CSV args
+    There is also support for:
+
+    :param encoding: file encoding (will be guess with chardet if not provided)
+
+
+    You can process csv as well as tsv files using this function. For tsv just
+    pass::
+
+        delimiter='\t'
     '''
     metadata = dict(**kwargs)
-    delimiter = metadata.get('delimiter', ',')
-    table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter)
+    delimiter = metadata.get('delimiter', None)
+    quotechar = metadata.get('quotechar', None)
+    encoding = metadata.get('encoding', None)
+    table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter,
+            quotechar=quotechar, encoding=encoding)
     row_set = table_set.tables.pop()
     offset, headers = headers_guess(row_set.sample)
 
