@@ -34,22 +34,40 @@ Here's an example parsing CSV to JSON. Note that this isn't just any old csv par
         # metadata is a dict containing a fields key which is a list of the fields
         records, metadata = csv.csv_parse(f)
 
-API
----
+DataConverters Standard API
+---------------------------
 
 There are 2 types of functionality within Data Converters:
 
-    convert => stream, metadata [, errors]
-    parse => results iterator (rows or equivalent), metadata [, errors]
+* "Parsing": A parse function takes a given input stream and returns python
+  objects in a given structure. For example, CSV is converted to an iterator of
+  rows. Parsing isn't always possible since there may not be a well-defined
+  intermediate, iterable python structure one can hold the data in.
+* "Converting": A convert function takes a given input stream of a given format
+  and produces an output stream in a specified output format. For example,
+  converting CSV to JSON (in a specific structure), or taking KML to GeoJSON.
 
-A convert function takes a given input stream of a given format and produces an output stream in a specified output format. For example, converting CSV to JSON (in a specific structure), or taking KML to GeoJSON.
+In code terms method signatures look like:
 
-A parse function takes a given input stream and returns python objects in a given structure. For example, CSV is converted to an iterator of rows. Parsing isn't always possible since there may not be a well-defined intermediate, iterable python structure one can hold the data in.
+
+    def parse(fileobj-like-stream, ....)
+        :return: (iterator, metadata)
+          where iterator is an iterator over rows / records in the data and
+          metadata is metadata about the source (see below)
+    
+    def convert(fileobj-like-stream, ...)
+        :return: (stream, metadata)
+
+There is some variation so some parse function only take a file path rather a file like object.
 
 Metadata
 ========
 
-metadata is a dictionary for holding information extracted during the processing. For example, for tabular data it would include a `fields` key which contained information on the fields (columns) in the table as per the [JSON Table Schema](http://www.dataprotocols.org/en/latest/json-table-schema.html).
+Metadata is a dictionary for holding information extracted during the
+processing. For example, for tabular data it would include a `fields` key which
+contained information on the fields (columns) in the table as per the [JSON
+Table Schema](http://www.dataprotocols.org/en/latest/json-table-schema.html).
+
 
 Source Types Supported
 ----------------------
