@@ -13,13 +13,13 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def parse(stream, excel_type='xls', worksheet=1, guess_types=True, **kwargs):
+def parse(stream, excel_type='xls', sheet=1, guess_types=True, **kwargs):
     '''Parse Excel (xls or xlsx) to structured objects.
 
     :param excel_type: xls | xlsx
-    :param worksheet: index of worksheet to convert (starting from index = 1)
+    :param sheet: index of sheet in spreadsheet to convert (starting from index = 1)
     '''
-    sheet_number = int(worksheet) - 1
+    sheet_number = int(sheet) - 1
 
     xlsclass = XLSTableSet
     if excel_type == 'xlsx':
@@ -28,7 +28,7 @@ def parse(stream, excel_type='xls', worksheet=1, guess_types=True, **kwargs):
     try:
         row_set = table_set.tables[sheet_number]
     except IndexError:
-        raise Exception('This file does not have worksheet number %d' %
+        raise Exception('This file does not have sheet number %d' %
                         (sheet_number + 1))
     offset, headers = headers_guess(row_set.sample)
 
