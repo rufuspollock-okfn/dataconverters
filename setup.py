@@ -9,4 +9,9 @@ setup(name='dataconverters',
       author_email='nigel.babu@okfn.org',
       url='https://github.com/okfn/data-converters/',
       packages=['dataconverters'],
+      entry_points={
+            'console_scripts': [
+                'dataconvert = dataconverters.cli:main'
+            ]
+         }
      )
