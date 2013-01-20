@@ -8,10 +8,10 @@ import sys
 
 def main():
     parser = argparse.ArgumentParser(description=\
-'''Convert data from one format to another.
+'''Convert data between formats. Supported formats:
 
-Supported input formats: csv, tsv, excel (xls, xlsx).
-Supported output formats: csv, json
+    Input:  csv, tsv, excel (xls, xlsx).
+    Output: csv, json
 
 Examples
 ========
@@ -21,9 +21,9 @@ dataconvert https://github.com/okfn/dataconverters/raw/master/testdata/xls/simpl
 Help
 ====
 ''',
-    epilog='''Copyright Open Knowledge Foundation 2007-2013. Licensed under the
- MIT license. Part of the DataConverters project:
- https://github.com/okfn/dataconverters''',
+    epilog=\
+'''Copyright Open Knowledge Foundation 2007-2013. Licensed under the MIT license.
+Part of the DataConverters project: https://github.com/okfn/dataconverters''',
      formatter_class=argparse.RawDescriptionHelpFormatter
 )
     parser.add_argument('inpath', metavar='inpath', type=str,
@@ -34,6 +34,10 @@ Help
         action='store_false',
         help='''Disable type-guessing (where it is used e.g. with CSVs). Type guessing may significantly affect performance''',
         default=True
+        )
+    parser.add_argument('--sheet', metavar='NUM',
+        help='''Index of sheet in spreadsheet to convert (index starts at 1)''',
+        default=1
         )
 
     args = parser.parse_args()
@@ -55,6 +59,7 @@ Help
         excel_type = 'xls' if intype == 'application/vnd.ms-excel' else 'xlsx'
         records, metadata = dataconverters.xls.parse(instream,
                 excel_type=excel_type,
+                sheet=args.sheet,
                 guess_types=args.guess_types)
     else:
         raise ValueError(
