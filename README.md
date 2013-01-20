@@ -120,3 +120,8 @@ For XLS input files type should be `xls`, and for XLSX files, type must be
 Duplicate column names will have _n added as well. For instance, two columns
 with name date will be date_1, date_2.
 
+
+## License
+
+Copyright 2007-2013 Open Knowledge Foundation. Licensed under the MIT license.
+

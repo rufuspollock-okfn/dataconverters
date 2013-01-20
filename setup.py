@@ -7,6 +7,7 @@ setup(name='dataconverters',
       author_email='okfn-labs@lists.okfn.org',
       url='https://github.com/okfn/dataconverters/',
       packages=['dataconverters'],
+      license='MIT',
       install_requires=[
           'messytables'
           ],
