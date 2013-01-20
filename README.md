@@ -2,10 +2,15 @@
 Data Converters
 ===============
 
-Unified python library to convert data from one format to another. Please file bugs for any unexpected behavior.
+Unified **python library** and **command line interface** to convert data from
+one format to another (especially *tabular* data).
+
+Please [file bugs][issues] for any unexpected behavior.
 
 [![Build
 Status](https://travis-ci.org/okfn/data-converters.png?branch=master)](https://travis-ci.org/okfn/data-converters)
+
+[issues]: https://github.com/okfn/dataconverters/issues
 
 Installation
 ------------
@@ -18,6 +23,9 @@ The CSV and XLS converters use messytables, please manually install messytables 
 
     pip install messytables
 
+Dependencies
+============
+
 For Geo functionality we require [Fiona](http://toblerity.github.com/fiona/). This in turn requires the libgdal bindings (see Fiona install instructions for more detail. On Ubuntu I did:
 
     apt-get install libgdal1-dev
@@ -26,13 +34,33 @@ For Geo functionality we require [Fiona](http://toblerity.github.com/fiona/). Th
 Usage
 -----
 
-Here's an example parsing CSV to JSON. Note that this isn't just any old csv parsing! Headers (and column names) are extracted, types detected etc etc.
+Command Line
+============
 
-    import dataconverters.csv as csv
+Data Converters provides a command line tool named `dataconvert`. Example usage::
+
+  dataconvert https://github.com/okfn/dataconverters/raw/master/testdata/xls/simple.xls out.csv
+
+For more details see the help::
+
+  dataconvert -h
+
+Library
+=======
+
+Here's an example parsing CSV to JSON. Note that this isn't just any old csv
+parsing! Headers (and column names) are extracted, types detected etc etc.
+
+    import dataconverters.commas as commas
     with open('simple.csv') as f:
         # records is an iterator over the records
         # metadata is a dict containing a fields key which is a list of the fields
-        records, metadata = csv.csv_parse(f)
+        records, metadata = commas.parse(f)
+        print metadata
+        print [r for r in records]
+
+For more examples see the source code.
+
 
 DataConverters Standard API
 ---------------------------
@@ -75,12 +103,16 @@ Source Types Supported
 CSV
 ===
 
-For CSV files, type should be `csv`. Empty column names will be auto-generated with column_1, column_2, etc. Duplicate column names will have _n added as well. For instance, two columns with name date will be date_1, date_2.
+For CSV files, type should be `csv`. Empty column names will be auto-generated
+with column_1, column_2, etc. Duplicate column names will have _n added as
+well. For instance, two columns with name date will be date_1, date_2.
 
 
 XLS(X)
 ======
 
-For XLS input files type should be `xls`, and for XLSX files, type must be `xlsx`. Empty column names will be auto-generated with column_1, column_2, etc. Duplicate column names will have _n added as well. For instance, two columns with name date will be date_1, date_2.
-
+For XLS input files type should be `xls`, and for XLSX files, type must be
+`xlsx`. Empty column names will be auto-generated with column_1, column_2, etc.
+Duplicate column names will have _n added as well. For instance, two columns
+with name date will be date_1, date_2.
 
