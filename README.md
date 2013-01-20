@@ -1,6 +1,4 @@
-===============
-Data Converters
-===============
+# Data Converters
 
 Unified **python library** and **command line interface** to convert data from
 one format to another (especially *tabular* data).
@@ -13,22 +11,19 @@ Status](https://travis-ci.org/okfn/data-converters.png?branch=master)](https://t
 [issues]: https://github.com/okfn/dataconverters/issues
 
 
-Usage
------
+## Usage
 
-Command Line
-============
+### Command Line
 
-Data Converters provides a command line tool named `dataconvert`. Example usage::
+Data Converters provides a command line tool named `dataconvert`. Example usage:
 
-  dataconvert https://github.com/okfn/dataconverters/raw/master/testdata/xls/simple.xls out.csv
+    dataconvert https://github.com/okfn/dataconverters/raw/master/testdata/xls/simple.xls out.csv
 
-For more details see the help::
+For more details see the help:
 
-  dataconvert -h
+    dataconvert -h
 
-Library
-=======
+### Library
 
 Here's an example parsing CSV to JSON. Note that this isn't just any old csv
 parsing! Headers (and column names) are extracted, types detected etc etc.
@@ -44,14 +39,13 @@ parsing! Headers (and column names) are extracted, types detected etc etc.
 For more examples see the source code.
 
 
-Installation
-------------
+## Installation
 
-Install from PyPI::
+Install from PyPI:
 
-  pip install dataconverters
+    pip install dataconverters
 
-Or you can install from Source::
+Or you can install from Source:
 
     # Clone the repository
     https://github.com/okfn/dataconverters
@@ -66,8 +60,7 @@ Or you can install from Source::
     # you can use the more old-fashioned route if you do not have pip
     # python setup.py install
 
-Additional Dependencies
-=======================
+### Additional Dependencies
 
 For Geo functionality we require [Fiona](http://toblerity.github.com/fiona/).
 This in turn requires the libgdal bindings (see Fiona install instructions for
@@ -78,8 +71,7 @@ more detail. On Ubuntu one does::
     pip install fiona
 
 
-DataConverters Standard API
----------------------------
+## DataConverters Standard API
 
 There are 2 types of functionality within Data Converters:
 
@@ -104,8 +96,7 @@ In code terms method signatures look like:
 
 There is some variation so some parse function only take a file path rather a file like object.
 
-Metadata
-========
+### Metadata
 
 Metadata is a dictionary for holding information extracted during the
 processing. For example, for tabular data it would include a `fields` key which
@@ -113,19 +104,16 @@ contained information on the fields (columns) in the table as per the [JSON
 Table Schema](http://www.dataprotocols.org/en/latest/json-table-schema.html).
 
 
-Source Types Supported
-----------------------
+## Source Types Supported
 
-CSV
-===
+### CSV
 
 For CSV files, type should be `csv`. Empty column names will be auto-generated
 with column_1, column_2, etc. Duplicate column names will have _n added as
 well. For instance, two columns with name date will be date_1, date_2.
 
 
-XLS(X)
-======
+### XLS(X)
 
 For XLS input files type should be `xls`, and for XLSX files, type must be
 `xlsx`. Empty column names will be auto-generated with column_1, column_2, etc.
