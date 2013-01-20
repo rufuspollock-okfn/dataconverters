@@ -12,24 +12,6 @@ Status](https://travis-ci.org/okfn/data-converters.png?branch=master)](https://t
 
 [issues]: https://github.com/okfn/dataconverters/issues
 
-Installation
-------------
-
-Clone the repository and run:
-
-    python setup.py install
-
-The CSV and XLS converters use messytables, please manually install messytables with:
-
-    pip install messytables
-
-Dependencies
-============
-
-For Geo functionality we require [Fiona](http://toblerity.github.com/fiona/). This in turn requires the libgdal bindings (see Fiona install instructions for more detail. On Ubuntu I did:
-
-    apt-get install libgdal1-dev
-    pip install fiona
 
 Usage
 -----
@@ -60,6 +42,40 @@ parsing! Headers (and column names) are extracted, types detected etc etc.
         print [r for r in records]
 
 For more examples see the source code.
+
+
+Installation
+------------
+
+Install from PyPI::
+
+  pip install dataconverters
+
+Or you can install from Source::
+
+    # Clone the repository
+    https://github.com/okfn/dataconverters
+     
+    # then install the lib ...
+    
+    # move into the directory
+    cd dataconverters
+    
+    # install the library
+    pip install -e .
+    # you can use the more old-fashioned route if you do not have pip
+    # python setup.py install
+
+Additional Dependencies
+=======================
+
+For Geo functionality we require [Fiona](http://toblerity.github.com/fiona/).
+This in turn requires the libgdal bindings (see Fiona install instructions for
+more detail. On Ubuntu one does::
+
+    apt-get install libgdal1-dev
+    # then install fiona
+    pip install fiona
 
 
 DataConverters Standard API
