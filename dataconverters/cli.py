@@ -3,6 +3,8 @@ import csv
 import dataconverters.commas as dcsv
 import urllib2
 import mimetypes
+import sys
+
 
 def main():
     parser = argparse.ArgumentParser(description=\
@@ -27,7 +29,7 @@ Help
     parser.add_argument('inpath', metavar='inpath', type=str,
                        help='in file path or url')
     parser.add_argument('outpath', metavar='outpath', type=str,
-                       help='out file path to write to')
+                       help='out file path to write to (use underscore "_" as filename to indicate stdout e.g. _.csv or _.json)')
     parser.add_argument('--no-guess-types', dest='guess_types',
         action='store_false',
         help='''Disable type-guessing (where it is used e.g. with CSVs). Type guessing may significantly affect performance''',
@@ -53,11 +55,16 @@ Help
     else:
         print 'Only support reading from csv or xls at present'
 
+    if args.outpath.startswith('_.'):
+        outstream = sys.stdout
+    else:
+        outstream = open(args.outpath, 'w')
+
     if outtype == 'text/csv':
-        dcsv.write(open(args.outpath, 'w'), records, metadata)
+        dcsv.write(outstream, records, metadata)
     elif outtype == 'application/json':
         import dataconverters.jsondata as js
-        js.write(open(args.outpath, 'w'), records, metadata)
+        js.write(outstream, records, metadata)
     else:
         print 'Only support writing to csv and json at present'
 
