@@ -85,3 +85,21 @@ class TestCSVToJSON:
         assert ({u'date': u'2011-01-03', u'place': u'Berkeley', u'temperature':
             u'5'} in data['records'])
 
+
+from StringIO import StringIO
+class TestWrite:
+
+    def test_1(self):
+        metadata = {
+            'fields': [
+                { 'id': 'A' },
+                { 'id': 'B' }
+            ]
+        }
+        records = [ {'A': 1, 'B': 2}, {'A': 2, 'B': 3} ]
+        out = StringIO()
+        csvconvert.write(out, records, metadata)
+        out.seek(0)
+        result = out.read()
+        assert_equal(result, '''A,B\r\n1,2\r\n2,3\r\n''')
+

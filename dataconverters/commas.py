@@ -1,5 +1,6 @@
 import json
 import datetime
+import csv
 
 from messytables import (
     CSVTableSet,
@@ -101,3 +102,21 @@ def csv_to_json(stream, **kwargs):
         },
         cls=DateEncoder)
     return out, metadata
+
+
+def write(stream, records, metadata, **kwargs):
+    '''Write records and metadata to CSV structure on the given stream
+    
+    :param stream: file-like object supporting writing.
+
+    :param kwargs: passed directly through to the csv.DictWriter object
+
+    :return: null
+    '''
+    fields = [ f['id'] for f in metadata['fields'] ]
+    writer = csv.DictWriter(stream, fields, **kwargs)
+    # TODO: possibly using writerows would be faster (??)
+    writer.writeheader()
+    for r in records:
+        writer.writerow(r)
+
