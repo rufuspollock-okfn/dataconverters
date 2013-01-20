@@ -48,12 +48,17 @@ Help
     # tsv_types = ['tsv', 'text/tsv', 'text/tab-separated-values']
     if intype == 'text/csv':
         records, metadata = dcsv.parse(instream, guess_types=args.guess_types)
-    elif intype == 'application/vnd.ms-excel':
+    elif intype in ['application/vnd.ms-excel',
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        ]:
         import dataconverters.xls
+        excel_type = 'xls' if intype == 'application/vnd.ms-excel' else 'xlsx'
         records, metadata = dataconverters.xls.parse(instream,
+                excel_type=excel_type,
                 guess_types=args.guess_types)
     else:
-        print 'Only support reading from csv or xls at present'
+        raise ValueError(
+            'No support for reading file type %s - support for csv or xls only at present' % intype)
 
     if args.outpath.startswith('_.'):
         outstream = sys.stdout
