@@ -29,7 +29,7 @@ def parse(stream, excel_type='xls', worksheet=1, guess_types=True, **kwargs):
         row_set = table_set.tables[sheet_number]
     except IndexError:
         raise Exception('This file does not have worksheet number %d' %
-                        (worksheet + 1))
+                        (sheet_number + 1))
     offset, headers = headers_guess(row_set.sample)
 
     fields = []
