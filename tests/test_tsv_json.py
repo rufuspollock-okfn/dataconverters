@@ -1,7 +1,7 @@
 import os
 import datetime
 from nose.tools import assert_equal
-import dataconverters.csv as csvconvert
+import dataconverters.commas as csvconvert
 
 
 class TestParse:
