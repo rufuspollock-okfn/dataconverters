@@ -4,6 +4,7 @@ import dataconverters.commas as dcsv
 import urllib2
 import mimetypes
 import sys
+import itertools
 
 
 def main():
@@ -39,6 +40,10 @@ Part of the DataConverters project: https://github.com/okfn/dataconverters''',
         help='''Index of sheet in spreadsheet to convert (index starts at 1)''',
         default=1
         )
+    parser.add_argument('--records', metavar='NUM',
+        help='''Only convert a maximum of NUM records''',
+        default=1
+        )
 
     args = parser.parse_args()
     intype = guess_type(args.inpath)
@@ -69,6 +74,9 @@ Part of the DataConverters project: https://github.com/okfn/dataconverters''',
         outstream = sys.stdout
     else:
         outstream = open(args.outpath, 'w')
+
+    if (args.records):
+        records = itertools.islice(records, int(args.records))
 
     if outtype == 'text/csv':
         dcsv.write(outstream, records, metadata)
