@@ -24,6 +24,7 @@ def parse(stream, guess_types=True, **kwargs):
 
     :param delimiter:
     :param quotechar:
+    :param window: the size of the sample used for analysis
 
     There is also support for:
 
@@ -38,9 +39,10 @@ def parse(stream, guess_types=True, **kwargs):
     metadata = dict(**kwargs)
     delimiter = metadata.get('delimiter', None)
     quotechar = metadata.get('quotechar', None)
+    window = metadata.get('window', None)
     encoding = metadata.get('encoding', None)
     table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter,
-            quotechar=quotechar, encoding=encoding)
+            quotechar=quotechar, encoding=encoding, window=window)
     row_set = table_set.tables.pop()
     offset, headers = headers_guess(row_set.sample)
 
