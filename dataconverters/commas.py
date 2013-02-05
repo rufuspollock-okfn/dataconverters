@@ -1,6 +1,6 @@
 import json
 import datetime
-import unicodecsv as csv
+import csv
 
 from messytables import (
     CSVTableSet,
