@@ -1,6 +1,6 @@
 import json
 import datetime
-import csv
+import unicodecsv as csv
 
 from messytables import (
     CSVTableSet,
@@ -23,7 +23,8 @@ def parse(stream, guess_types=True, **kwargs):
     http://docs.python.org/2/library/csv.html#csv-fmt-params
 
     :param delimiter:
-    :param quotechar: 
+    :param quotechar:
+    :param window: the size of the sample used for analysis
 
     There is also support for:
 
@@ -38,9 +39,10 @@ def parse(stream, guess_types=True, **kwargs):
     metadata = dict(**kwargs)
     delimiter = metadata.get('delimiter', None)
     quotechar = metadata.get('quotechar', None)
+    window = metadata.get('window', None)
     encoding = metadata.get('encoding', None)
     table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter,
-            quotechar=quotechar, encoding=encoding)
+            quotechar=quotechar, encoding=encoding, window=window)
     row_set = table_set.tables.pop()
     offset, headers = headers_guess(row_set.sample)
 
@@ -106,7 +108,7 @@ def csv_to_json(stream, **kwargs):
 
 def write(stream, records, metadata, **kwargs):
     '''Write records and metadata to CSV structure on the given stream
-    
+
     :param stream: file-like object supporting writing.
 
     :param kwargs: passed directly through to the csv.DictWriter object
