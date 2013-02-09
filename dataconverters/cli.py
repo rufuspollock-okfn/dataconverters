@@ -41,8 +41,7 @@ Part of the DataConverters project: https://github.com/okfn/dataconverters''',
         default=1
         )
     parser.add_argument('--records', metavar='NUM',
-        help='''Only convert a maximum of NUM records''',
-        default=1
+        help='''Only convert a maximum of NUM records'''
         )
 
     args = parser.parse_args()
