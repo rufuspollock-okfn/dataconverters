@@ -1,4 +1,5 @@
 """Data Proxy - CSV dataconversion adapter"""
+from datetime import date, datetime
 from messytables import (
     XLSTableSet,
     XLSXTableSet,
@@ -40,6 +41,8 @@ def parse(stream, excel_type='xls', sheet=1, guess_types=True, **kwargs):
                        DateUtilType]
         row_types = type_guess(row_set.sample, guess_types)
     for index, field in enumerate(headers):
+        if isinstance(field, datetime) or isinstance(field, date):
+            field = field.isoformat()
         field_dict = {}
         if "" == field:
             field = '_'.join(['column', str(noname_count)])
@@ -49,7 +52,7 @@ def parse(stream, excel_type='xls', sheet=1, guess_types=True, **kwargs):
             field_dict['id'] = field
         else:
             dup_columns[field] = dup_columns.get(field, 0) + 1
-            field_dict['id'] = u'_'.join([field, str(dup_columns[field])])
+            field_dict['id'] = u'_'.join([str(field), str(dup_columns[field])])
         if guess_types:
             if isinstance(row_types[index], DateUtilType):
                 field_dict['type'] = 'DateTime'
