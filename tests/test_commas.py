@@ -96,7 +96,7 @@ class TestWrite:
                 { 'id': 'B' }
             ]
         }
-        records = [ {'A': 1, 'B': 2}, {'A': 2, 'B': 3} ]
+        records = [ {'A': '☺1, 'B': 2}, {'A': 2, 'B': 3} ]
         out = StringIO()
         csvconvert.write(out, records, metadata)
         out.seek(0)
