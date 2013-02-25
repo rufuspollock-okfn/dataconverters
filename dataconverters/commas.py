@@ -43,6 +43,7 @@ def parse(stream, guess_types=True, **kwargs):
     encoding = metadata.get('encoding', None)
     table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter,
             quotechar=quotechar, encoding=encoding, window=window)
+    strict_type_guess = metadata.get('strict_type_guess', False)
     row_set = table_set.tables.pop()
     offset, headers = headers_guess(row_set.sample)
 
@@ -52,7 +53,8 @@ def parse(stream, guess_types=True, **kwargs):
     if guess_types:
         guessable_types = [StringType, IntegerType, FloatType, DecimalType,
                            DateUtilType]
-        row_types = type_guess(row_set.sample, guessable_types)
+        row_types = type_guess(row_set.sample, guessable_types,
+                               strict=strict_type_guess)
     for index, field in enumerate(headers):
         field_dict = {}
         if "" == field:

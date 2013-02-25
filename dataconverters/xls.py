@@ -20,7 +20,9 @@ def parse(stream, excel_type='xls', sheet=1, guess_types=True, **kwargs):
     :param excel_type: xls | xlsx
     :param sheet: index of sheet in spreadsheet to convert (starting from index = 1)
     '''
+    metadata = dict(**kwargs)
     sheet_number = int(sheet) - 1
+    strict_type_guess = metadata.get('strict_type_guess', False)
 
     xlsclass = XLSTableSet
     if excel_type == 'xlsx':
@@ -39,7 +41,8 @@ def parse(stream, excel_type='xls', sheet=1, guess_types=True, **kwargs):
     if guess_types:
         guess_types = [StringType, IntegerType, FloatType, DecimalType,
                        DateUtilType]
-        row_types = type_guess(row_set.sample, guess_types)
+        row_types = type_guess(row_set.sample, guess_types,
+                               strict=strict_type_guess)
     for index, field in enumerate(headers):
         if isinstance(field, datetime) or isinstance(field, date):
             field = field.isoformat()
