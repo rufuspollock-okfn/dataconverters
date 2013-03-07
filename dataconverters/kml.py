@@ -1,31 +1,37 @@
-import tempfile
+import json
+import os
 from subprocess import Popen
-import pipes
+import tempfile
 
 
 def parse(stream, **kwargs):
     '''Parse KML file and return row iterator plus metadata.
     '''
+    # Get a temporary file
     o = tempfile.NamedTemporaryFile()
     o.close()
     with tempfile.NamedTemporaryFile() as i:
         # Write kml stream into input file
-        print i.name, o.name
         i.write(stream.read())
 
         # Flush to disk
         i.flush()
+
         # Perform conversion with ogr2ogr
-        cmd = pipes.quote('ogr2ogr -f "GeoJSON" {ofile} {ifile}'.format(
-                          ifile=i.name, ofile=o.name))
-        print cmd
-        inst = Popen(cmd, shell=True)
+        cmd = ['ogr2ogr', '-f', 'GeoJSON', o.name, i.name]
+        inst = Popen(cmd)
         stdout, stderr = inst.communicate()
-        print "STDOUT \n"
-        print stdout
-        print "STDERR \n"
-        print stderr
-        """# Read o
-        output = o.read()
-        #parse back to python dict
-        print output """
+
+        # Read the output
+        stream = open(o.name, 'r')
+        stream.seek(0)
+        streamcontent = stream.readlines()
+        stream.close()
+        os.remove(o.name)
+
+        # Convert the stream to python
+        content = ''.join(streamcontent)
+        decodedcontent = json.loads(content)
+
+        return decodedcontent
+
