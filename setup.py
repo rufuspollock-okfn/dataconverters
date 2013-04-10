@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(name='dataconverters',
       version='0.2',
@@ -10,10 +10,9 @@ setup(name='dataconverters',
       license='MIT',
       install_requires=[
           'messytables'
-          ],
+      ],
       entry_points={
-            'console_scripts': [
-                'dataconvert = dataconverters.cli:main'
-            ]
-         }
-     )
+          'console_scripts': [
+              'dataconvert = dataconverters.cli:main'
+          ]
+      })
