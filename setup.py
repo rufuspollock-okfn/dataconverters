@@ -9,7 +9,9 @@ setup(name='dataconverters',
       packages=['dataconverters'],
       license='MIT',
       install_requires=[
-          'messytables'
+          'messytables',
+          'Fiona',
+          'unicodecsv'
       ],
       entry_points={
           'console_scripts': [
