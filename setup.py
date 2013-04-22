@@ -8,11 +8,6 @@ setup(name='dataconverters',
       url='https://github.com/okfn/dataconverters/',
       packages=['dataconverters'],
       license='MIT',
-      install_requires=[
-          'messytables',
-          'Fiona',
-          'unicodecsv'
-      ],
       entry_points={
           'console_scripts': [
               'dataconvert = dataconverters.cli:main'
