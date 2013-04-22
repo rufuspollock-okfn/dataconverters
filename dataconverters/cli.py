@@ -43,9 +43,15 @@ Part of the DataConverters project: https://github.com/okfn/dataconverters''',
     parser.add_argument('--records', metavar='NUM',
         help='''Only convert a maximum of NUM records'''
         )
+    parser.add_argument('--format',
+        help='''Format or mimetype of incoming file e.g. xls, csv, text/csv'''
+        )
 
     args = parser.parse_args()
-    intype = guess_type(args.inpath)
+    if args.format:
+        intype = args.format
+    else:
+        intype = guess_type(args.inpath)
     outtype = guess_type(args.outpath)
 
     if is_url_path(args.inpath):
@@ -54,10 +60,11 @@ Part of the DataConverters project: https://github.com/okfn/dataconverters''',
         instream = open(args.inpath)
 
     # tsv_types = ['tsv', 'text/tsv', 'text/tab-separated-values']
-    if intype == 'text/csv':
+    if intype in ['text/csv', 'csv']:
         records, metadata = dcsv.parse(instream, guess_types=args.guess_types)
     elif intype in ['application/vnd.ms-excel',
-        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'xls'
         ]:
         import dataconverters.xls
         excel_type = 'xls' if intype == 'application/vnd.ms-excel' else 'xlsx'
