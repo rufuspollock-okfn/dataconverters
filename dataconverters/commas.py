@@ -41,7 +41,7 @@ def parse(stream, guess_types=True, **kwargs):
     quotechar = metadata.get('quotechar', None)
     window = metadata.get('window', None)
     encoding = metadata.get('encoding', None)
-    table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter,
+    table_set = CSVTableSet(stream, delimiter=delimiter,
             quotechar=quotechar, encoding=encoding, window=window)
     strict_type_guess = metadata.get('strict_type_guess', False)
     row_set = table_set.tables.pop()
