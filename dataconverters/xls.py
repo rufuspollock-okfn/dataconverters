@@ -14,20 +14,22 @@ from messytables import (
 from messytables.types import DateUtilType
 
 
-def parse(stream, excel_type='xls', sheet=1, guess_types=True, **kwargs):
+def parse(stream, excel_type='xls', sheet=1, guess_types=True,
+        strict_type_guess=False, encoding=None):
     '''Parse Excel (xls or xlsx) to structured objects.
 
     :param excel_type: xls | xlsx
     :param sheet: index of sheet in spreadsheet to convert (starting from index = 1)
     '''
-    metadata = dict(**kwargs)
     sheet_number = int(sheet) - 1
-    strict_type_guess = metadata.get('strict_type_guess', False)
 
     xlsclass = XLSTableSet
+    kwargs = { 'encoding': encoding }
     if excel_type == 'xlsx':
         xlsclass = XLSXTableSet
-    table_set = xlsclass.from_fileobj(stream)
+        # xlsx parser does not support encoding
+        kwargs = {}
+    table_set = xlsclass.from_fileobj(stream, **kwargs)
     try:
         row_set = table_set.tables[sheet_number]
     except IndexError:

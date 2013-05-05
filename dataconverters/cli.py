@@ -46,6 +46,9 @@ Part of the DataConverters project: https://github.com/okfn/dataconverters''',
     parser.add_argument('--format',
         help='''Format or mimetype of incoming file e.g. xls, csv, text/csv'''
         )
+    parser.add_argument('-e', '--encoding',
+        help='''File encoding of incoming file'''
+        )
 
     args = parser.parse_args()
     if args.format:
@@ -71,7 +74,9 @@ Part of the DataConverters project: https://github.com/okfn/dataconverters''',
         records, metadata = dataconverters.xls.parse(instream,
                 excel_type=excel_type,
                 sheet=args.sheet,
-                guess_types=args.guess_types)
+                guess_types=args.guess_types,
+                encoding=args.encoding
+                )
     else:
         raise ValueError(
             'No support for reading file type %s - support for csv or xls only at present' % intype)
