@@ -6,7 +6,7 @@ one format to another (especially *tabular* data).
 Please [file bugs][issues] for any unexpected behavior.
 
 [![Build
-Status](https://travis-ci.org/okfn/data-converters.png?branch=master)](https://travis-ci.org/okfn/data-converters)
+Status](https://travis-ci.org/okfn/dataconverters.png?branch=master)](https://travis-ci.org/okfn/dataconverters)
 
 [issues]: https://github.com/okfn/dataconverters/issues
 

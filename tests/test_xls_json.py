@@ -3,6 +3,7 @@ import os
 from nose.tools import assert_equal
 import dataconverters.xls as xls
 
+
 class TestParse:
 
     def setUp(self):
@@ -24,22 +25,16 @@ class TestParse:
         """Test guessing header type"""
         xlsfo = open(os.path.join(self.testdata_path, 'simple.xls'))
         iterator, metadata = xls.parse(xlsfo)
-        """
-        Commented out due to messytables issue #30
         assert_equal(
             [{'id': u'date', 'type': 'DateTime'}, {'id': u'temperature',
             'type': 'Integer'}, {'id': u'place', 'type': 'String'}],
             metadata['fields'])
-        """
-        assert_equal([{'type': 'String', 'id': u'date'}, {'id':
-                         u'temperature', 'type': 'Integer'}, {'id': u'place',
-                         'type': 'String'}], metadata['fields'])
 
     def test_3_convert_xlsx(self):
         """Test converting a XLSX to JSON"""
         xlsfo = open(os.path.join(self.testdata_path, 'simple.xlsx'))
         iterator, metadata = xls.parse(xlsfo, excel_type='xlsx')
-        assert_equal([{'type': 'String', 'id': u'date'}, {'id':
+        assert_equal([{'type': 'DateTime', 'id': u'date'}, {'id':
                          u'temperature', 'type': 'Integer'}, {'id': u'place',
                          'type': 'String'}], metadata['fields'])
         content = [row for row in iterator]
