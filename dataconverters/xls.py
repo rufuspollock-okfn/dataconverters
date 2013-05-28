@@ -29,7 +29,7 @@ def parse(stream, excel_type='xls', sheet=1, guess_types=True,
         xlsclass = XLSXTableSet
         # xlsx parser does not support encoding
         kwargs = {}
-    table_set = xlsclass.from_fileobj(stream, **kwargs)
+    table_set = xlsclass(stream, **kwargs)
     try:
         row_set = table_set.tables[sheet_number]
     except IndexError:
