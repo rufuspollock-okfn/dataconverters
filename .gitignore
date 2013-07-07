@@ -4,3 +4,5 @@ fabfile.py
 build
 *.egg-info
 .*.swp
+sandbox/*
+_site/*

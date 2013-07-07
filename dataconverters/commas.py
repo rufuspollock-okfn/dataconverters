@@ -41,7 +41,7 @@ def parse(stream, guess_types=True, **kwargs):
     quotechar = metadata.get('quotechar', None)
     window = metadata.get('window', None)
     encoding = metadata.get('encoding', None)
-    table_set = CSVTableSet.from_fileobj(stream, delimiter=delimiter,
+    table_set = CSVTableSet(stream, delimiter=delimiter,
             quotechar=quotechar, encoding=encoding, window=window)
     strict_type_guess = metadata.get('strict_type_guess', False)
     row_set = table_set.tables.pop()
@@ -75,7 +75,7 @@ def parse(stream, guess_types=True, **kwargs):
     row_set.register_processor(headers_processor([x['id'] for x in fields]))
     row_set.register_processor(offset_processor(offset + 1))
     if guess_types:
-        row_set.register_processor(types_processor(row_types))
+        row_set.register_processor(types_processor(row_types, strict=strict_type_guess))
 
     def row_iterator():
         for row in row_set:
