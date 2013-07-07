@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>
-  Data Converters 
+  <a href="../">Data Converters</a>
   &mdash;
   <a href="http://okfnlabs.org/"><img src="http://assets.okfn.org/p/labs/img/logo-flask.png" alt="" style="height: 40px;" /></a>
 </h1>
