@@ -72,3 +72,24 @@ See <https://github.com/okfn/dataconverters/issues/5>
 
 Can parse with normal libraries
 
+----
+
+## PDF => ...
+
+* See overview and list here <https://gist.github.com/rgrp/5844485>
+* Also the issue <https://github.com/okfn/dataconverters/issues/9>
+* School of Data intro: http://schoolofdata.org/handbook/courses/extracting-data-from-pdf/
+
+----
+
+## Access) MDB => ...
+
+See <https://github.com/okfn/dataconverters/issues/10>
+
+### Libraries
+
+* <http://mdbtools.sourceforge.net/>
+
+
+
+## SPSS => ...
