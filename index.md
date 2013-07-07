@@ -18,6 +18,30 @@ Status](https://travis-ci.org/okfn/dataconverters.png?branch=master)](https://tr
 
 [issues]: https://github.com/okfn/dataconverters/issues
 
+## Source Data Formats Supported
+
+### CSV
+
+For CSV files, type should be `csv`. Empty column names will be auto-generated
+with column_1, column_2, etc. Duplicate column names will have _n added as
+well. For instance, two columns with name date will be date_1, date_2.
+
+
+### XLS(X)
+
+For XLS input files type should be `xls`, and for XLSX files, type must be
+`xlsx`. Empty column names will be auto-generated with column_1, column_2, etc.
+Duplicate column names will have _n added as well. For instance, two columns
+with name date will be date_1, date_2.
+
+### KML
+
+We can convert KML to GeoJSON
+
+### Shape
+
+Support for coverting from Shapefiles using Fiona and GDAL.
+
 
 ## Usage
 
@@ -110,23 +134,6 @@ Metadata is a dictionary for holding information extracted during the
 processing. For example, for tabular data it would include a `fields` key which
 contained information on the fields (columns) in the table as per the [JSON
 Table Schema](http://www.dataprotocols.org/en/latest/json-table-schema.html).
-
-
-## Source Types Supported
-
-### CSV
-
-For CSV files, type should be `csv`. Empty column names will be auto-generated
-with column_1, column_2, etc. Duplicate column names will have _n added as
-well. For instance, two columns with name date will be date_1, date_2.
-
-
-### XLS(X)
-
-For XLS input files type should be `xls`, and for XLSX files, type must be
-`xlsx`. Empty column names will be auto-generated with column_1, column_2, etc.
-Duplicate column names will have _n added as well. For instance, two columns
-with name date will be date_1, date_2.
 
 
 ## License
