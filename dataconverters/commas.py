@@ -1,6 +1,5 @@
-import json
 import datetime
-import csv
+import json
 
 from messytables import (
     CSVTableSet,
@@ -14,6 +13,7 @@ from messytables import (
     FloatType,
     DecimalType)
 from messytables.types import DateUtilType
+from util.unicodecsv import DictWriter
 
 
 def parse(stream, guess_types=True, **kwargs):
@@ -118,9 +118,8 @@ def write(stream, records, metadata, **kwargs):
     :return: null
     '''
     fields = [ f['id'] for f in metadata['fields'] ]
-    writer = csv.DictWriter(stream, fields, **kwargs)
+    writer = DictWriter(stream, fields, **kwargs)
     # TODO: possibly using writerows would be faster (??)
     writer.writeheader()
     for r in records:
         writer.writerow(r)
-

@@ -1,3 +1,4 @@
+# -*- coding: utf-8
 import os
 import datetime
 from nose.tools import assert_equal
@@ -96,10 +97,10 @@ class TestWrite:
                 { 'id': 'B' }
             ]
         }
-        records = [ {'A': 1, 'B': 2}, {'A': 2, 'B': 3} ]
+        records = [ {'A': u'☺', 'B': 2}, {'A': 2, 'B': 3} ]
         out = StringIO()
         csvconvert.write(out, records, metadata)
         out.seek(0)
         result = out.read()
-        assert_equal(result, '''A,B\r\n1,2\r\n2,3\r\n''')
+        assert_equal(result, '''A,B\r\n☺,2\r\n2,3\r\n''')
 
