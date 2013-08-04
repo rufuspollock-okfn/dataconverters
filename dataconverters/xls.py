@@ -43,7 +43,10 @@ def parse(stream, excel_type='xls', sheet=1, guess_types=True,
     if guess_types:
         guess_types = [StringType, IntegerType, FloatType, DecimalType,
                        DateUtilType]
-        row_types = type_guess(row_set.sample, guess_types,
+        sample = row_set.sample
+        for _ in range(offset + 1):
+            sample.next()
+        row_types = type_guess(sample, guess_types,
                                strict=strict_type_guess)
     for index, field in enumerate(headers):
         if isinstance(field, datetime) or isinstance(field, date):
