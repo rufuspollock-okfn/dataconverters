@@ -17,15 +17,22 @@ one format to another (especially *tabular* data). Supports:
 * KML to GeoJSON
 * Shapefile to GeoJSON
 
-Please [file bugs][issues] for any unexpected behavior.
+Please [file bugs][issues] for any unexpected behavior. If you like this sort of thing you may also like [Data Pipes - streaming data transforms in the browser][datapipes]!
 
-If you like this sort of thing you may also like [Data Pipes - streaming data transforms in the browser][datapipes]! We have also have a review of [existing libraries and work][existing].
+Copyright 2007-2013 Open Knowledge Foundation. Licensed under the MIT license. Developed with generous support from Google.
 
 [issues]: https://github.com/okfn/dataconverters/issues
 [datapipes]: http://datapipes.okfnlabs.org/
 [existing]: docs/existing.html
 
+**Table of Contents**
+
+* This will become a table of contents (this text will be scraped).
+{:toc}
+
 ## Usage
+
+### Command line
 
 From the command line:
 
@@ -74,6 +81,7 @@ detected etc etc.
 
 For more examples see the source code.
 
+----
 
 ## Installation
 
@@ -106,6 +114,7 @@ more detail. On Ubuntu one does::
     # then install fiona
     pip install fiona
 
+----
 
 ## DataConverters Standard API
 
@@ -164,9 +173,109 @@ We can convert KML to GeoJSON
 
 Support for coverting from Shapefiles using Fiona and GDAL.
 
-## License and Credits
+----
 
-Copyright 2007-2013 Open Knowledge Foundation. Licensed under the MIT license.
+## Research - Existing Libraries and Services
 
-Developed with generous support from Google.
+Please [add to this list &raquo;][edit]
+
+[edit]: https://github.com/okfn/dataconverters/edit/master/index.md
+
+<table class="table-bordered table">
+  <tr>
+    <th>Source</th>
+    <th>Dest</th>
+    <th>Services</th>
+    <th>Libraries</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>CSV</td>
+    <td>...</td>
+    <td>
+      https://github.com/okfn/dataproxy
+    </td>
+    <td>
+      Reasonably straightforward to do in most programming languages
+    </td>
+    <td>
+      See https://github.com/okfn/dataconverters/issues/2
+    </td>
+  </tr>
+  <tr>
+    <td>XLS</td>
+    <td></td>
+    <td>
+* Gut implementation https://github.com/stephenjudkins/poisauce - a gut implementation 
+* See https://github.com/okfn/dataproxy
+    </td>
+    <td>
+* xlrd (python)
+* POI (Java)
+* messytables (builds on xlrd)
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/6
+    </td>
+  </tr>
+  <tr>
+    <td>Shapefiles</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+* GDAL and OGR
+* QGIS (tool) - not open
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/1
+    </td>
+  </tr>
+  <tr>
+    <td>KML</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+* GDAL can do this (but no Fiona bindings) - but see https://github.com/Toblerity/Fiona/issues/23
+* fastkml https://github.com/cleder/fastkml
+* sgillies keytree
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/5
+    </td>
+  </tr>
+  <tr>
+    <td>GeoJSON</td>
+    <td>...</td>
+    <td></td>
+    <td></td>
+    <td>Can parse with normal libraries</td>
+  </tr>
+  <tr>
+    <td>PDF</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+* See overview and list here https://gist.github.com/rgrp/5844485
+* Also the issue https://github.com/okfn/dataconverters/issues/9
+* School of Data intro: http://schoolofdata.org/handbook/courses/extracting-data-from-pdf/
+    </td>
+  </tr>
+  <tr>
+    <td>Access (MDB)</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+http://mdbtools.sourceforge.net/
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/10
+    </td>
+  </tr>
+</table>
 
