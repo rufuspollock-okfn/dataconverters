@@ -1,18 +1,13 @@
 ---
 layout: default
+title: Data Converters 
 ---
-
-<h1>
-  Data Converters 
-  &mdash;
-  <a href="http://okfnlabs.org/"><img src="http://assets.okfn.org/p/labs/img/logo-flask.png" alt="" style="height: 40px;" /></a>
-</h1>
 
 Unified **python library** and **command line interface** to convert data from
 one format to another (especially *tabular* data). Supports:
 
-* CSV (to, from)
-* XLS(X) (from)
+* CSV (to, from) - with type detection (dates, numbers etc)
+* XLS(X) (from) - ditto
 * JSON (to, from)
 * KML to GeoJSON
 * Shapefile to GeoJSON
@@ -181,7 +176,7 @@ Please [add to this list &raquo;][edit]
 
 [edit]: https://github.com/okfn/dataconverters/edit/master/index.md
 
-<table class="table-bordered table">
+<table class="table-bordered table" style="font-size: 75%;">
   <tr>
     <th>Source</th>
     <th>Dest</th>
@@ -206,8 +201,7 @@ Please [add to this list &raquo;][edit]
     <td>XLS</td>
     <td></td>
     <td>
-* Gut implementation https://github.com/stephenjudkins/poisauce - a gut implementation 
-* See https://github.com/okfn/dataproxy
+<a href="https://github.com/stephenjudkins/poisauce">Gut implementation</a>, <a href="https://github.com/okfn/dataproxy">DataProxy</a>
     </td>
     <td>
 * xlrd (python)
@@ -260,9 +254,9 @@ See https://github.com/okfn/dataconverters/issues/5
     <td>
     </td>
     <td>
-* See overview and list here https://gist.github.com/rgrp/5844485
-* Also the issue https://github.com/okfn/dataconverters/issues/9
-* School of Data intro: http://schoolofdata.org/handbook/courses/extracting-data-from-pdf/
+- See overview and list here https://gist.github.com/rgrp/5844485
+- Also the issue https://github.com/okfn/dataconverters/issues/9
+- and <a href="http://schoolofdata.org/handbook/courses/extracting-data-from-pdf/">School of Data intro</a>
     </td>
   </tr>
   <tr>
