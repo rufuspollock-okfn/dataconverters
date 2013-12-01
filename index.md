@@ -9,56 +9,60 @@ layout: default
 </h1>
 
 Unified **python library** and **command line interface** to convert data from
-one format to another (especially *tabular* data).
+one format to another (especially *tabular* data). Supports:
+
+* CSV (to, from)
+* XLS(X) (from)
+* JSON (to, from)
+* KML to GeoJSON
+* Shapefile to GeoJSON
 
 Please [file bugs][issues] for any unexpected behavior.
 
-[![Build
-Status](https://travis-ci.org/okfn/dataconverters.png?branch=master)](https://travis-ci.org/okfn/dataconverters)
+If you like this sort of thing you may also like [Data Pipes - streaming data transforms in the browser][datapipes]! We have also have a review of [existing libraries and work][existing].
 
 [issues]: https://github.com/okfn/dataconverters/issues
-
-## Source Data Formats Supported
-
-### CSV
-
-For CSV files, type should be `csv`. Empty column names will be auto-generated
-with column_1, column_2, etc. Duplicate column names will have _n added as
-well. For instance, two columns with name date will be date_1, date_2.
-
-
-### XLS(X)
-
-For XLS input files type should be `xls`, and for XLSX files, type must be
-`xlsx`. Empty column names will be auto-generated with column_1, column_2, etc.
-Duplicate column names will have _n added as well. For instance, two columns
-with name date will be date_1, date_2.
-
-### KML
-
-We can convert KML to GeoJSON
-
-### Shape
-
-Support for coverting from Shapefiles using Fiona and GDAL.
-
+[datapipes]: http://datapipes.okfnlabs.org/
+[existing]: docs/existing.html
 
 ## Usage
 
-### Command Line
+From the command line:
 
-Data Converters provides a command line tool named `dataconvert`. Example usage:
+    dataconvert simple.xls out.csv
 
+    # use it with urls
     dataconvert https://github.com/okfn/dataconverters/raw/master/testdata/xls/simple.xls out.csv
+
+    # pipe to stdout
+    dataconvert simple.xls _.csv
+
+    # other formats ...
+    dataconvert simple.csv _.json
+
+    # if it can't guess the data format ... (simple is an excel file)
+    dataoncvert --format=xls simple.i-am-xls-really out.csv
 
 For more details see the help:
 
     dataconvert -h
 
-### Library
+### As a Python Library
 
-Here's an example parsing CSV to JSON. Note that this isn't just any old csv
-parsing! Headers (and column names) are extracted, types detected etc etc.
+The basic dataconvert convenience utility makes it very easy to convert data:
+
+    from dataconverters import dataconvert
+    dataconvert('infile-or-url.xls', 'outfile.csv')
+    dataconvert('infile-or-url.xls', 'outfile.csv', sheet=3)
+    dataconvert('infile-or-url.i-am-really-an-xls', 'outfile.csv', format='xls')
+
+Find out more:
+
+    pydoc dataconverters
+
+Here's an example of doing a full parse of CSV to JSON. Note that this isn't
+just any old csv parsing! Headers (and column names) are extracted, types
+detected etc etc.
 
     import dataconverters.commas as commas
     with open('simple.csv') as f:
@@ -136,7 +140,33 @@ contained information on the fields (columns) in the table as per the [JSON
 Table Schema](http://www.dataprotocols.org/en/latest/json-table-schema.html).
 
 
-## License
+## Source Data Formats Supported
+
+### CSV
+
+For CSV files, type should be `csv`. Empty column names will be auto-generated
+with column_1, column_2, etc. Duplicate column names will have _n added as
+well. For instance, two columns with name date will be date_1, date_2.
+
+
+### XLS(X)
+
+For XLS input files type should be `xls`, and for XLSX files, type must be
+`xlsx`. Empty column names will be auto-generated with column_1, column_2, etc.
+Duplicate column names will have _n added as well. For instance, two columns
+with name date will be date_1, date_2.
+
+### KML
+
+We can convert KML to GeoJSON
+
+### Shape
+
+Support for coverting from Shapefiles using Fiona and GDAL.
+
+## License and Credits
 
 Copyright 2007-2013 Open Knowledge Foundation. Licensed under the MIT license.
+
+Developed with generous support from Google.
 
