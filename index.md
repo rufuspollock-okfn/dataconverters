@@ -43,7 +43,7 @@ From the command line:
     dataconvert simple.csv _.json
 
     # if it can't guess the data format ... (simple is an excel file)
-    dataoncvert --format=xls simple.i-am-xls-really out.csv
+    dataconvert --format=xls simple.i-am-xls-really out.csv
 
 For more details see the help:
 
