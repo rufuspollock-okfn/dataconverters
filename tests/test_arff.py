@@ -3,7 +3,6 @@ from nose.tools import assert_equal
 import dataconverters.arff as arff
 from StringIO import StringIO
 
-
 class TestWrite:
 
     def test_1(self):
