@@ -19,11 +19,10 @@ class TestWrite:
             {'place': u'Alexandria', 'temperature': 22}, 
             {'place': u'Aswan', 'temperature': 42}, 
         ]
-        desired_results = """@RELATION dataset
-
+        
+        desired_results = """@RELATION dataset\n
 @ATTRIBUTE temperature NUMERIC
-@ATTRIBUTE place STRING
-
+@ATTRIBUTE place STRING\n
 @DATA\n32,'Cairo'
 22,'Alexandria'
 42,'Aswan'
@@ -32,20 +31,6 @@ class TestWrite:
         arff.write(out, records, metadata)
         out.seek(0)
         result = out.read()
-        print '####'
-        print result
-        print '####'
-        print desired_results
-        print '####'
-        
-        print '\n======Diff======\n'
-        d = difflib.Differ()
-        diff = list(d.compare(desired_results, result))
-        print ''.join(diff)
-        
-        print zip(desired_results, result)
-        
-        print '\n======Diff======\n'
-                
+                        
         assert_equal(result, desired_results)
 
