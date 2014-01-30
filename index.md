@@ -11,6 +11,7 @@ one format to another (especially *tabular* data). Supports:
 * JSON (to, from)
 * KML to GeoJSON
 * Shapefile to GeoJSON
+* ARFF (to)
 
 Please [file bugs][issues] for any unexpected behavior. If you like this sort of thing you may also like [Data Pipes - streaming data transforms in the browser][datapipes]!
 
