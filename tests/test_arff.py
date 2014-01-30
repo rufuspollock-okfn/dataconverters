@@ -3,7 +3,6 @@ from nose.tools import assert_equal
 import dataconverters.arff as arff
 from StringIO import StringIO
 
-import difflib
 
 class TestWrite:
 
@@ -20,7 +19,7 @@ class TestWrite:
             {'place': u'Aswan', 'temperature': 42}, 
         ]
         
-        desired_results = """@RELATION dataset\n
+        desired_results = """@RELATION testdataset\n
 @ATTRIBUTE temperature NUMERIC
 @ATTRIBUTE place STRING\n
 @DATA\n32,'Cairo'
@@ -28,7 +27,7 @@ class TestWrite:
 42,'Aswan'
 """
         out = StringIO()
-        arff.write(out, records, metadata)
+        arff.write(out, records, metadata, dataset_name='testdataset')
         out.seek(0)
         result = out.read()
                         

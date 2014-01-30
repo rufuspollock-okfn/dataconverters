@@ -51,7 +51,7 @@ class ARFF:
         self.data += ','.join([self._to_arff_data(row[attr_name], attr_type) for attr_name, attr_type in self.attr_list])
         self.data += '\n' 
             
-def write(stream, records, metadata, indent=2, **kwargs):
+def write(stream, records, metadata, dataset_name='dataset', **kwargs):
     '''Write data into Weka ARFF structure on the given stream
     
     :param stream: file-like object supporting writing.
@@ -60,7 +60,7 @@ def write(stream, records, metadata, indent=2, **kwargs):
     '''
     
     #print 'ARFF\n'
-    a = ARFF()
+    a = ARFF(dataset_name=dataset_name)
     for attribute in metadata['fields']:
         a.add_attr(attribute['id'], attribute['type'])
     for record in records:
