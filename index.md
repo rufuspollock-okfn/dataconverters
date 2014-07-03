@@ -8,7 +8,7 @@ one format to another (especially *tabular* data). Supports:
 
 * CSV (to, from) - with type detection (dates, numbers etc)
 * XLS(X) (from) - ditto
-* JSON (to, from)
+* JSON (to)
 * KML to GeoJSON
 * Shapefile to GeoJSON
 
@@ -159,6 +159,10 @@ For XLS input files type should be `xls`, and for XLSX files, type must be
 `xlsx`. Empty column names will be auto-generated with column_1, column_2, etc.
 Duplicate column names will have _n added as well. For instance, two columns
 with name date will be date_1, date_2.
+
+### (Geo)JSON
+
+Tabular data can be converted to JSON. Spatial data can be output as GeoJSON (see below)
 
 ### KML
 
