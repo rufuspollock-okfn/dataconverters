@@ -44,8 +44,8 @@ def _dataconvert(args):
     else:
         instream = open(args.inpath)
 
-    # tsv_types = ['tsv', 'text/tsv', 'text/tab-separated-values']
-    if intype in ['text/csv', 'csv']:
+    tsv_types = ['tsv', 'text/tsv', 'text/tab-separated-values']
+    if intype in ['text/csv', 'csv'] + tsv_types:
         records, metadata = dcsv.parse(instream, guess_types=args.guess_types)
     elif intype in ['application/vnd.ms-excel',
         'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
