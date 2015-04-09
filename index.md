@@ -11,6 +11,7 @@ one format to another (especially *tabular* data). Supports:
 * JSON (to, from)
 * KML to GeoJSON
 * Shapefile to GeoJSON
+* ARFF (to)
 
 Please [file bugs][issues] for any unexpected behavior. If you like this sort of thing you may also like [Data Pipes - streaming data transforms in the browser][datapipes]!
 
@@ -43,7 +44,7 @@ From the command line:
     dataconvert simple.csv _.json
 
     # if it can't guess the data format ... (simple is an excel file)
-    dataoncvert --format=xls simple.i-am-xls-really out.csv
+    dataconvert --format=xls simple.i-am-xls-really out.csv
 
 For more details see the help:
 

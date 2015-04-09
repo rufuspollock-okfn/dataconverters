@@ -8,6 +8,8 @@ class JSONEncoder(json.JSONEncoder):
             return obj.isoformat()
         if isinstance(obj, decimal.Decimal):
             return float(obj)
+        if isinstance(obj, datetime.time):
+            return obj.isoformat()
         return json.JSONEncoder.default(self, obj)
 
 
