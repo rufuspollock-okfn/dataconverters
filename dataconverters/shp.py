@@ -1,7 +1,7 @@
-# import fiona
+# import fiona
 
-# not implemented
+# not implemented
 def parse(path, **kwargs):
-    # return fiona.collection(path), {}
+    # return fiona.collection(path), {}
     pass
 
