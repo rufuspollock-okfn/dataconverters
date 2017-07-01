@@ -4,8 +4,5 @@ python:
 install:
   - sudo apt-get update
   - sudo apt-get install libgdal1-dev
-  - pip install -r requirements.txt --use-mirrors
+  - pip install -r requirements.txt
 script: nosetests
-notifications:
-  email: false
-  irc: "irc.freenode.net#okfn-dev"
