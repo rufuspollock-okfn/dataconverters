@@ -1,3 +1,5 @@
-messytables==0.8
-Fiona
+# messytables==0.15.1
+# 2017-02-07 right now we need a specific version for a bugfix
+# should be able to revert to a specific version soon
+git+git://github.com/okfn/messytables.git@b7faca40d2eb888cfe88a0505768a379c1b51152
 unicodecsv

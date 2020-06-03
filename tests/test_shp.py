@@ -1,6 +1,6 @@
 from dataconverters import shp
 
-class TestShapefile:
+class _TestShapefile:
     def test_shapefile(self):
         path = 'testdata/shapefiles/karnataka_poi.shp'
         # stream = open(path)

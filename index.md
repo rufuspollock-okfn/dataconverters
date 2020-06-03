@@ -1,40 +1,71 @@
 ---
 layout: default
+title: Data Converters 
 ---
 
-<h1>
-  Data Converters 
-  &mdash;
-  <a href="http://okfnlabs.org/"><img src="http://assets.okfn.org/p/labs/img/logo-flask.png" alt="" style="height: 40px;" /></a>
-</h1>
-
 Unified **python library** and **command line interface** to convert data from
-one format to another (especially *tabular* data).
+one format to another (especially *tabular* data). Supports:
 
-Please [file bugs][issues] for any unexpected behavior.
+* CSV (to, from) - with type detection (dates, numbers etc)
+* XLS(X) (from) - ditto
+* JSON (to, from)
+* KML to GeoJSON
+* Shapefile to GeoJSON
+* ARFF (to)
 
-[![Build
-Status](https://travis-ci.org/okfn/dataconverters.png?branch=master)](https://travis-ci.org/okfn/dataconverters)
+Please [file bugs][issues] for any unexpected behavior. If you like this sort of thing you may also like [Data Pipes - streaming data transforms in the browser][datapipes]!
+
+Copyright 2007-2013 Open Knowledge Foundation. Licensed under the MIT license. Developed with generous support from Google.
 
 [issues]: https://github.com/okfn/dataconverters/issues
+[datapipes]: http://datapipes.okfnlabs.org/
+[existing]: docs/existing.html
 
+**Table of Contents**
+
+* This will become a table of contents (this text will be scraped).
+{:toc}
 
 ## Usage
 
-### Command Line
+### Command line
 
-Data Converters provides a command line tool named `dataconvert`. Example usage:
+From the command line:
 
+    dataconvert simple.xls out.csv
+
+    # use it with urls
     dataconvert https://github.com/okfn/dataconverters/raw/master/testdata/xls/simple.xls out.csv
+
+    # pipe to stdout
+    dataconvert simple.xls _.csv
+
+    # other formats ...
+    dataconvert simple.csv _.json
+
+    # if it can't guess the data format ... (simple is an excel file)
+    dataconvert --format=xls simple.i-am-xls-really out.csv
 
 For more details see the help:
 
     dataconvert -h
 
-### Library
+### As a Python Library
 
-Here's an example parsing CSV to JSON. Note that this isn't just any old csv
-parsing! Headers (and column names) are extracted, types detected etc etc.
+The basic dataconvert convenience utility makes it very easy to convert data:
+
+    from dataconverters import dataconvert
+    dataconvert('infile-or-url.xls', 'outfile.csv')
+    dataconvert('infile-or-url.xls', 'outfile.csv', sheet=3)
+    dataconvert('infile-or-url.i-am-really-an-xls', 'outfile.csv', format='xls')
+
+Find out more:
+
+    pydoc dataconverters
+
+Here's an example of doing a full parse of CSV to JSON. Note that this isn't
+just any old csv parsing! Headers (and column names) are extracted, types
+detected etc etc.
 
     import dataconverters.commas as commas
     with open('simple.csv') as f:
@@ -46,6 +77,7 @@ parsing! Headers (and column names) are extracted, types detected etc etc.
 
 For more examples see the source code.
 
+----
 
 ## Installation
 
@@ -76,8 +108,9 @@ more detail. On Ubuntu one does::
 
     apt-get install libgdal1-dev
     # then install fiona
-    pip install fiona
+    pip install "Fiona>=0.12"
 
+----
 
 ## DataConverters Standard API
 
@@ -112,7 +145,7 @@ contained information on the fields (columns) in the table as per the [JSON
 Table Schema](http://www.dataprotocols.org/en/latest/json-table-schema.html).
 
 
-## Source Types Supported
+## Source Data Formats Supported
 
 ### CSV
 
@@ -128,8 +161,116 @@ For XLS input files type should be `xls`, and for XLSX files, type must be
 Duplicate column names will have _n added as well. For instance, two columns
 with name date will be date_1, date_2.
 
+### KML
 
-## License
+We can convert KML to GeoJSON
 
-Copyright 2007-2013 Open Knowledge Foundation. Licensed under the MIT license.
+### Shape
+
+Support for coverting from Shapefiles using Fiona and GDAL.
+
+----
+
+## Research - Existing Libraries and Services
+
+Please [add to this list &raquo;][edit]
+
+[edit]: https://github.com/okfn/dataconverters/edit/master/index.md
+
+<table class="table-bordered table" style="font-size: 75%;">
+  <tr>
+    <th>Source</th>
+    <th>Dest</th>
+    <th>Services</th>
+    <th>Libraries</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>CSV</td>
+    <td>...</td>
+    <td>
+      https://github.com/okfn/dataproxy
+    </td>
+    <td>
+      Reasonably straightforward to do in most programming languages
+    </td>
+    <td>
+      See https://github.com/okfn/dataconverters/issues/2
+    </td>
+  </tr>
+  <tr>
+    <td>XLS</td>
+    <td></td>
+    <td>
+<a href="https://github.com/stephenjudkins/poisauce">Gut implementation</a>, <a href="https://github.com/okfn/dataproxy">DataProxy</a>
+    </td>
+    <td>
+* xlrd (python)
+* POI (Java)
+* messytables (builds on xlrd)
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/6
+    </td>
+  </tr>
+  <tr>
+    <td>Shapefiles</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+* GDAL and OGR
+* QGIS (tool) - not open
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/1
+    </td>
+  </tr>
+  <tr>
+    <td>KML</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+* GDAL can do this (but no Fiona bindings) - but see https://github.com/Toblerity/Fiona/issues/23
+* fastkml https://github.com/cleder/fastkml
+* sgillies keytree
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/5
+    </td>
+  </tr>
+  <tr>
+    <td>GeoJSON</td>
+    <td>...</td>
+    <td></td>
+    <td></td>
+    <td>Can parse with normal libraries</td>
+  </tr>
+  <tr>
+    <td>PDF</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+- See overview and list here https://gist.github.com/rgrp/5844485
+- Also the issue https://github.com/okfn/dataconverters/issues/9
+- and <a href="http://schoolofdata.org/handbook/courses/extracting-data-from-pdf/">School of Data intro</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Access (MDB)</td>
+    <td>...</td>
+    <td>
+    </td>
+    <td>
+http://mdbtools.sourceforge.net/
+    </td>
+    <td>
+See https://github.com/okfn/dataconverters/issues/10
+    </td>
+  </tr>
+</table>
 

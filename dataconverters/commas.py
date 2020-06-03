@@ -1,6 +1,6 @@
 import json
 import datetime
-import csv
+import unicodecsv
 
 from messytables import (
     CSVTableSet,
@@ -53,7 +53,10 @@ def parse(stream, guess_types=True, **kwargs):
     if guess_types:
         guessable_types = [StringType, IntegerType, FloatType, DecimalType,
                            DateUtilType]
-        row_types = type_guess(row_set.sample, guessable_types,
+        sample = row_set.sample
+        for _ in range(offset + 1):
+            sample.next()
+        row_types = type_guess(sample, guessable_types,
                                strict=strict_type_guess)
     for index, field in enumerate(headers):
         field_dict = {}
@@ -118,7 +121,8 @@ def write(stream, records, metadata, **kwargs):
     :return: null
     '''
     fields = [ f['id'] for f in metadata['fields'] ]
-    writer = csv.DictWriter(stream, fields, **kwargs)
+    # default encoding for unicodecsv DictWriter is utf-8
+    writer = unicodecsv.DictWriter(stream, fields, **kwargs)
     # TODO: possibly using writerows would be faster (??)
     writer.writeheader()
     for r in records:

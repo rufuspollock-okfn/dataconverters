@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='dataconverters',
-      version='0.2',
+      version='0.4',
       description='Data conversion python library and command line tool',
       author='Open Knowledge Foundation (Nigel Babu, Rufus Pollock, Dominik Moritz)',
       author_email='okfn-labs@lists.okfn.org',
